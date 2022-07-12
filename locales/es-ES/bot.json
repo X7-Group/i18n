@@ -2,87 +2,87 @@
   "BOT": {
     "INFO": {
       "COMPONENT": {
-        "INVITE_BOT": "Invite Bot",
-        "SUPPORT_SERVER": "Support Server"
+        "INVITE_BOT": "Invitar Bot",
+        "SUPPORT_SERVER": "Servidor de Soporte"
       },
-      "DISCORDJS_VERSION": "Discord.JS Version",
-      "MEMORY_USAGE": "Memory Usage",
-      "NODEJS_VERSION": "Node.JS Version",
-      "TITLE": "{botName}'s Info"
+      "DISCORDJS_VERSION": "Versión de Discord.JS",
+      "MEMORY_USAGE": "Uso de Memoria",
+      "NODEJS_VERSION": "Versión de Node.JS",
+      "TITLE": "Información de {botName}"
     }
   },
   "ERROR": {
-    "DEVELOPERS_ONLY": "This command can only be used by the bot developers",
-    "DM": "This command cannot be used in DMs",
-    "EXECUTING_INTERACTION": "An error occurred while executing this interaction",
-    "PRICE_NOT_FOUND": "Price for {cryptocurrency} not found",
-    "GUILD_NOT_FOUND": "Guild not found",
-    "INVALID_CRYPTOCURRENCY": "Invalid cryptocurrency",
-    "WALLET_NOT_FOUND": "Wallet for {cryptocurrency} not found",
-    "RELOADING_APPLICATION_COMMAND": "An error occurred while reloading an application command",
-    "TIMED_OUT": "Timed out",
+    "DEVELOPERS_ONLY": "Este comando sólo puede ser usado por los desarrolladores del bot",
+    "DM": "Este comando no se puede utilizar en DM",
+    "EXECUTING_INTERACTION": "Se produjo un error al ejecutar esta interacción",
+    "PRICE_NOT_FOUND": "Precio para {cryptocurrency} no encontrado",
+    "GUILD_NOT_FOUND": "Servidor no encontrado",
+    "INVALID_CRYPTOCURRENCY": "Criptomoneda no válida",
+    "WALLET_NOT_FOUND": "Cartera para {cryptocurrency} no encontrada",
+    "RELOADING_APPLICATION_COMMAND": "Ocurrió un error al recargar cargar un comando de la aplicación",
+    "TIMED_OUT": "Tiempo agotado",
     "UNALLOWED": {
-      "CHAT": "You are not allowed to use this command in this chat",
-      "COMMAND": "You are not allowed to interact with this command",
-      "DELETE_RESPONSE": "You can only delete the responses from my commands you triggered"
+      "CHAT": "No se le permite utilizar este comando en este chat",
+      "COMMAND": "No se le permite interactuar con este comando",
+      "DELETE_RESPONSE": "Solo puedes eliminar las respuestas de mis comandos que activaste"
     }
   },
   "GENERIC": {
-    "CHANNEL": "Channel",
+    "CHANNEL": "Canal",
     "CHAT": "Chat",
-    "COMMANDS": "Commands",
+    "COMMANDS": "Comandos",
     "COMPONENT": {
-      "BACK": "Back",
-      "FIX_PERMISSIONS": "Fix Permissions",
-      "MESSAGE_DELETE": "Delete Message",
-      "REPEAT": "Repeat"
+      "BACK": "Vuelve",
+      "FIX_PERMISSIONS": "Corregir Permisos",
+      "MESSAGE_DELETE": "Borrar Mensaje",
+      "REPEAT": "Repetir"
     },
-    "CONTENT": "Content",
-    "CREATION_DATE": "Creation Date",
-    "CURRENT": "Current",
-    "EMAIL": "Enter your email",
+    "CONTENT": "Contenido",
+    "CREATION_DATE": "Fecha de Creación",
+    "CURRENT": "Actual",
+    "EMAIL": "Ingresa tu email",
     "ERROR": "Error",
     "ID": "ID",
-    "INTERACTED_BY": "Interacted by {userName}",
-    "MEMBERS": "Members",
-    "MENTION": "Mention",
-    "MESSAGE": "Message",
-    "NAME": "Name",
+    "INTERACTED_BY": "Interactuado por {userName}",
+    "MEMBERS": "Miembros",
+    "MENTION": "Mención",
+    "MESSAGE": "Mensaje",
+    "NAME": "Nombre",
     "NO": "No",
-    "OUTPUT": "Output",
-    "REQUESTED_BY": "Requested by {userName}",
+    "OUTPUT": "Salida",
+    "REQUESTED_BY": "Solicitado por {userName}",
     "ROLES": "Roles",
-    "SERVERS": "Servers",
-    "SUCCESS": "Success",
+    "SERVERS": "Servidores",
+    "SUCCESS": "Éxito",
     "TIME": {
-      "DAYS": "{count, plural, =0 {now} one {**#** day} other {**#** days}}",
-      "HOURS": "{count, plural, =0 {now} one {**#** hour} other {**#** hours}}",
-      "MINUTES": "{count, plural, =0 {now} one {**#** minute} other {**#** minutes}}",
-      "SECONDS": "{count, plural, =0 {now} one {**#** second} other {**#** seconds}}"
+      "DAYS": "{count, plural, =0 {ahora} one {**#** día} other {**#** días}}",
+      "HOURS": "{count, plural, =0 {ahora} one {**#** hora} other {**#** horas}}",
+      "MINUTES": "{count, plural, =0 {ahora} one {**#** minuto} other {**#** minutos}}",
+      "SECONDS": "{count, plural, =0 {ahora} one {**#** segundo} other {**#** segundos}}"
     },
     "TIMESTAMP": "Timestamp",
-    "TO": "To",
+    "TO": "Para",
     "TOTAL": "Total",
-    "TYPE": "Type",
-    "UPTIME": "Uptime",
-    "USER": "User",
-    "WARNING": "Warning",
-    "WIP": "Work in Progress",
-    "WIP_COMMAND": "This command is currently under development",
-    "WIP_FUNCTION": "This function is currently under development",
-    "YES": "Yes"
+    "TYPE": "Tipo",
+    "UPTIME": "Tiempo de Actividad",
+    "USER": "Usuario",
+    "WARNING": "Advertencia",
+    "WIP": "Trabajo en Progreso",
+    "WIP_COMMAND": "Este comando está actualmente en desarrollo",
+    "WIP_FUNCTION": "Esta función está actualmente en desarrollo",
+    "YES": "Sí"
   },
   "HELP": {
     "COMPONENT": {
-      "BUY": "Buy XGC",
+      "BUY": "Comprar XGC",
       "EXCHANGE": "Exchange",
       "FACEBOOK": "Facebook",
       "INSTAGRAM": "Instagram",
       "LINKS": {
-        "HIDE": "Hide Links",
-        "SHOW": "Show Links"
+        "HIDE": "Ocultar Enlaces",
+        "SHOW": "Mostrar Enlaces"
       },
-      "MINING": "Mining",
+      "MINING": "Minería",
       "PROJECT": "Project",
       "ROADMAP": "Roadmap",
       "SOCIAL_NETWORK": "Social Network",
@@ -192,13 +192,13 @@
     }
   },
   "PRICE": {
-    "TITLE": "Price",
-    "DESCRIPTION": "The current price of **{cryptocurrency}** is: `{price, number, ::currency/USD .00000000}`"
+    "TITLE": "Precio",
+    "DESCRIPTION": "El precio actual de **{cryptocurrency}** es: `{price, number, ::currency/USD .00000000}`"
   },
   "PROFILE": {
     "LOGIN": {
       "TITLE": "Login",
-      "PASSWORD": "Enter your password"
+      "PASSWORD": "Ingresa tu contraseña"
     }
   },
   "PERM": {
@@ -259,7 +259,7 @@
     "TITLE": "Pong!"
   },
   "WALLET": {
-    "TITLE": "Wallet",
-    "DESCRIPTION": "Your wallet ofs **{cryptocurrency}** is: `{wallet}`"
+    "TITLE": "Cartera",
+    "DESCRIPTION": "Tu cartera para **{cryptocurrency}** es: `{wallet}`"
   }
 }
