@@ -1,0 +1,247 @@
+{
+  "BOT": {
+    "INFO": {
+      "COMPONENT": {
+        "INVITE_BOT": "Invite Bot",
+        "SUPPORT_SERVER": "Support Server"
+      },
+      "DISCORDJS_VERSION": "Discord.JS Version",
+      "MEMORY_USAGE": "Memory Usage",
+      "NODEJS_VERSION": "Node.JS Version",
+      "TITLE": "{botName}'s Info"
+    }
+  },
+  "ERROR": {
+    "DEVELOPERS_ONLY": "This command can only be used by the bot developers",
+    "DM": "This command cannot be used in DMs",
+    "EXECUTING_INTERACTION": "An error occurred while executing this interaction",
+    "GUILD_NOT_FOUND": "Guild not found",
+    "RELOADING_APPLICATION_COMMAND": "An error occurred while reloading an application command",
+    "TIMED_OUT": "Timed out",
+    "UNALLOWED": {
+      "CHAT": "You are not allowed to use this command in this chat",
+      "COMMAND": "You are not allowed to interact with this command",
+      "DELETE_RESPONSE": "You can only delete the responses from my commands you triggered"
+    }
+  },
+  "GENERIC": {
+    "CHANNEL": "Channel",
+    "CHAT": "Chat",
+    "COMMANDS": "Commands",
+    "COMPONENT": {
+      "BACK": "Back",
+      "FIX_PERMISSIONS": "Fix Permissions",
+      "MESSAGE_DELETE": "Delete Message",
+      "REPEAT": "Repeat"
+    },
+    "CONTENT": "Content",
+    "CREATION_DATE": "Creation Date",
+    "CURRENT": "Current",
+    "ERROR": "Error",
+    "ID": "ID",
+    "INTERACTED_BY": "Interacted by {userName}",
+    "MEMBERS": "Members",
+    "MENTION": "Mention",
+    "MESSAGE": "Message",
+    "NAME": "Name",
+    "NO": "No",
+    "OUTPUT": "Output",
+    "REQUESTED_BY": "Requested by {userName}",
+    "ROLES": "Roles",
+    "SERVERS": "Servers",
+    "SUCCESS": "Success",
+    "TIME": {
+      "DAYS": "{count, plural, =0 {now} one {**#** day} other {**#** days}}",
+      "HOURS": "{count, plural, =0 {now} one {**#** hour} other {**#** hours}}",
+      "MINUTES": "{count, plural, =0 {now} one {**#** minute} other {**#** minutes}}",
+      "SECONDS": "{count, plural, =0 {now} one {**#** second} other {**#** seconds}}"
+    },
+    "TIMESTAMP": "Timestamp",
+    "TO": "To",
+    "TOTAL": "Total",
+    "TYPE": "Type",
+    "UPTIME": "Uptime",
+    "USER": "User",
+    "WARNING": "Warning",
+    "WIP": "Work in Progress",
+    "WIP_COMMAND": "This command is currently under development",
+    "WIP_FUNCTION": "This function is currently under development",
+    "YES": "Yes"
+  },
+  "HELP": {
+    "COMPONENT": {
+      "BUY": "Buy XGC",
+      "EXCHANGE": "Exchange",
+      "FACEBOOK": "Facebook",
+      "INSTAGRAM": "Instagram",
+      "LINKS": {
+        "HIDE": "Hide Links",
+        "SHOW": "Show Links"
+      },
+      "MINING": "Mining",
+      "PROJECT": "Project",
+      "ROADMAP": "Roadmap",
+      "SOCIAL_NETWORK": "Social Network",
+      "SUPPORT": "Support",
+      "TUTORIAL": "Tutorial",
+      "TWITTER": "Twitter",
+      "WEBSITE": "Website",
+      "YOUTUBE": "YouTube"
+    },
+    "MINING": {
+      "TITLE": "XGC Mining",
+      "FIELDS": {
+        "0": {
+          "NAME": "How to mine XGC?",
+          "VALUE": "• Sign up on [Xiglute]({homeURL}).\n\n• All actions like liking, comment, upload photos and videos, play [social games]({socialGamesURL}), add friends and [much more]({faqURL} 'Link to all possible actions and their limits') generate an internal currency called Xiglute Points (XP).\n\nㅤ• Examples:\nㅤㅤ• **Like:** `{likeXP, number} XP`\nㅤㅤ• **Upload Photo:** `{photoXP, number} XPs`\nㅤㅤ• **Upload Video:** `{videoXP, number} XPs`\nㅤㅤ• **Comment:** `{commentXP, number} XPs`\n\nㅤ• When you reach `{minimumXP, number} XPs`, you can request the exchange for XGC!\nㅤㅤ• `{minimumXP, number} XPs` ≈ `{priceInXGC, number, ::currency/USD}` in XGC on today's quote."
+        },
+        "1": {
+          "NAME": "Download Xiglute App",
+          "VALUE": "• {androidEmj} [Android]({androidURL}) (make sure to [update here]({androidUpdURL}))\n• {iosEmj} [iOS]({iosURL})"
+        }
+      }
+    },
+    "PROJECT": {
+      "TITLE": "XGC Project",
+      "FIELDS": {
+        "0": {
+          "NAME": "What is XGC?",
+          "VALUE": "• Xiglute Coin is a cryptocurrency created by [Xiglute]({xigluteURL}), a social network with more than 22 million users around the world, which aims to replace the Xiglute Points (internal currency) that circulate on the social network since 2013."
+        },
+        "1": {
+          "NAME": "Safety",
+          "VALUE": "• Blockchain encryption system [Etherscan]({etherscanURL}), the safest on the market."
+        },
+        "2": {
+          "NAME": "Coin Burning Plan",
+          "VALUE": "• One of the most aggressive plans on the market.\n\nㅤ• For each transaction carried out with XGC, 2% of this amount is withdrawn from the **coin reserve**, then **burned**.\nㅤ• During 7 years, every 4 months, **9 trillion** of XGC will be burned from the **coin reserve**, totaling a burn of 90% of the supply in this period.\n\n• Decreasing the supply of currencies on the market generates a constant currency appreciation."
+        }
+      }
+    },
+    "ROADMAP": {
+      "TITLE": "Roadmap",
+      "FIELDS": {
+        "0": {
+          "NAME": "1st Phase",
+          "VALUE": "{stateEmj} {timestamp}\n\n• Official launch worth `{value, number, .0000000000}` on Txbit.io and Uniswap brokers."
+        },
+        "1": {
+          "NAME": "2nd Phase",
+          "VALUE": "{stateEmj} {timestamp}\n\n• Official launch on the P2PB2B.IO broker, an exchange that moves more than 1 billion dollars a day!"
+        },
+        "2": {
+          "NAME": "3rd Phase and 1st Coin Burning",
+          "VALUE": "{stateEmj} {timestamp}\n\n• Official presentation of X7 Exchange.\n\n• X7 Exchange comes with the objective of contributing to the advancement of the universe of digital currencies, facilitating the access of users of the social network Xiglute to the vast universe of cryptocurrencies, NFTs, DeFi and the Metaverse.\n\n• Check out some of our advantages that are being presented and others that are being developed:\nㅤ• Login integrated with the social network Xiglute\nㅤ• Free inter-user transfer\nㅤ• Marketplace system support\nㅤ• Dynamic staking\nㅤ• Airdrops\nㅤ• Faceuts\n\n• 9 trillion [XGC cryptocurrencies burned]({etherscanURL})."
+        },
+        "3": {
+          "NAME": "4th Phase",
+          "VALUE": "{stateEmj} Stand-by / in development\n\n• Integration with Xiglute Social Network and X7 Exchange broker, usability of XGC within the network for purchases and transfers.\n\n• XCOIN App, the XGC in the palm of your hand!\nㅤ• Balance, transfers, access to imported products and the exclusivity to sell your products through the XGC currency!\n\n• Advantages:\nㅤ• Manage your own business, earn income and access 24h support.\nㅤ• Encrypted Information, Privacy, Anonymity and Security.\nㅤ• Purchase and sale of products and services with cryptoactives."
+        },
+        "4": {
+          "NAME": "2nd Coin Burning",
+          "VALUE": "{stateEmj} {timestamp}\n\n• 9 trillion [XGC cryptocurrencies burned]({etherscanURL})."
+        },
+        "5": {
+          "NAME": "Mega Update XGC",
+          "VALUE": "{stateEmj} {timestamp1}\n\n• Official launch on the VinDax Exchange broker, an exchange that moves more than 60 million dollars a day!\n\n{stateEmj} {timestamp2}\n\n• Official announcement of the start of purchases through the Binance Smart Chain network (BEP-20).\n\n• Trade your XGC Coins (BEP-20) on [these exchanges]({exchangesURL})."
+        },
+        "6": {
+          "NAME": "Mega Update X7",
+          "VALUE": "{stateEmj} {timestamp}\n\n • Official launch of the X7 Exchange App on the Google Play Store."
+        },
+        "7": {
+          "NAME": "3rd Coin Burning",
+          "VALUE": "{stateEmj} {timestamp}\n\n• 9 trillion [XGC cryptocurrencies burned]({etherscanURL})."
+        },
+        "8": {
+          "NAME": "5th Phase",
+          "VALUE": "{stateEmj} Second semester of 2022\n\n• Launch of a new brokerage that moves over `{amount, number, ::compact-short}` dollars per day."
+        },
+        "9": {
+          "NAME": "4th Coin Burning",
+          "VALUE": "{stateEmj} August 2022\n\n• 9 trillion XGC cryptocurrencies will be burned."
+        },
+        "10": {
+          "NAME": "6th Phase",
+          "VALUE": "{stateEmj} 2023\n\n• The beginning of a new era, launching in one of the largest brokers in the world."
+        }
+      }
+    },
+    "TUTORIAL": {
+      "DESCRIPTION": "{journeyEmj} Welcome to the X7 Universe, start your journey here!\n\n• [How to change language at X7 Exchange?](https://t.me/xiglutecoin/19005)\n• [How to register at X7 Exchange?](https://t.me/xiglutecoin/19006)\n• [How to deposit fiat currencies at X7 Exchange?](https://t.me/xiglutecoin/19007)\n• [How to buy XGC at X7 Exchange?](https://t.me/xiglutecoin/19008)\n• [How to trade XGC with another cryptocurrency at X7 Exchange?](https://t.me/xiglutecoin/19009)\n• [How to buy X7C at X7 Exchange?](https://t.me/xiglutecoin/19010)\n• [How to trade XGC for X7C at X7 Exchange?](https://t.me/xiglutecoin/19011)\n• [How to validate data at X7 Exchange - KYC?](https://t.me/xiglutecoin/19012)\n• [How to create funds password at X7 Exchange?](https://t.me/xiglutecoin/19013)\n• [How to recover access password at X7 Exchange?](https://t.me/xiglutecoin/19014)\n• [How to inhabit Google Authenticator – 2FA verification at X7 Exchange?](https://t.me/xiglutecoin/19015)\n• [How to transfer XGC assets from Trust Wallet – MetaMask to X7 Exchange Wallet?](https://t.me/xiglutecoin/19017)\n• [How to transfer X7C assets from TronLink to X7 Exchange Wallet?](https://t.me/xiglutecoin/19018)\n• [How to withdraw fiat currencies at X7 Exchange?](https://t.me/xiglutecoin/19019)\n• [How to withdraw cryptocurrencies at X7 Exchange?](https://t.me/xiglutecoin/19020)\n• [How to receive cryptocurrencies for free at X7 Exchange?](https://t.me/xiglutecoin/19022)\n• [How to deposit cryptocurrencies at X7 Exchange?](https://t.me/xiglutecoin/19023)\n• [How to open a sell order at X7 Exchange?](https://t.me/xiglutecoin/19025)\n• [How to change the chart at X7 Exchange - TradingView?](https://t.me/xiglutecoin/19026)\n• [How to staking cryptocurrencies at X7 Exchange?](https://t.me/xiglutecoin/19027)\n• [How to calculate monthly earnings from staking options at X7 Exchange?](https://t.me/xiglutecoin/19029)\n• [How to find referral link at X7 Exchange?](https://t.me/xiglutecoin/19034)\n• [How does the X7 Exchange Referral Program work?](https://t.me/xiglutecoin/19035)\n• [How to vote in the poll at X7 Exchange?](https://t.me/xiglutecoin/19189)\n• [How to add XGC contract - BEP20 – App Trust Wallet?](https://t.me/xiglutecoin/19227)\n• [How Airdrop works at X7 Exchange](https://t.me/xiglutecoin/19229)\n• [More questions? Click here!](https://t.me/xiglutecoin/19036)",
+      "TITLE": "Tutorial"
+    }
+  },
+  "OWNER": {
+    "INTERACTION": {
+      "COMMANDS": {
+        "DELETED": "Deleted Commands",
+        "GLOBAL": "Global Commands",
+        "GUILD": "Guild Commands",
+        "SPECIFIED_GUILD": "{guildName}'s Guild Commands",
+        "UPDATED": "Updated Commands"
+      },
+      "NO_UPDATE": "No commands have been updated"
+    },
+    "SHARD": {
+      "RESPAWNING": "Respawning all shards"
+    }
+  },
+  "PERM": {
+    "ADD_REACTIONS": "Add Reactions",
+    "ADMINISTRATOR": "Administrator",
+    "ATTACH_FILES": "Attach Files",
+    "BAN_MEMBERS": "Ban Members",
+    "CHANGE_NICKNAME": "Change Nickname",
+    "CONNECT": "Connect",
+    "CREATE_INSTANT_INVITE": "Create Instant Invite",
+    "CREATE_PRIVATE_THREADS": "Create Private Threads",
+    "CREATE_PUBLIC_THREADS": "Create Public Threads",
+    "DEAFEN_MEMBERS": "Deafen Members",
+    "EMBED_LINKS": "Embed Links",
+    "KICK_MEMBERS": "Kick Members",
+    "MANAGE_CHANNELS": "Manage Channel",
+    "MANAGE_EMOJIS_AND_STICKERS": "Manage Emojis and Stickers",
+    "MANAGE_EVENTS": "Manage Events",
+    "MANAGE_GUILD": "Manage Guild",
+    "MANAGE_MESSAGES": "Manage Messages",
+    "MANAGE_NICKNAMES": "Manage Nicknames",
+    "MANAGE_ROLES": "Manage Roles",
+    "MANAGE_THREADS": "Manage Threads and Posts",
+    "MANAGE_WEBHOOKS": "Manage Webhooks",
+    "MENTION_EVERYONE": "Mention Everyone",
+    "MODERATE_MEMBERS": "Timeout Members",
+    "MOVE_MEMBERS": "Move Members",
+    "MUTE_MEMBERS": "Mute Members",
+    "NO_LONGER": "You no longer have the required `{perm}` permission",
+    "PRIORITY_SPEAKER": "Priority Speaker",
+    "READ_MESSAGE_HISTORY": "Read Message History",
+    "REQUEST_TO_SPEAK": "Request to Speak",
+    "REQUIRES": "You need the `{perm}` permission",
+    "ROLE_REQUIRES": "{role} requires the `{perm}` permission for the interaction to work properly",
+    "SEND_MESSAGES": "Send Messages and Create Posts",
+    "SEND_MESSAGES_IN_THREADS": "Send Messages in Threads and Posts",
+    "SEND_TTS_MESSAGES": "Send TTS Messages",
+    "SPEAK": "Speak",
+    "STREAM": "Stream",
+    "USE_APPLICATION_COMMANDS": "Use Application Commands",
+    "USE_EMBEDDED_ACTIVITIES": "Use Embedded Activities",
+    "USE_EXTERNAL_EMOJIS": "Use External Emojis",
+    "USE_EXTERNAL_STICKERS": "Use External Stickers",
+    "USE_VAD": "Use Voice Activity Detection",
+    "VIEW_AUDIT_LOG": "View Audit Log",
+    "VIEW_CHANNEL": "View Channel",
+    "VIEW_GUILD_INSIGHTS": "View Guild Insights"
+  },
+  "PING": {
+    "API_LATENCY": "API Latency",
+    "DEFERRED": "Deferred",
+    "SHARD": "Shard",
+    "TIME": {
+      "DEFERMENT": "Deferment Time",
+      "EDITING": "Editing Time",
+      "RESPONSE": "Response Time"
+    },
+    "TITLE": "Pong!"
+  }
+}
