@@ -15,7 +15,10 @@
     "DEVELOPERS_ONLY": "This command can only be used by the bot developers",
     "DM": "This command cannot be used in DMs",
     "EXECUTING_INTERACTION": "An error occurred while executing this interaction",
+    "PRICE_NOT_FOUND": "Price for {cryptocurrency} not found",
     "GUILD_NOT_FOUND": "Guild not found",
+    "INVALID_CRYPTOCURRENCY": "Invalid cryptocurrency",
+    "WALLET_NOT_FOUND": "Wallet for {cryptocurrency} not found",
     "RELOADING_APPLICATION_COMMAND": "An error occurred while reloading an application command",
     "TIMED_OUT": "Timed out",
     "UNALLOWED": {
@@ -37,6 +40,7 @@
     "CONTENT": "Content",
     "CREATION_DATE": "Creation Date",
     "CURRENT": "Current",
+    "EMAIL": "Enter your email",
     "ERROR": "Error",
     "ID": "ID",
     "INTERACTED_BY": "Interacted by {userName}",
@@ -187,6 +191,16 @@
       "RESPAWNING": "Respawning all shards"
     }
   },
+  "PRICE": {
+    "TITLE": "Price",
+    "DESCRIPTION": "The current price of **{cryptocurrency}** is: `{price, number, ::currency/USD .00000000}`"
+  },
+  "PROFILE": {
+    "LOGIN": {
+      "TITLE": "Login",
+      "PASSWORD": "Enter your password"
+    }
+  },
   "PERM": {
     "ADD_REACTIONS": "Add Reactions",
     "ADMINISTRATOR": "Administrator",
@@ -243,5 +257,9 @@
       "RESPONSE": "Response Time"
     },
     "TITLE": "Pong!"
+  },
+  "WALLET": {
+    "TITLE": "Wallet",
+    "DESCRIPTION": "Your wallet ofs **{cryptocurrency}** is: `{wallet}`"
   }
 }
