@@ -18,7 +18,7 @@
     "PRICE_NOT_FOUND": "Price for {cryptocurrency} not found",
     "GUILD_NOT_FOUND": "Guild not found",
     "INVALID_CRYPTOCURRENCY": "Invalid cryptocurrency",
-    "WALLET_NOT_FOUND": "Wallet for {cryptocurrency} not found",
+    "WALLET_NOT_FOUND": "Wallet for **{cryptocurrency}** on **{network}** network not found",
     "RELOADING_APPLICATION_COMMAND": "An error occurred while reloading an application command",
     "TIMED_OUT": "Timed out",
     "UNALLOWED": {
