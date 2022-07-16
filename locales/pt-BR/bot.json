@@ -18,7 +18,7 @@
     "PRICE_NOT_FOUND": "Preço para {cryptocurrency} não encontrado",
     "GUILD_NOT_FOUND": "Servidor não encontrado",
     "INVALID_CRYPTOCURRENCY": "Criptomoeda inválida",
-    "WALLET_NOT_FOUND": "Carteira para {cryptocurrency} não encontrada",
+    "WALLET_NOT_FOUND": "Carteira para **{cryptocurrency}** na rede **{network}** não encontrada",
     "RELOADING_APPLICATION_COMMAND": "Ocorreu um erro ao recarregar um comando da aplicação",
     "TIMED_OUT": "Tempo esgotado",
     "UNALLOWED": {
