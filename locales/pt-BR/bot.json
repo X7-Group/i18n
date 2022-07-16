@@ -260,6 +260,6 @@
   },
   "WALLET": {
     "TITLE": "Carteira",
-    "DESCRIPTION": "Sua carteira para **{cryptocurrency}** é: `{wallet}`"
+    "DESCRIPTION": "Sua carteira para **{cryptocurrency}** na rede **{network}** é: `{wallet}`"
   }
 }
