@@ -260,6 +260,6 @@
   },
   "WALLET": {
     "TITLE": "Wallet",
-    "DESCRIPTION": "Your wallet for **{cryptocurrency}** on **{network}** network is: `{wallet}`"
+    "DESCRIPTION": "Your wallet for **{cryptocurrency}** is: `{wallet}`"
   }
 }
