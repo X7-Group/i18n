@@ -1,23 +1,23 @@
 {
   "BOT": {
-    "DESCRIPTION": "Bot related commands",
+    "DESCRIPTION": "Comandos relacionados ao bot",
     "NAME": "bot",
     "OPTIONS": {
       "INFO": {
         "COMPONENT": {
-          "INVITE_BOT": "Invite Bot",
-          "SUPPORT_SERVER": "Support Server"
+          "INVITE_BOT": "Convidar Bot",
+          "SUPPORT_SERVER": "Servidor de Suporte"
         },
-        "DESCRIPTION": "Shows information about the bot",
-        "DISCORDJS_VERSION": "Discord.JS Version",
-        "MEMORY_USAGE": "Memory Usage",
+        "DESCRIPTION": "Mostra informações sobre o bot",
+        "DISCORDJS_VERSION": "Versão do Discord.JS",
+        "MEMORY_USAGE": "Uso de Memória",
         "NAME": "info",
-        "NODEJS_VERSION": "Node.JS Version",
-        "TITLE": "{botName}'s Info"
+        "NODEJS_VERSION": "Versão do Node.JS",
+        "TITLE": "Informações de {botName}"
       }
     }
   },
-  "DELETE_RESPONSE": "Delete Response",
+  "DELETE_RESPONSE": "Excluir Resposta",
   "ERROR": {
     "DEVELOPERS_ONLY": "Este comando só pode ser usado pelos desenvolvedores do bot",
     "DM": "Esse comando não pode ser usado em DMs",
@@ -58,8 +58,8 @@
     "NO": "Não",
     "OPTIONS": {
       "EPHEMERAL": {
-        "DESCRIPTION": "Whether to reply as an ephemeral message (Default: True)",
-        "NAME": "ephemeral"
+        "DESCRIPTION": "Se deve responder como uma mensagem efêmera (Padrão: Verdadeiro)",
+        "NAME": "efêmero"
       }
     },
     "OUTPUT": "Saída",
@@ -105,7 +105,7 @@
       "WEBSITE": "Site",
       "YOUTUBE": "YouTube"
     },
-    "DESCRIPTION": "Shows the help menu",
+    "DESCRIPTION": "Mostra o menu de ajuda",
     "MINING": {
       "FIELDS": {
         "0": {
@@ -119,7 +119,7 @@
       },
       "TITLE": "Mineração de XGC"
     },
-    "NAME": "help",
+    "NAME": "ajuda",
     "PROJECT": {
       "FIELDS": {
         "0": {
