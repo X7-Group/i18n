@@ -1,31 +1,38 @@
 {
   "BOT": {
-    "INFO": {
-      "COMPONENT": {
-        "INVITE_BOT": "Convidar Bot",
-        "SUPPORT_SERVER": "Servidor de Suporte"
-      },
-      "DISCORDJS_VERSION": "Versão do Discord.JS",
-      "MEMORY_USAGE": "Uso de Memória",
-      "NODEJS_VERSION": "Versão do Node.JS",
-      "TITLE": "Informações de {botName}"
+    "DESCRIPTION": "Bot related commands",
+    "NAME": "bot",
+    "OPTIONS": {
+      "INFO": {
+        "COMPONENT": {
+          "INVITE_BOT": "Invite Bot",
+          "SUPPORT_SERVER": "Support Server"
+        },
+        "DESCRIPTION": "Shows information about the bot",
+        "DISCORDJS_VERSION": "Discord.JS Version",
+        "MEMORY_USAGE": "Memory Usage",
+        "NAME": "info",
+        "NODEJS_VERSION": "Node.JS Version",
+        "TITLE": "{botName}'s Info"
+      }
     }
   },
+  "DELETE_RESPONSE": "Delete Response",
   "ERROR": {
     "DEVELOPERS_ONLY": "Este comando só pode ser usado pelos desenvolvedores do bot",
     "DM": "Esse comando não pode ser usado em DMs",
     "EXECUTING_INTERACTION": "Ocorreu um erro ao executar esta interação",
-    "PRICE_NOT_FOUND": "Preço para {cryptocurrency} não encontrado",
     "GUILD_NOT_FOUND": "Servidor não encontrado",
     "INVALID_CRYPTOCURRENCY": "Criptomoeda inválida",
-    "WALLET_NOT_FOUND": "Carteira para **{cryptocurrency}** na rede **{network}** não encontrada",
+    "PRICE_NOT_FOUND": "Preço para {cryptocurrency} não encontrado",
     "RELOADING_APPLICATION_COMMAND": "Ocorreu um erro ao recarregar um comando da aplicação",
     "TIMED_OUT": "Tempo esgotado",
     "UNALLOWED": {
       "CHAT": "Você não tem permissão para usar este comando neste chat",
       "COMMAND": "Você não tem permissão para interagir com este comando",
       "DELETE_RESPONSE": "Você só pode excluir as respostas dos meus comandos que você acionou"
-    }
+    },
+    "WALLET_NOT_FOUND": "Carteira para **{cryptocurrency}** na rede **{network}** não encontrada"
   },
   "GENERIC": {
     "CHANNEL": "Canal",
@@ -49,6 +56,12 @@
     "MESSAGE": "Mensagem",
     "NAME": "Nome",
     "NO": "Não",
+    "OPTIONS": {
+      "EPHEMERAL": {
+        "DESCRIPTION": "Whether to reply as an ephemeral message (Default: True)",
+        "NAME": "ephemeral"
+      }
+    },
     "OUTPUT": "Saída",
     "REQUESTED_BY": "Solicitado por {userName}",
     "ROLES": "Cargos",
@@ -92,8 +105,8 @@
       "WEBSITE": "Site",
       "YOUTUBE": "YouTube"
     },
+    "DESCRIPTION": "Shows the help menu",
     "MINING": {
-      "TITLE": "Mineração de XGC",
       "FIELDS": {
         "0": {
           "NAME": "Como minerar XGC?",
@@ -103,10 +116,11 @@
           "NAME": "Baixe o App Xiglute",
           "VALUE": "• {androidEmj} [Android]({androidURL}) (certifique-se de [atualizar aqui]({androidUpdURL}))\n• {iosEmj} [iOS]({iosURL})"
         }
-      }
+      },
+      "TITLE": "Mineração de XGC"
     },
+    "NAME": "help",
     "PROJECT": {
-      "TITLE": "Projeto XGC",
       "FIELDS": {
         "0": {
           "NAME": "O que é XGC?",
@@ -120,10 +134,10 @@
           "NAME": "Plano de Queima de Moedas",
           "VALUE": "• Um dos planos mais agressivos do mercado.\n\nㅤ• A cada transação realizada com XGC, 2% dessa quantidade é retirada da **reserva de moedas**, em seguida **queimadas**.\nㅤ• Durante 7 anos, a cada 4 meses, **9 trilhões** de XGC serão queimadas da **reserva de moedas**, totalizando uma queima de 90% do supply nesse período.\n\n• Diminuir a oferta de moedas no mercado gera uma valorização constante da moeda."
         }
-      }
+      },
+      "TITLE": "Projeto XGC"
     },
     "ROADMAP": {
-      "TITLE": "Planejamento",
       "FIELDS": {
         "0": {
           "NAME": "1ª Fase",
@@ -169,7 +183,8 @@
           "NAME": "6ª Fase",
           "VALUE": "{stateEmj} 2023\n\n• O início de uma nova era, lançando em uma das maiores corretoras do mundo."
         }
-      }
+      },
+      "TITLE": "Planejamento"
     },
     "TUTORIAL": {
       "DESCRIPTION": "{journeyEmj} Bem-vindo ao Universo X7, inicie sua jornada aqui!\n\n• [Como se cadastrar na X7 Exchange?](https://t.me/xiglutecoinbr/106015)\n• [Como depositar moedas fiduciárias na X7 Exchange?](https://t.me/xiglutecoinbr/106017)\n• [Como comprar XGC na X7 Exchange?](https://t.me/xiglutecoinbr/106022)\n• [Como comprar X7C na X7 Exchange?](https://t.me/xiglutecoinbr/114788)\n• [Como negociar XGC com outra criptomoeda na X7 Exchange?](https://t.me/xiglutecoinbr/106071)\n• [Como negociar XGC por X7C na X7 Exchange?](https://t.me/xiglutecoinbr/114367)\n• [Como validar a conta na X7 Exchange - KYC?](https://t.me/xiglutecoinbr/106024)\n• [Como criar senha de fundos na X7 Exchange?](https://t.me/xiglutecoinbr/106055)\n• [Como redefinir minha senha de acesso na X7 Exchange?](https://t.me/xiglutecoinbr/106026)\n• [Como habilitar o Google Authenticator – 2FA na X7 Exchange?](https://t.me/xiglutecoinbr/106027)\n• [Como transferir criptoativos XGC da Trust Wallet - MetaMask para sua carteira X7 Exchange?](https://t.me/xiglutecoinbr/106663)\n• [Como transferir criptoativos X7C da TronLink para sua carteira na X7 Exchange?](https://t.me/xiglutecoinbr/114339)\n• [Como sacar moedas fiduciárias na X7 Exchange?](https://t.me/xiglutecoinbr/106028)\n• [Como sacar criptomoedas na X7 Exchange?](https://t.me/xiglutecoinbr/106051)\n• [Como receber criptomoedas gratuitamente na X7 Exchange?](https://t.me/xiglutecoinbr/106056)\n• [Como depositar criptomoedas para sua carteira na X7 Exchange?](https://t.me/xiglutecoinbr/106057)\n• [Como abrir ordem de venda na X7 Exchange?](https://t.me/xiglutecoinbr/106077)\n• [Como alterar o gráfico na X7 Exchange – TradingView?](https://t.me/xiglutecoinbr/114796)\n• [Como colocar meus saldos em staking na X7 Exchange?](https://t.me/xiglutecoinbr/106078)\n• [Como calcular os ganhos mensais das opções de staking na X7 Exchange?](https://t.me/xiglutecoinbr/106336)\n• [Como encontrar o link de indicação na X7 Exchange e ganhar bonificações?](https://t.me/xiglutecoinbr/106029)\n• [Como funciona o Programa de Indicações na X7 Exchange e quais são as bonificações?](https://t.me/xiglutecoinbr/106082)\n• [Como votar nas enquetes realizadas na X7 Exchange?](https://t.me/xiglutecoinbr/120551)\n• [Como adicionar um novo contrato XGC - BEP20 – App Trust Wallet?](https://t.me/xiglutecoinbr/120905)\n• [Como funciona os Airdrops na X7 Exchange?](https://t.me/xiglutecoinbr/120987)\n• [Como funcionam as funções Limit, Market e Stop-limit?](https://t.me/xiglutecoinbr/126247)\n• [Como comprar ICO na X7 Exchange?](https://t.me/x7exchange/1500)\n• [Como funciona ICO na X7 Exchange?](https://t.me/x7exchange/1501)\n• [Como comprar XGC NFT na plataforma X7 Exchange?](https://t.me/xiglutecoinbr/122383)\n• [Descubra quais redes você precisa usar para transferir cada criptomoeda no X7 Exchange](https://t.me/xiglutecoinbr/124521)\n• [Mais dúvidas? Clique aqui!](https://t.me/xiglutecoinbr/106089)",
@@ -177,6 +192,7 @@
     }
   },
   "OWNER": {
+    "DESCRIPTION": "Bot owner only commands",
     "INTERACTION": {
       "COMMANDS": {
         "DELETED": "Comandos Excluídos",
@@ -187,18 +203,73 @@
       },
       "NO_UPDATE": "Nenhum comando foi atualizado"
     },
+    "NAME": "owner",
+    "OPTIONS": {
+      "EVAL": {
+        "DESCRIPTION": "Evaluates a script (Bot owner only)",
+        "NAME": "eval",
+        "OPTIONS": {
+          "ASYNC": {
+            "DESCRIPTION": "Evaluates the script asynchronously (Default: True)",
+            "NAME": "async"
+          },
+          "AWAIT": {
+            "DESCRIPTION": "Awaits the script (Default: True)",
+            "NAME": "await"
+          },
+          "SCRIPT": {
+            "DESCRIPTION": "The script to evaluate",
+            "NAME": "script"
+          }
+        }
+      },
+      "INTERACTION": {
+        "DESCRIPTION": "Configures commands (Bot owner only)",
+        "NAME": "command",
+        "OPTIONS": {
+          "UPDATE": {
+            "DESCRIPTION": "Updates bot commands (Bot owner only)",
+            "NAME": "update",
+            "OPTIONS": {
+              "GUILD": {
+                "DESCRIPTION": "The guild the command is at (Default: Invoked guild)",
+                "NAME": "guild"
+              },
+              "ID": {
+                "DESCRIPTION": "ID of a specific command (Default: All commands)",
+                "NAME": "id"
+              }
+            }
+          }
+        }
+      },
+      "SHARD": {
+        "DESCRIPTION": "Configures shards (Bot owner only)",
+        "NAME": "shard",
+        "OPTIONS": {
+          "RESPAWN_ALL": {
+            "DESCRIPTION": "Respawns all shards (Bot owner only)",
+            "NAME": "respawn-all",
+            "OPTIONS": {
+              "RESPAWN_DELAY": {
+                "DESCRIPTION": "Wait time between killing a shard's process and restarting it",
+                "NAME": "respawn-delay"
+              },
+              "SHARD_DELAY": {
+                "DESCRIPTION": "Wait time between shards",
+                "NAME": "shard-delay"
+              },
+              "TIMEOUT": {
+                "DESCRIPTION": "Wait time for a shard to become ready before continuing to another",
+                "NAME": "timeout"
+              }
+            }
+          }
+        }
+      }
+    },
     "SHARD": {
       "RESPAWNING": "Renascendo todos os shards"
-    }
-  },
-  "PRICE": {
-    "TITLE": "Preço",
-    "DESCRIPTION": "O preço atual de **{cryptocurrency}** é: `{price, number, ::currency/USD .00000000}`"
-  },
-  "PROFILE": {
-    "LOGIN": {
-      "TITLE": "Login",
-      "PASSWORD": "Insira sua senha"
     }
   },
   "PERM": {
@@ -250,16 +321,48 @@
   "PING": {
     "API_LATENCY": "Latência da API",
     "DEFERRED": "Adiado",
+    "DESCRIPTION": "Shows bot's latency",
+    "NAME": "ping",
+    "RESPONSE_TIME": "Response Time",
     "SHARD": "Shard",
-    "TIME": {
-      "DEFERMENT": "Tempo de Adiamento",
-      "EDITING": "Tempo de Edição",
-      "RESPONSE": "Tempo de Resposta"
-    },
     "TITLE": "Pong!"
   },
+  "PRICE": {
+    "DESCRIPTION": "Shows the current price of a cryptocurrency",
+    "EMBED": {
+      "DESCRIPTION": "The current price of **{cryptocurrency}** is: `{price, number, ::currency/USD .00000000}`"
+    },
+    "NAME": "price",
+    "OPTIONS": {
+      "CRYPTOCURRENCY": {
+        "DESCRIPTION": "The cryptocurrency to get the price of",
+        "NAME": "cryptocurrency"
+      }
+    },
+    "TITLE": "Preço"
+  },
+  "PROFILE": {
+    "LOGIN": {
+      "PASSWORD": "Insira sua senha",
+      "TITLE": "Login"
+    }
+  },
   "WALLET": {
-    "TITLE": "Carteira",
-    "DESCRIPTION": "Sua carteira para **{cryptocurrency}** na rede **{network}** é: `{wallet}`"
+    "DESCRIPTION": "Shows your wallet for a cryptocurrency",
+    "EMBED": {
+      "DESCRIPTION": "Your wallet for **{cryptocurrency}** on **{network}** network is: `{wallet}`"
+    },
+    "NAME": "wallet",
+    "OPTIONS": {
+      "CRYPTOCURRENCY": {
+        "DESCRIPTION": "The cryptocurrency to get the wallet of",
+        "NAME": "cryptocurrency"
+      },
+      "NETWORK": {
+        "DESCRIPTION": "The network to get the wallet of",
+        "NAME": "network"
+      }
+    },
+    "TITLE": "Carteira"
   }
 }
