@@ -232,7 +232,7 @@
             "NAME": "actualizar",
             "OPTIONS": {
               "GUILD": {
-                "DESCRIPTION": "The guild the command is at (Default: Current guild)",
+                "DESCRIPTION": "El servidor en el que se encuentra el comando (Predeterminado: Servidor actual)",
                 "NAME": "servidor"
               },
               "ID": {
@@ -321,7 +321,7 @@
   "PING": {
     "API_LATENCY": "Latencia de API",
     "DEFERRED": "Diferido",
-    "DESCRIPTION": "Shows the bot's latency",
+    "DESCRIPTION": "Muestra la latencia del bot",
     "NAME": "ping",
     "RESPONSE_TIME": "Tiempo de Respuesta",
     "SHARD": "Shard",
