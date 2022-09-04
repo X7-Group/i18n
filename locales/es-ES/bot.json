@@ -192,7 +192,7 @@
     }
   },
   "OWNER": {
-    "DESCRIPTION": "Bot owner only commands",
+    "DESCRIPTION": "Comandos solo para el propietario del bot",
     "INTERACTION": {
       "COMMANDS": {
         "DELETED": "Comandos Eliminados",
@@ -203,40 +203,40 @@
       },
       "NO_UPDATE": "Ningún comando ha sido actualizado"
     },
-    "NAME": "owner",
+    "NAME": "dueño",
     "OPTIONS": {
       "EVAL": {
-        "DESCRIPTION": "Evaluates a script (Bot owner only)",
-        "NAME": "eval",
+        "DESCRIPTION": "Evalúa un script (Solo propietario del bot)",
+        "NAME": "evaluar",
         "OPTIONS": {
           "ASYNC": {
-            "DESCRIPTION": "Evaluates the script asynchronously (Default: True)",
-            "NAME": "async"
+            "DESCRIPTION": "Evalúa el script de forma asíncrona (Predeterminado: Verdadero)",
+            "NAME": "asíncrono"
           },
           "AWAIT": {
-            "DESCRIPTION": "Awaits the script (Default: True)",
-            "NAME": "await"
+            "DESCRIPTION": "Espera el script (Predeterminado: Verdadero)",
+            "NAME": "esperar"
           },
           "SCRIPT": {
-            "DESCRIPTION": "The script to evaluate",
+            "DESCRIPTION": "El script para evaluar",
             "NAME": "script"
           }
         }
       },
       "INTERACTION": {
-        "DESCRIPTION": "Configures commands (Bot owner only)",
-        "NAME": "command",
+        "DESCRIPTION": "Configura comandos (Solo propietario del bot)",
+        "NAME": "comando",
         "OPTIONS": {
           "UPDATE": {
-            "DESCRIPTION": "Updates bot commands (Bot owner only)",
-            "NAME": "update",
+            "DESCRIPTION": "Actualiza comandos del bot (Solo propietario del bot)",
+            "NAME": "actualizar",
             "OPTIONS": {
               "GUILD": {
-                "DESCRIPTION": "The guild the command is at (Default: Invoked guild)",
-                "NAME": "guild"
+                "DESCRIPTION": "El servidor en el que se encuentra el comando (Predeterminado: Servidor actual)",
+                "NAME": "servidor"
               },
               "ID": {
-                "DESCRIPTION": "ID of a specific command (Default: All commands)",
+                "DESCRIPTION": "ID de un comando específico (Predeterminado: Todos los comandos)",
                 "NAME": "id"
               }
             }
@@ -244,24 +244,24 @@
         }
       },
       "SHARD": {
-        "DESCRIPTION": "Configures shards (Bot owner only)",
+        "DESCRIPTION": "Configura shards (Solo propietario del bot)",
         "NAME": "shard",
         "OPTIONS": {
           "RESPAWN_ALL": {
-            "DESCRIPTION": "Respawns all shards (Bot owner only)",
-            "NAME": "respawn-all",
+            "DESCRIPTION": "Renace todas las shards (Solo propietario del bot)",
+            "NAME": "renacer-todo",
             "OPTIONS": {
               "RESPAWN_DELAY": {
-                "DESCRIPTION": "Wait time between killing a shard's process and restarting it",
-                "NAME": "respawn-delay"
+                "DESCRIPTION": "Tiempo de espera entre matar un proceso de una shard y reiniciarlo",
+                "NAME": "atraso-renacer"
               },
               "SHARD_DELAY": {
-                "DESCRIPTION": "Wait time between shards",
-                "NAME": "shard-delay"
+                "DESCRIPTION": "Tiempo de espera entre shards",
+                "NAME": "atraso-shard"
               },
               "TIMEOUT": {
-                "DESCRIPTION": "Wait time for a shard to become ready before continuing to another",
-                "NAME": "timeout"
+                "DESCRIPTION": "Tiempo de espera para que una shard esta lista antes de continuar con otra",
+                "NAME": "castigar"
               }
             }
           }
@@ -321,22 +321,22 @@
   "PING": {
     "API_LATENCY": "Latencia de API",
     "DEFERRED": "Diferido",
-    "DESCRIPTION": "Shows bot's latency",
+    "DESCRIPTION": "Muestra la latencia del bot",
     "NAME": "ping",
-    "RESPONSE_TIME": "Response Time",
+    "RESPONSE_TIME": "Tiempo de Respuesta",
     "SHARD": "Shard",
     "TITLE": "Pong!"
   },
   "PRICE": {
-    "DESCRIPTION": "Shows the current price of a cryptocurrency",
+    "DESCRIPTION": "Muestra el precio actual de una criptomoneda",
     "EMBED": {
-      "DESCRIPTION": "The current price of **{cryptocurrency}** is: `{price, number, ::currency/USD .00000000}`"
+      "DESCRIPTION": "El precio actual de **{cryptocurrency}** es: `{price, number, ::currency/USD .00000000}`"
     },
-    "NAME": "price",
+    "NAME": "precio",
     "OPTIONS": {
       "CRYPTOCURRENCY": {
-        "DESCRIPTION": "The cryptocurrency to get the price of",
-        "NAME": "cryptocurrency"
+        "DESCRIPTION": "La criptomoneda para obtener el precio",
+        "NAME": "criptomoneda"
       }
     },
     "TITLE": "Precio"
@@ -348,19 +348,19 @@
     }
   },
   "WALLET": {
-    "DESCRIPTION": "Shows your wallet for a cryptocurrency",
+    "DESCRIPTION": "Muestre su cartera para una criptomoneda",
     "EMBED": {
-      "DESCRIPTION": "Your wallet for **{cryptocurrency}** on **{network}** network is: `{wallet}`"
+      "DESCRIPTION": "Tu cartera para **{cryptocurrency}** en la red **{network}** es: `{wallet}`"
     },
-    "NAME": "wallet",
+    "NAME": "cartera",
     "OPTIONS": {
       "CRYPTOCURRENCY": {
-        "DESCRIPTION": "The cryptocurrency to get the wallet of",
-        "NAME": "cryptocurrency"
+        "DESCRIPTION": "La criptomoneda para obtener la cartera",
+        "NAME": "criptomoneda"
       },
       "NETWORK": {
-        "DESCRIPTION": "The network to get the wallet of",
-        "NAME": "network"
+        "DESCRIPTION": "La red para obtener la cartera",
+        "NAME": "red"
       }
     },
     "TITLE": "Cartera"
