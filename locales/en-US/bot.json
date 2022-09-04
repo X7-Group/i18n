@@ -1,31 +1,38 @@
 {
   "BOT": {
-    "INFO": {
-      "COMPONENT": {
-        "INVITE_BOT": "Invite Bot",
-        "SUPPORT_SERVER": "Support Server"
-      },
-      "DISCORDJS_VERSION": "Discord.JS Version",
-      "MEMORY_USAGE": "Memory Usage",
-      "NODEJS_VERSION": "Node.JS Version",
-      "TITLE": "{botName}'s Info"
+    "DESCRIPTION": "Bot related commands",
+    "NAME": "bot",
+    "OPTIONS": {
+      "INFO": {
+        "COMPONENT": {
+          "INVITE_BOT": "Invite Bot",
+          "SUPPORT_SERVER": "Support Server"
+        },
+        "DESCRIPTION": "Shows information about the bot",
+        "DISCORDJS_VERSION": "Discord.JS Version",
+        "MEMORY_USAGE": "Memory Usage",
+        "NAME": "info",
+        "NODEJS_VERSION": "Node.JS Version",
+        "TITLE": "{botName}'s Info"
+      }
     }
   },
+  "DELETE_RESPONSE": "Delete Response",
   "ERROR": {
     "DEVELOPERS_ONLY": "This command can only be used by the bot developers",
     "DM": "This command cannot be used in DMs",
     "EXECUTING_INTERACTION": "An error occurred while executing this interaction",
-    "PRICE_NOT_FOUND": "Price for {cryptocurrency} not found",
     "GUILD_NOT_FOUND": "Guild not found",
     "INVALID_CRYPTOCURRENCY": "Invalid cryptocurrency",
-    "WALLET_NOT_FOUND": "Wallet for **{cryptocurrency}** on **{network}** network not found",
+    "PRICE_NOT_FOUND": "Price for {cryptocurrency} not found",
     "RELOADING_APPLICATION_COMMAND": "An error occurred while reloading an application command",
     "TIMED_OUT": "Timed out",
     "UNALLOWED": {
       "CHAT": "You are not allowed to use this command in this chat",
       "COMMAND": "You are not allowed to interact with this command",
       "DELETE_RESPONSE": "You can only delete the responses from my commands you triggered"
-    }
+    },
+    "WALLET_NOT_FOUND": "Wallet for **{cryptocurrency}** on **{network}** network not found"
   },
   "GENERIC": {
     "CHANNEL": "Channel",
@@ -49,6 +56,12 @@
     "MESSAGE": "Message",
     "NAME": "Name",
     "NO": "No",
+    "OPTIONS": {
+      "EPHEMERAL": {
+        "DESCRIPTION": "Whether to reply as an ephemeral message (Default: True)",
+        "NAME": "ephemeral"
+      }
+    },
     "OUTPUT": "Output",
     "REQUESTED_BY": "Requested by {userName}",
     "ROLES": "Roles",
@@ -92,8 +105,8 @@
       "WEBSITE": "Website",
       "YOUTUBE": "YouTube"
     },
+    "DESCRIPTION": "Shows the help menu",
     "MINING": {
-      "TITLE": "XGC Mining",
       "FIELDS": {
         "0": {
           "NAME": "How to mine XGC?",
@@ -103,10 +116,11 @@
           "NAME": "Download Xiglute App",
           "VALUE": "• {androidEmj} [Android]({androidURL}) (make sure to [update here]({androidUpdURL}))\n• {iosEmj} [iOS]({iosURL})"
         }
-      }
+      },
+      "TITLE": "XGC Mining"
     },
+    "NAME": "help",
     "PROJECT": {
-      "TITLE": "XGC Project",
       "FIELDS": {
         "0": {
           "NAME": "What is XGC?",
@@ -120,10 +134,10 @@
           "NAME": "Coin Burning Plan",
           "VALUE": "• One of the most aggressive plans on the market.\n\nㅤ• For each transaction carried out with XGC, 2% of this amount is withdrawn from the **coin reserve**, then **burned**.\nㅤ• During 7 years, every 4 months, **9 trillion** of XGC will be burned from the **coin reserve**, totaling a burn of 90% of the supply in this period.\n\n• Decreasing the supply of currencies on the market generates a constant currency appreciation."
         }
-      }
+      },
+      "TITLE": "XGC Project"
     },
     "ROADMAP": {
-      "TITLE": "Roadmap",
       "FIELDS": {
         "0": {
           "NAME": "1st Phase",
@@ -169,7 +183,8 @@
           "NAME": "6th Phase",
           "VALUE": "{stateEmj} 2023\n\n• The beginning of a new era, launching in one of the largest brokers in the world."
         }
-      }
+      },
+      "TITLE": "Roadmap"
     },
     "TUTORIAL": {
       "DESCRIPTION": "{journeyEmj} Welcome to the X7 Universe, start your journey here!\n\n• [How to change language at X7 Exchange?](https://t.me/xiglutecoin/19005)\n• [How to register at X7 Exchange?](https://t.me/xiglutecoin/19006)\n• [How to deposit fiat currencies at X7 Exchange?](https://t.me/xiglutecoin/19007)\n• [How to buy XGC at X7 Exchange?](https://t.me/xiglutecoin/19008)\n• [How to trade XGC with another cryptocurrency at X7 Exchange?](https://t.me/xiglutecoin/19009)\n• [How to buy X7C at X7 Exchange?](https://t.me/xiglutecoin/19010)\n• [How to trade XGC for X7C at X7 Exchange?](https://t.me/xiglutecoin/19011)\n• [How to validate data at X7 Exchange - KYC?](https://t.me/xiglutecoin/19012)\n• [How to create funds password at X7 Exchange?](https://t.me/xiglutecoin/19013)\n• [How to recover access password at X7 Exchange?](https://t.me/xiglutecoin/19014)\n• [How to inhabit Google Authenticator – 2FA verification at X7 Exchange?](https://t.me/xiglutecoin/19015)\n• [How to transfer XGC assets from Trust Wallet – MetaMask to X7 Exchange Wallet?](https://t.me/xiglutecoin/19017)\n• [How to transfer X7C assets from TronLink to X7 Exchange Wallet?](https://t.me/xiglutecoin/19018)\n• [How to withdraw fiat currencies at X7 Exchange?](https://t.me/xiglutecoin/19019)\n• [How to withdraw cryptocurrencies at X7 Exchange?](https://t.me/xiglutecoin/19020)\n• [How to receive cryptocurrencies for free at X7 Exchange?](https://t.me/xiglutecoin/19022)\n• [How to deposit cryptocurrencies at X7 Exchange?](https://t.me/xiglutecoin/19023)\n• [How to open a sell order at X7 Exchange?](https://t.me/xiglutecoin/19025)\n• [How to change the chart at X7 Exchange - TradingView?](https://t.me/xiglutecoin/19026)\n• [How to staking cryptocurrencies at X7 Exchange?](https://t.me/xiglutecoin/19027)\n• [How to calculate monthly earnings from staking options at X7 Exchange?](https://t.me/xiglutecoin/19029)\n• [How to find referral link at X7 Exchange?](https://t.me/xiglutecoin/19034)\n• [How does the X7 Exchange Referral Program work?](https://t.me/xiglutecoin/19035)\n• [How to vote in the poll at X7 Exchange?](https://t.me/xiglutecoin/19189)\n• [How to add XGC contract - BEP20 – App Trust Wallet?](https://t.me/xiglutecoin/19227)\n• [How Airdrop works at X7 Exchange](https://t.me/xiglutecoin/19229)\n• [More questions? Click here!](https://t.me/xiglutecoin/19036)",
@@ -177,6 +192,7 @@
     }
   },
   "OWNER": {
+    "DESCRIPTION": "Bot owner only commands",
     "INTERACTION": {
       "COMMANDS": {
         "DELETED": "Deleted Commands",
@@ -187,18 +203,73 @@
       },
       "NO_UPDATE": "No commands have been updated"
     },
+    "NAME": "owner",
+    "OPTIONS": {
+      "EVAL": {
+        "DESCRIPTION": "Evaluates a script (Bot owner only)",
+        "NAME": "eval",
+        "OPTIONS": {
+          "ASYNC": {
+            "DESCRIPTION": "Evaluates the script asynchronously (Default: True)",
+            "NAME": "async"
+          },
+          "AWAIT": {
+            "DESCRIPTION": "Awaits the script (Default: True)",
+            "NAME": "await"
+          },
+          "SCRIPT": {
+            "DESCRIPTION": "The script to evaluate",
+            "NAME": "script"
+          }
+        }
+      },
+      "INTERACTION": {
+        "DESCRIPTION": "Configures commands (Bot owner only)",
+        "NAME": "command",
+        "OPTIONS": {
+          "UPDATE": {
+            "DESCRIPTION": "Updates bot commands (Bot owner only)",
+            "NAME": "update",
+            "OPTIONS": {
+              "GUILD": {
+                "DESCRIPTION": "The guild the command is at (Default: Invoked guild)",
+                "NAME": "guild"
+              },
+              "ID": {
+                "DESCRIPTION": "ID of a specific command (Default: All commands)",
+                "NAME": "id"
+              }
+            }
+          }
+        }
+      },
+      "SHARD": {
+        "DESCRIPTION": "Configures shards (Bot owner only)",
+        "NAME": "shard",
+        "OPTIONS": {
+          "RESPAWN_ALL": {
+            "DESCRIPTION": "Respawns all shards (Bot owner only)",
+            "NAME": "respawn-all",
+            "OPTIONS": {
+              "RESPAWN_DELAY": {
+                "DESCRIPTION": "Wait time between killing a shard's process and restarting it",
+                "NAME": "respawn-delay"
+              },
+              "SHARD_DELAY": {
+                "DESCRIPTION": "Wait time between shards",
+                "NAME": "shard-delay"
+              },
+              "TIMEOUT": {
+                "DESCRIPTION": "Wait time for a shard to become ready before continuing to another",
+                "NAME": "timeout"
+              }
+            }
+          }
+        }
+      }
+    },
     "SHARD": {
       "RESPAWNING": "Respawning all shards"
-    }
-  },
-  "PRICE": {
-    "TITLE": "Price",
-    "DESCRIPTION": "The current price of **{cryptocurrency}** is: `{price, number, ::currency/USD .00000000}`"
-  },
-  "PROFILE": {
-    "LOGIN": {
-      "TITLE": "Login",
-      "PASSWORD": "Enter your password"
     }
   },
   "PERM": {
@@ -250,16 +321,48 @@
   "PING": {
     "API_LATENCY": "API Latency",
     "DEFERRED": "Deferred",
+    "DESCRIPTION": "Shows bot's latency",
+    "NAME": "ping",
+    "RESPONSE_TIME": "Response Time",
     "SHARD": "Shard",
-    "TIME": {
-      "DEFERMENT": "Deferment Time",
-      "EDITING": "Editing Time",
-      "RESPONSE": "Response Time"
-    },
     "TITLE": "Pong!"
   },
+  "PRICE": {
+    "DESCRIPTION": "Shows the current price of a cryptocurrency",
+    "EMBED": {
+      "DESCRIPTION": "The current price of **{cryptocurrency}** is: `{price, number, ::currency/USD .00000000}`"
+    },
+    "NAME": "price",
+    "OPTIONS": {
+      "CRYPTOCURRENCY": {
+        "DESCRIPTION": "The cryptocurrency to get the price of",
+        "NAME": "cryptocurrency"
+      }
+    },
+    "TITLE": "Price"
+  },
+  "PROFILE": {
+    "LOGIN": {
+      "PASSWORD": "Enter your password",
+      "TITLE": "Login"
+    }
+  },
   "WALLET": {
-    "TITLE": "Wallet",
-    "DESCRIPTION": "Your wallet for **{cryptocurrency}** on **{network}** network is: `{wallet}`"
+    "DESCRIPTION": "Shows your wallet for a cryptocurrency",
+    "EMBED": {
+      "DESCRIPTION": "Your wallet for **{cryptocurrency}** on **{network}** network is: `{wallet}`"
+    },
+    "NAME": "wallet",
+    "OPTIONS": {
+      "CRYPTOCURRENCY": {
+        "DESCRIPTION": "The cryptocurrency to get the wallet of",
+        "NAME": "cryptocurrency"
+      },
+      "NETWORK": {
+        "DESCRIPTION": "The network to get the wallet of",
+        "NAME": "network"
+      }
+    },
+    "TITLE": "Wallet"
   }
 }
