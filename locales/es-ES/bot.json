@@ -1,31 +1,38 @@
 {
   "BOT": {
-    "INFO": {
-      "COMPONENT": {
-        "INVITE_BOT": "Invitar Bot",
-        "SUPPORT_SERVER": "Servidor de Soporte"
-      },
-      "DISCORDJS_VERSION": "Versión de Discord.JS",
-      "MEMORY_USAGE": "Uso de Memoria",
-      "NODEJS_VERSION": "Versión de Node.JS",
-      "TITLE": "Información de {botName}"
+    "DESCRIPTION": "Bot related commands",
+    "NAME": "bot",
+    "OPTIONS": {
+      "INFO": {
+        "COMPONENT": {
+          "INVITE_BOT": "Invite Bot",
+          "SUPPORT_SERVER": "Support Server"
+        },
+        "DESCRIPTION": "Shows information about the bot",
+        "DISCORDJS_VERSION": "Discord.JS Version",
+        "MEMORY_USAGE": "Memory Usage",
+        "NAME": "info",
+        "NODEJS_VERSION": "Node.JS Version",
+        "TITLE": "{botName}'s Info"
+      }
     }
   },
+  "DELETE_RESPONSE": "Delete Response",
   "ERROR": {
     "DEVELOPERS_ONLY": "Este comando sólo puede ser usado por los desarrolladores del bot",
     "DM": "Este comando no se puede utilizar en DM",
     "EXECUTING_INTERACTION": "Se produjo un error al ejecutar esta interacción",
-    "PRICE_NOT_FOUND": "Precio para {cryptocurrency} no encontrado",
     "GUILD_NOT_FOUND": "Servidor no encontrado",
     "INVALID_CRYPTOCURRENCY": "Criptomoneda no válida",
-    "WALLET_NOT_FOUND": "Cartera para **{cryptocurrency}** en la red **{network}** no encontrada",
+    "PRICE_NOT_FOUND": "Precio para {cryptocurrency} no encontrado",
     "RELOADING_APPLICATION_COMMAND": "Ocurrió un error al recargar cargar un comando de la aplicación",
     "TIMED_OUT": "Tiempo agotado",
     "UNALLOWED": {
       "CHAT": "No se le permite utilizar este comando en este chat",
       "COMMAND": "No se le permite interactuar con este comando",
       "DELETE_RESPONSE": "Solo puedes eliminar las respuestas de mis comandos que activaste"
-    }
+    },
+    "WALLET_NOT_FOUND": "Cartera para **{cryptocurrency}** en la red **{network}** no encontrada"
   },
   "GENERIC": {
     "CHANNEL": "Canal",
@@ -49,6 +56,12 @@
     "MESSAGE": "Mensaje",
     "NAME": "Nombre",
     "NO": "No",
+    "OPTIONS": {
+      "EPHEMERAL": {
+        "DESCRIPTION": "Whether to reply as an ephemeral message (Default: True)",
+        "NAME": "ephemeral"
+      }
+    },
     "OUTPUT": "Salida",
     "REQUESTED_BY": "Solicitado por {userName}",
     "ROLES": "Roles",
@@ -92,8 +105,8 @@
       "WEBSITE": "Sitio Web",
       "YOUTUBE": "YouTube"
     },
+    "DESCRIPTION": "Shows the help menu",
     "MINING": {
-      "TITLE": "Minería XGC",
       "FIELDS": {
         "0": {
           "NAME": "¿Cómo minar xgc?",
@@ -103,10 +116,11 @@
           "NAME": "Descarga la Aplicación Xiglute",
           "VALUE": "• {androidEmj} [Android]({androidURL}) (asegúrese de [actualizar aquí]({androidUpdURL}))\n• {iosEmj} [iOS]({iosURL})"
         }
-      }
+      },
+      "TITLE": "Minería XGC"
     },
+    "NAME": "help",
     "PROJECT": {
-      "TITLE": "Proyecto XGC",
       "FIELDS": {
         "0": {
           "NAME": "¿Qué es XGC?",
@@ -120,10 +134,10 @@
           "NAME": "Plan de Quema de Monedas",
           "VALUE": "• Uno de los planes más agresivos del mercado.\n\nㅤ• Por cada transacción realizada con XGC, el 2 % de este monto se retira de la **reserva de monedas** y luego se **quema**.\nㅤ• Durante 7 años, cada 4 meses, se quemarán **9 trillones** de XGC de la **reserva de monedas**, totalizando una quema del 90% del suministro en este período.\n\n• Disminuir la oferta de divisas en el mercado genera una apreciación constante de la moneda."
         }
-      }
+      },
+      "TITLE": "Proyecto XGC"
     },
     "ROADMAP": {
-      "TITLE": "Roadmap",
       "FIELDS": {
         "0": {
           "NAME": "1ª Fase",
@@ -169,7 +183,8 @@
           "NAME": "6ª Fase",
           "VALUE": "{stateEmj} 2023\n\n• El comienzo de una nueva era, lanzándo en uno de los brokers más grandes del mundo."
         }
-      }
+      },
+      "TITLE": "Roadmap"
     },
     "TUTORIAL": {
       "DESCRIPTION": "{journeyEmj} Bienvenido al Universo X7, comienza tu viaje aquí!\n\n• [Cómo cambiar el idioma en X7 Exchange?](https://t.me/xiglutecoines/2438)\n• [Cómo registrarse en X7 Exchange?](https://t.me/xiglutecoines/2439)\n• [Cómo depositar monedas fiduciarias en X7 Exchange?](https://t.me/xiglutecoines/2440)\n• [Cómo comprar XGC en X7 Exchange?](https://t.me/xiglutecoines/2441)\n• [Cómo comprar X7C en X7 Exchange?](https://t.me/xiglutecoines/2443)\n• [Cómo intercambiar XGC con otra criptomoneda en X7 Exchange?](https://t.me/xiglutecoines/2442)\n• [Cómo intercambiar XGC por X7C en X7 Exchange?](https://t.me/xiglutecoines/2444)\n• [Cómo validar datos en X7 Exchange - KYC?](https://t.me/xiglutecoines/2445)\n• [Cómo crear una contraseña de fondos en X7 Exchange?](https://t.me/xiglutecoines/2446)\n• [Cómo recuperar la contraseña de acceso en X7 Exchange?](https://t.me/xiglutecoines/2447)\n• [Cómo habilitar Google Authenticator - 2FA en X7 Exchange?](https://t.me/xiglutecoines/2448)\n• [Cómo transferir activos XGC de Trust Wallet – MetaMask a X7 Exchange?](https://t.me/xiglutecoines/2450)\n• [Cómo transferir activos X7C de TronLink a X7 Exchange?](https://t.me/xiglutecoines/2451)\n• [Cómo retirar monedas fiduciarias en X7 Exchange?](https://t.me/xiglutecoines/2452)\n• [Cómo retirar criptomonedas en X7 Exchange?](https://t.me/xiglutecoines/2453)\n• [Cómo recibir criptomonedas gratis en X7 Exchange?](https://t.me/xiglutecoines/2455)\n• [Cómo depositar criptomonedas en X7 Exchange?](https://t.me/xiglutecoines/2458)\n• [Cómo abrir una orden de venta en X7 Exchange?](https://t.me/xiglutecoines/2460)\n• [Cómo cambiar el gráfico en X7 Exchange – TradingView?](https://t.me/xiglutecoines/2461)\n• [Cómo generar ingresos pasivos con mis activos en X7 Exchange?](https://t.me/xiglutecoines/2462)\n• [Cómo calcular las ganancias mensuales de las opciones de participación en X7 Exchange?](https://t.me/xiglutecoines/2463)\n• [Cómo encontrar un enlace de referencia en X7 Exchange?](https://t.me/xiglutecoines/2467)\n• [Cómo funciona el Programa de referidos en X7 Exchange?](https://t.me/xiglutecoines/2468)\n• [Cómo votar en la encuesta de X7 Exchange?](https://t.me/xiglutecoines/2492)\n• [Cómo agregar un contrato XGC - BEP20 - App Trust Wallet](https://t.me/xiglutecoines/2509)\n• [Cómo funciona Airdrop en X7 Exchange?](https://t.me/xiglutecoines/2510)\n• [Más preguntas? Haga clic en el enlace de abajo!](https://t.me/xiglutecoines/2470)",
@@ -177,6 +192,7 @@
     }
   },
   "OWNER": {
+    "DESCRIPTION": "Bot owner only commands",
     "INTERACTION": {
       "COMMANDS": {
         "DELETED": "Comandos Eliminados",
@@ -187,18 +203,73 @@
       },
       "NO_UPDATE": "Ningún comando ha sido actualizado"
     },
+    "NAME": "owner",
+    "OPTIONS": {
+      "EVAL": {
+        "DESCRIPTION": "Evaluates a script (Bot owner only)",
+        "NAME": "eval",
+        "OPTIONS": {
+          "ASYNC": {
+            "DESCRIPTION": "Evaluates the script asynchronously (Default: True)",
+            "NAME": "async"
+          },
+          "AWAIT": {
+            "DESCRIPTION": "Awaits the script (Default: True)",
+            "NAME": "await"
+          },
+          "SCRIPT": {
+            "DESCRIPTION": "The script to evaluate",
+            "NAME": "script"
+          }
+        }
+      },
+      "INTERACTION": {
+        "DESCRIPTION": "Configures commands (Bot owner only)",
+        "NAME": "command",
+        "OPTIONS": {
+          "UPDATE": {
+            "DESCRIPTION": "Updates bot commands (Bot owner only)",
+            "NAME": "update",
+            "OPTIONS": {
+              "GUILD": {
+                "DESCRIPTION": "The guild the command is at (Default: Invoked guild)",
+                "NAME": "guild"
+              },
+              "ID": {
+                "DESCRIPTION": "ID of a specific command (Default: All commands)",
+                "NAME": "id"
+              }
+            }
+          }
+        }
+      },
+      "SHARD": {
+        "DESCRIPTION": "Configures shards (Bot owner only)",
+        "NAME": "shard",
+        "OPTIONS": {
+          "RESPAWN_ALL": {
+            "DESCRIPTION": "Respawns all shards (Bot owner only)",
+            "NAME": "respawn-all",
+            "OPTIONS": {
+              "RESPAWN_DELAY": {
+                "DESCRIPTION": "Wait time between killing a shard's process and restarting it",
+                "NAME": "respawn-delay"
+              },
+              "SHARD_DELAY": {
+                "DESCRIPTION": "Wait time between shards",
+                "NAME": "shard-delay"
+              },
+              "TIMEOUT": {
+                "DESCRIPTION": "Wait time for a shard to become ready before continuing to another",
+                "NAME": "timeout"
+              }
+            }
+          }
+        }
+      }
+    },
     "SHARD": {
       "RESPAWNING": "Reapareciendo todos los shards"
-    }
-  },
-  "PRICE": {
-    "TITLE": "Precio",
-    "DESCRIPTION": "El precio actual de **{cryptocurrency}** es: `{price, number, ::currency/USD .00000000}`"
-  },
-  "PROFILE": {
-    "LOGIN": {
-      "TITLE": "Login",
-      "PASSWORD": "Ingresa tu contraseña"
     }
   },
   "PERM": {
@@ -250,16 +321,48 @@
   "PING": {
     "API_LATENCY": "Latencia de API",
     "DEFERRED": "Diferido",
+    "DESCRIPTION": "Shows bot's latency",
+    "NAME": "ping",
+    "RESPONSE_TIME": "Response Time",
     "SHARD": "Shard",
-    "TIME": {
-      "DEFERMENT": "Tiempo de Aplazamiento",
-      "EDITING": "Tiempo de Edición",
-      "RESPONSE": "Tiempo de Respuesta"
-    },
     "TITLE": "Pong!"
   },
+  "PRICE": {
+    "DESCRIPTION": "Shows the current price of a cryptocurrency",
+    "EMBED": {
+      "DESCRIPTION": "The current price of **{cryptocurrency}** is: `{price, number, ::currency/USD .00000000}`"
+    },
+    "NAME": "price",
+    "OPTIONS": {
+      "CRYPTOCURRENCY": {
+        "DESCRIPTION": "The cryptocurrency to get the price of",
+        "NAME": "cryptocurrency"
+      }
+    },
+    "TITLE": "Precio"
+  },
+  "PROFILE": {
+    "LOGIN": {
+      "PASSWORD": "Ingresa tu contraseña",
+      "TITLE": "Login"
+    }
+  },
   "WALLET": {
-    "TITLE": "Cartera",
-    "DESCRIPTION": "Tu cartera para **{cryptocurrency}** en la red **{network}** es: `{wallet}`"
+    "DESCRIPTION": "Shows your wallet for a cryptocurrency",
+    "EMBED": {
+      "DESCRIPTION": "Your wallet for **{cryptocurrency}** on **{network}** network is: `{wallet}`"
+    },
+    "NAME": "wallet",
+    "OPTIONS": {
+      "CRYPTOCURRENCY": {
+        "DESCRIPTION": "The cryptocurrency to get the wallet of",
+        "NAME": "cryptocurrency"
+      },
+      "NETWORK": {
+        "DESCRIPTION": "The network to get the wallet of",
+        "NAME": "network"
+      }
+    },
+    "TITLE": "Cartera"
   }
 }
