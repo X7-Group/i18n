@@ -347,6 +347,17 @@
       "TITLE": "Login"
     }
   },
+  "TOP": {
+    "DESCRIPTION": "Ranking related commands",
+    "NAME": "top",
+    "OPTIONS": {
+      "TRADES": {
+        "DESCRIPTION": "Shows the top trades at X7",
+        "NAME": "trades",
+        "TITLE": "Top Trades"
+      }
+    }
+  },
   "WALLET": {
     "DESCRIPTION": "Shows your wallet for a cryptocurrency",
     "EMBED": {
