@@ -30,6 +30,8 @@
     "EXECUTING_INTERACTION": "An error occurred while executing this interaction",
     "GUILD_NOT_FOUND": "Guild not found",
     "INVALID_CRYPTOCURRENCY": "Invalid cryptocurrency",
+    "LOGIN_REQUIRED": "You need to be logged in to use this command. Use {command} to do so",
+    "NOT_LOGGED_IN": "You are not logged in. Use {command} to do so",
     "PRICE_NOT_FOUND": "Price for {cryptocurrency} not found",
     "RELOADING_APPLICATION_COMMAND": "An error occurred while reloading an application command",
     "TIMED_OUT": "Timed out",
@@ -41,6 +43,7 @@
     "WALLET_NOT_FOUND": "Wallet for **{cryptocurrency}** on **{network}** network not found"
   },
   "GENERIC": {
+    "2FA_CODE": "2FA Code",
     "CHANNEL": "Channel",
     "CHAT": "Chat",
     "COMMANDS": "Commands",
@@ -51,7 +54,8 @@
       "REPEAT": "Repeat"
     },
     "CONTENT": "Content",
-    "CREATION_DATE": "Creation Date",
+    "COUNT": "{count, number}",
+    "CREATED": "Created",
     "CURRENT": "Current",
     "EMAIL": "Enter your email",
     "ERROR": "Error",
@@ -72,6 +76,7 @@
     "REQUESTED_BY": "Requested by {userName}",
     "ROLES": "Roles",
     "SERVERS": "Servers",
+    "SHARD": "Shard",
     "SUCCESS": "Success",
     "TIME": {
       "DAYS": "{count, plural, =0 {now} one {**#** day} other {**#** days}}",
@@ -197,7 +202,6 @@
       "TITLE": "Tutorial"
     }
   },
-
   "OWNER": {
     "DESCRIPTION": "Bot owner only commands",
     "NAME": "owner",
@@ -287,6 +291,24 @@
       }
     }
   },
+  "LOGIN": {
+    "DESCRIPTION": "Login to your account",
+    "NAME": "login",
+    "OPTIONS": {
+      "EMAIL": {
+        "DESCRIPTION": "Your email",
+        "NAME": "email"
+      },
+      "PASSWORD": {
+        "DESCRIPTION": "Your password",
+        "NAME": "password"
+      }
+    }
+  },
+  "LOGOUT": {
+    "DESCRIPTION": "Logout from your account",
+    "NAME": "logout"
+  },
   "PERM": {
     "ADD_REACTIONS": "Add Reactions",
     "ADMINISTRATOR": "Administrator",
@@ -355,12 +377,6 @@
       }
     },
     "TITLE": "Price"
-  },
-  "PROFILE": {
-    "LOGIN": {
-      "PASSWORD": "Enter your password",
-      "TITLE": "Login"
-    }
   },
   "TOP": {
     "DESCRIPTION": "Ranking related commands",
