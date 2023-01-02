@@ -197,6 +197,7 @@
       "TITLE": "Tutorial"
     }
   },
+
   "OWNER": {
     "DESCRIPTION": "Bot owner only commands",
     "NAME": "owner",
