@@ -30,6 +30,8 @@
     "EXECUTING_INTERACTION": "Ocorreu um erro ao executar esta interação",
     "GUILD_NOT_FOUND": "Servidor não encontrado",
     "INVALID_CRYPTOCURRENCY": "Criptomoeda inválida",
+    "LOGIN_REQUIRED": "You need to be logged in to use this command. Use {command} to do so",
+    "NOT_LOGGED_IN": "You are not logged in. Use {command} to do so",
     "PRICE_NOT_FOUND": "Preço para {cryptocurrency} não encontrado",
     "RELOADING_APPLICATION_COMMAND": "Ocorreu um erro ao recarregar um comando da aplicação",
     "TIMED_OUT": "Tempo esgotado",
@@ -41,6 +43,7 @@
     "WALLET_NOT_FOUND": "Carteira para **{cryptocurrency}** na rede **{network}** não encontrada"
   },
   "GENERIC": {
+    "2FA_CODE": "2FA Code",
     "CHANNEL": "Canal",
     "CHAT": "Chat",
     "COMMANDS": "Comandos",
@@ -51,7 +54,8 @@
       "REPEAT": "Repetir"
     },
     "CONTENT": "Conteúdo",
-    "CREATION_DATE": "Data de Criação",
+    "COUNT": "{count, number}",
+    "CREATED": "Created",
     "CURRENT": "Atual",
     "EMAIL": "Insira seu e-mail",
     "ERROR": "Erro",
@@ -72,6 +76,7 @@
     "REQUESTED_BY": "Solicitado por {userName}",
     "ROLES": "Cargos",
     "SERVERS": "Servidores",
+    "SHARD": "Shard",
     "SUCCESS": "Sucesso",
     "TIME": {
       "DAYS": "{count, plural, =0 {agora} one {**#** dia} other {**#** dias}}",
@@ -286,6 +291,24 @@
       }
     }
   },
+  "LOGIN": {
+    "DESCRIPTION": "Login to your account",
+    "NAME": "login",
+    "OPTIONS": {
+      "EMAIL": {
+        "DESCRIPTION": "Your email",
+        "NAME": "email"
+      },
+      "PASSWORD": {
+        "DESCRIPTION": "Your password",
+        "NAME": "password"
+      }
+    }
+  },
+  "LOGOUT": {
+    "DESCRIPTION": "Logout from your account",
+    "NAME": "logout"
+  },
   "PERM": {
     "ADD_REACTIONS": "Adicionar Reações",
     "ADMINISTRATOR": "Administrador",
@@ -354,12 +377,6 @@
       }
     },
     "TITLE": "Preço"
-  },
-  "PROFILE": {
-    "LOGIN": {
-      "PASSWORD": "Insira sua senha",
-      "TITLE": "Login"
-    }
   },
   "TOP": {
     "DESCRIPTION": "Ranking related commands",
