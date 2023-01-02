@@ -30,6 +30,8 @@
     "EXECUTING_INTERACTION": "Se produjo un error al ejecutar esta interacción",
     "GUILD_NOT_FOUND": "Servidor no encontrado",
     "INVALID_CRYPTOCURRENCY": "Criptomoneda no válida",
+    "LOGIN_REQUIRED": "You need to be logged in to use this command. Use {command} to do so",
+    "NOT_LOGGED_IN": "You are not logged in. Use {command} to do so",
     "PRICE_NOT_FOUND": "Precio para {cryptocurrency} no encontrado",
     "RELOADING_APPLICATION_COMMAND": "Ocurrió un error al recargar cargar un comando de la aplicación",
     "TIMED_OUT": "Tiempo agotado",
@@ -41,6 +43,7 @@
     "WALLET_NOT_FOUND": "Cartera para **{cryptocurrency}** en la red **{network}** no encontrada"
   },
   "GENERIC": {
+    "2FA_CODE": "2FA Code",
     "CHANNEL": "Canal",
     "CHAT": "Chat",
     "COMMANDS": "Comandos",
@@ -51,7 +54,8 @@
       "REPEAT": "Repetir"
     },
     "CONTENT": "Contenido",
-    "CREATION_DATE": "Fecha de Creación",
+    "COUNT": "{count, number}",
+    "CREATED": "Created",
     "CURRENT": "Actual",
     "EMAIL": "Ingresa tu email",
     "ERROR": "Error",
@@ -72,6 +76,7 @@
     "REQUESTED_BY": "Solicitado por {userName}",
     "ROLES": "Roles",
     "SERVERS": "Servidores",
+    "SHARD": "Shard",
     "SUCCESS": "Éxito",
     "TIME": {
       "DAYS": "{count, plural, =0 {ahora} one {**#** día} other {**#** días}}",
@@ -286,6 +291,24 @@
       }
     }
   },
+  "LOGIN": {
+    "DESCRIPTION": "Login to your account",
+    "NAME": "login",
+    "OPTIONS": {
+      "EMAIL": {
+        "DESCRIPTION": "Your email",
+        "NAME": "email"
+      },
+      "PASSWORD": {
+        "DESCRIPTION": "Your password",
+        "NAME": "password"
+      }
+    }
+  },
+  "LOGOUT": {
+    "DESCRIPTION": "Logout from your account",
+    "NAME": "logout"
+  },
   "PERM": {
     "ADD_REACTIONS": "Agregar Reacciones",
     "ADMINISTRATOR": "Administrador",
@@ -354,12 +377,6 @@
       }
     },
     "TITLE": "Precio"
-  },
-  "PROFILE": {
-    "LOGIN": {
-      "PASSWORD": "Ingresa tu contraseña",
-      "TITLE": "Login"
-    }
   },
   "TOP": {
     "DESCRIPTION": "Ranking related commands",
