@@ -4,16 +4,22 @@
     "NAME": "bot",
     "OPTIONS": {
       "INFO": {
-        "COMPONENT": {
-          "INVITE_BOT": "Convidar Bot",
-          "SUPPORT_SERVER": "Servidor de Suporte"
-        },
         "DESCRIPTION": "Mostra informações sobre o bot",
         "DISCORDJS_VERSION": "Versão do Discord.JS",
         "MEMORY_USAGE": "Uso de Memória",
         "NAME": "info",
         "NODEJS_VERSION": "Versão do Node.JS",
-        "TITLE": "Informações de {botName}"
+        "TITLE": "Bot Information"
+      },
+      "PERMISSIONS": {
+        "DESCRIPTION": "Shows bot's required permissions status",
+        "LEGEND": {
+          "CHECK": "I have the required permission as part of my integrated role",
+          "MAYBE": "I have the required permission as part of another role or a channel overwrite",
+          "NO": "I don't have the required permission"
+        },
+        "NAME": "permissions",
+        "TITLE": "Bot Permissions"
       }
     }
   },
