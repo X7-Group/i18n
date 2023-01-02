@@ -193,16 +193,6 @@
   },
   "OWNER": {
     "DESCRIPTION": "Comandos solo para el propietario del bot",
-    "INTERACTION": {
-      "COMMANDS": {
-        "DELETED": "Comandos Eliminados",
-        "GLOBAL": "Comandos Globales",
-        "GUILD": "Comandos de Servidor",
-        "SPECIFIED_GUILD": "Comandos del Servidor de {guildName}",
-        "UPDATED": "Comandos Actualizados"
-      },
-      "NO_UPDATE": "Ningún comando ha sido actualizado"
-    },
     "NAME": "dueño",
     "OPTIONS": {
       "EVAL": {
@@ -223,25 +213,45 @@
           }
         }
       },
-      "INTERACTION": {
-        "DESCRIPTION": "Configura comandos (Solo propietario del bot)",
-        "NAME": "comando",
+      "COMMAND": {
+        "COMMANDS": {
+          "DELETED": "Deleted Commands",
+          "GLOBAL": "Global Commands",
+          "GUILD": "Guild Commands",
+          "SPECIFIED_GUILD": "{guildName}'s Guild Commands",
+          "UPDATED": "Updated Commands"
+        },
+        "DESCRIPTION": "Configures commands (Bot owner only)",
+        "NAME": "command",
+        "NO_UPDATE": "No commands have been updated",
         "OPTIONS": {
           "UPDATE": {
-            "DESCRIPTION": "Actualiza comandos del bot (Solo propietario del bot)",
-            "NAME": "actualizar",
+            "DESCRIPTION": "Updates bot commands (Bot owner only)",
+            "NAME": "update",
             "OPTIONS": {
               "GUILD": {
-                "DESCRIPTION": "El servidor en el que se encuentra el comando (Predeterminado: Servidor actual)",
-                "NAME": "servidor"
+                "DESCRIPTION": "The guild the command is at (Default: Invoked guild)",
+                "NAME": "guild"
               },
               "ID": {
-                "DESCRIPTION": "ID de un comando específico (Predeterminado: Todos los comandos)",
+                "DESCRIPTION": "ID of a specific command (Default: All commands)",
                 "NAME": "id"
               }
             }
           }
         }
+      },
+      "LOCALIZATION": {
+        "NAME": "localization",
+        "DESCRIPTION": "Configures localizations (Bot owner only)",
+        "OPTIONS": {
+          "UPDATE": {
+            "NAME": "update",
+            "DESCRIPTION": "Updates localizations (Bot owner only)"
+          }
+        },
+        "UPDATED": "Updated localizations",
+        "UPDATING": "Updating localizations"
       },
       "SHARD": {
         "DESCRIPTION": "Configura shards (Solo propietario del bot)",
@@ -265,11 +275,9 @@
               }
             }
           }
-        }
+        },
+        "RESPAWNING": "Respawning all shards"
       }
-    },
-    "SHARD": {
-      "RESPAWNING": "Reapareciendo todos los shards"
     }
   },
   "PERM": {
@@ -330,7 +338,7 @@
   "PRICE": {
     "DESCRIPTION": "Muestra el precio actual de una criptomoneda",
     "EMBED": {
-      "DESCRIPTION": "El precio actual de **{cryptocurrency}** es: `{price, number, ::currency/USD .00000000}`"
+      "DESCRIPTION": "The current price of **{cryptocurrency}** is: `{price, number, ::currency/USD.00000000}`"
     },
     "NAME": "precio",
     "OPTIONS": {
@@ -354,7 +362,8 @@
       "TRADES": {
         "DESCRIPTION": "Shows the top trades at X7",
         "NAME": "trades",
-        "TITLE": "Top Trades"
+        "TITLE": "Top Trades",
+        "PRICE": "`BRL {price, number, .00}`"
       }
     }
   },
