@@ -1,8 +1,7 @@
 {
-  "BALANCE:": {
+  "BALANCE": {
     "DESCRIPTION": "Shows all your coins' balances",
-    "NAME": "balance",
-    "TITLE": "Balance"
+    "NAME": "balance"
   },
   "BOT": {
     "DESCRIPTION": "Bot related commands",
