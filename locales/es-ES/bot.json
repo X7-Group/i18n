@@ -33,7 +33,8 @@
     "DM": "Este comando no se puede utilizar en DM",
     "EXECUTING_INTERACTION": "Se produjo un error al ejecutar esta interacción",
     "FETCHING": {
-      "BALANCE": "Couldn't fetch your balance"
+      "BALANCE": "Couldn't fetch your balance",
+      "LOGIN": "Unexpected error while logging in"
     },
     "GUILD_NOT_FOUND": "Servidor no encontrado",
     "INVALID_CRYPTOCURRENCY": "Criptomoneda no válida",
@@ -303,6 +304,10 @@
     "DESCRIPTION": "Login to your account",
     "NAME": "login",
     "OPTIONS": {
+      "2FA_CODE": {
+        "DESCRIPTION": "The 2FA code if needed",
+        "NAME": "2fa-code"
+      },
       "EMAIL": {
         "DESCRIPTION": "Your email",
         "NAME": "email"
