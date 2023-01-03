@@ -1,4 +1,8 @@
 {
+  "BALANCE": {
+    "DESCRIPTION": "Shows all your coins' balances",
+    "NAME": "balance"
+  },
   "BOT": {
     "DESCRIPTION": "Bot related commands",
     "NAME": "bot",
@@ -28,6 +32,9 @@
     "DEVELOPERS_ONLY": "This command can only be used by the bot developers",
     "DM": "This command cannot be used in DMs",
     "EXECUTING_INTERACTION": "An error occurred while executing this interaction",
+    "FETCHING": {
+      "BALANCE": "Couldn't fetch your balance"
+    },
     "GUILD_NOT_FOUND": "Guild not found",
     "INVALID_CRYPTOCURRENCY": "Invalid cryptocurrency",
     "LOGIN_REQUIRED": "You need to be logged in to use this command. Use {command} to do so",
@@ -87,6 +94,7 @@
     "TIMESTAMP": "Timestamp",
     "TO": "To",
     "TOTAL": "Total",
+    "TRY_AGAIN": "Try Again",
     "TYPE": "Type",
     "UPTIME": "Uptime",
     "USER": "User",
@@ -202,7 +210,6 @@
       "TITLE": "Tutorial"
     }
   },
-
   "OWNER": {
     "DESCRIPTION": "Bot owner only commands",
     "NAME": "owner",
@@ -296,8 +303,14 @@
     "DESCRIPTION": "Login to your account",
     "NAME": "login",
     "OPTIONS": {
-      "EMAIL": { "DESCRIPTION": "Your email", "NAME": "email" },
-      "PASSWORD": { "DESCRIPTION": "Your password", "NAME": "password" }
+      "EMAIL": {
+        "DESCRIPTION": "Your email",
+        "NAME": "email"
+      },
+      "PASSWORD": {
+        "DESCRIPTION": "Your password",
+        "NAME": "password"
+      }
     }
   },
   "LOGOUT": {
