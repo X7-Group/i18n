@@ -29,6 +29,11 @@
   },
   "DELETE_RESPONSE": "Eliminar Respuesta",
   "ERROR": {
+    "2FA_CODE": {
+      "INVALID": "Invalid 2FA code",
+      "REQUIRED": "You need to enter your 2FA code"
+    },
+    "ALREADY_LOGGED_IN": "You are already logged in. Use {command} before using this command",
     "DEVELOPERS_ONLY": "Este comando sólo puede ser usado por los desarrolladores del bot",
     "DM": "Este comando no se puede utilizar en DM",
     "EXECUTING_INTERACTION": "Se produjo un error al ejecutar esta interacción",
@@ -65,7 +70,8 @@
     "COUNT": "{count, number}",
     "CREATED": "Created",
     "CURRENT": "Actual",
-    "EMAIL": "Ingresa tu email",
+    "EMAIL": "Email",
+    "ENTER_CODE": "Enter Code",
     "ERROR": "Error",
     "ID": "ID",
     "INTERACTED_BY": "Interactuado por {userName}",
@@ -81,6 +87,7 @@
       }
     },
     "OUTPUT": "Salida",
+    "PASSWORD": "Password",
     "REQUESTED_BY": "Solicitado por {userName}",
     "ROLES": "Roles",
     "SERVERS": "Servidores",
@@ -316,7 +323,8 @@
         "DESCRIPTION": "Your password",
         "NAME": "password"
       }
-    }
+    },
+    "TITLE": "Login"
   },
   "LOGOUT": {
     "DESCRIPTION": "Logout from your account",
