@@ -1,4 +1,8 @@
 {
+  "BALANCE": {
+    "DESCRIPTION": "Shows all your coins' balances",
+    "NAME": "balance"
+  },
   "BOT": {
     "DESCRIPTION": "Comandos relacionados con el bot",
     "NAME": "bot",
@@ -28,6 +32,9 @@
     "DEVELOPERS_ONLY": "Este comando sólo puede ser usado por los desarrolladores del bot",
     "DM": "Este comando no se puede utilizar en DM",
     "EXECUTING_INTERACTION": "Se produjo un error al ejecutar esta interacción",
+    "FETCHING": {
+      "BALANCE": "Couldn't fetch your balance"
+    },
     "GUILD_NOT_FOUND": "Servidor no encontrado",
     "INVALID_CRYPTOCURRENCY": "Criptomoneda no válida",
     "LOGIN_REQUIRED": "You need to be logged in to use this command. Use {command} to do so",
@@ -87,6 +94,7 @@
     "TIMESTAMP": "Timestamp",
     "TO": "Para",
     "TOTAL": "Total",
+    "TRY_AGAIN": "Try Again",
     "TYPE": "Tipo",
     "UPTIME": "Tiempo de Actividad",
     "USER": "Usuario",
