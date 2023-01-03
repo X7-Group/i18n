@@ -75,6 +75,7 @@
     "ERROR": "Error",
     "ID": "ID",
     "INTERACTED_BY": "Interacted by {userName}",
+    "LOADING": "Loading",
     "MEMBERS": "Members",
     "MENTION": "Mention",
     "MESSAGE": "Message",
@@ -315,14 +316,8 @@
         "DESCRIPTION": "The 2FA code if needed",
         "NAME": "2fa-code"
       },
-      "EMAIL": {
-        "DESCRIPTION": "Your email",
-        "NAME": "email"
-      },
-      "PASSWORD": {
-        "DESCRIPTION": "Your password",
-        "NAME": "password"
-      }
+      "EMAIL": { "DESCRIPTION": "Your email", "NAME": "email" },
+      "PASSWORD": { "DESCRIPTION": "Your password", "NAME": "password" }
     },
     "TITLE": "Login"
   },
