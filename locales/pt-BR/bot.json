@@ -75,6 +75,7 @@
     "ERROR": "Erro",
     "ID": "ID",
     "INTERACTED_BY": "Interagido por {userName}",
+    "LOADING": "Loading",
     "MEMBERS": "Membros",
     "MENTION": "Menção",
     "MESSAGE": "Mensagem",
