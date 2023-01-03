@@ -315,8 +315,14 @@
         "DESCRIPTION": "The 2FA code if needed",
         "NAME": "2fa-code"
       },
-      "EMAIL": { "DESCRIPTION": "Your email", "NAME": "email" },
-      "PASSWORD": { "DESCRIPTION": "Your password", "NAME": "password" }
+      "EMAIL": {
+        "DESCRIPTION": "Your email",
+        "NAME": "email"
+      },
+      "PASSWORD": {
+        "DESCRIPTION": "Your password",
+        "NAME": "password"
+      }
     },
     "TITLE": "Login"
   },
