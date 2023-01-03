@@ -29,6 +29,11 @@
   },
   "DELETE_RESPONSE": "Delete Response",
   "ERROR": {
+    "2FA_CODE": {
+      "INVALID": "Invalid 2FA code",
+      "REQUIRED": "You need to enter your 2FA code"
+    },
+    "ALREADY_LOGGED_IN": "You are already logged in. Use {command} before using this command",
     "DEVELOPERS_ONLY": "This command can only be used by the bot developers",
     "DM": "This command cannot be used in DMs",
     "EXECUTING_INTERACTION": "An error occurred while executing this interaction",
@@ -65,7 +70,8 @@
     "COUNT": "{count, number}",
     "CREATED": "Created",
     "CURRENT": "Current",
-    "EMAIL": "Enter your email",
+    "EMAIL": "Email",
+    "ENTER_CODE": "Enter Code",
     "ERROR": "Error",
     "ID": "ID",
     "INTERACTED_BY": "Interacted by {userName}",
@@ -81,6 +87,7 @@
       }
     },
     "OUTPUT": "Output",
+    "PASSWORD": "Password",
     "REQUESTED_BY": "Requested by {userName}",
     "ROLES": "Roles",
     "SERVERS": "Servers",
@@ -308,15 +315,10 @@
         "DESCRIPTION": "The 2FA code if needed",
         "NAME": "2fa-code"
       },
-      "EMAIL": {
-        "DESCRIPTION": "Your email",
-        "NAME": "email"
-      },
-      "PASSWORD": {
-        "DESCRIPTION": "Your password",
-        "NAME": "password"
-      }
-    }
+      "EMAIL": { "DESCRIPTION": "Your email", "NAME": "email" },
+      "PASSWORD": { "DESCRIPTION": "Your password", "NAME": "password" }
+    },
+    "TITLE": "Login"
   },
   "LOGOUT": {
     "DESCRIPTION": "Logout from your account",
