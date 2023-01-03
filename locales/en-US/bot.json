@@ -210,6 +210,7 @@
       "TITLE": "Tutorial"
     }
   },
+
   "OWNER": {
     "DESCRIPTION": "Bot owner only commands",
     "NAME": "owner",
@@ -303,14 +304,8 @@
     "DESCRIPTION": "Login to your account",
     "NAME": "login",
     "OPTIONS": {
-      "EMAIL": {
-        "DESCRIPTION": "Your email",
-        "NAME": "email"
-      },
-      "PASSWORD": {
-        "DESCRIPTION": "Your password",
-        "NAME": "password"
-      }
+      "EMAIL": { "DESCRIPTION": "Your email", "NAME": "email" },
+      "PASSWORD": { "DESCRIPTION": "Your password", "NAME": "password" }
     }
   },
   "LOGOUT": {
