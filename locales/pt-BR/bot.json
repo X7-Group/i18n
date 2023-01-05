@@ -31,15 +31,16 @@
   "ERROR": {
     "2FA_CODE": {
       "INVALID": "Invalid 2FA code",
-      "REQUIRED": "You need to enter your 2FA code"
+      "REQUIRED": "You need to enter the 2FA code"
     },
     "ALREADY_LOGGED_IN": "You are already logged in. Use {command} before using this command",
     "DEVELOPERS_ONLY": "Este comando só pode ser usado pelos desenvolvedores do bot",
     "DM": "Esse comando não pode ser usado em DMs",
     "EXECUTING_INTERACTION": "Ocorreu um erro ao executar esta interação",
     "FETCHING": {
-      "BALANCE": "Couldn't fetch your balance",
-      "LOGIN": "Unexpected error while logging in"
+      "BALANCE": "Unexpected error while fetching your balance",
+      "LOGIN": "Unexpected error while logging in",
+      "TOP_TRADES": "Unexpected error while fetching top trades"
     },
     "GUILD_NOT_FOUND": "Servidor não encontrado",
     "INVALID_CRYPTOCURRENCY": "Criptomoeda inválida",
@@ -215,7 +216,7 @@
       "TITLE": "Planejamento"
     },
     "TUTORIAL": {
-      "DESCRIPTION": "{journeyEmj} Bem-vindo ao Universo X7, inicie sua jornada aqui!\n\n• [Como se cadastrar na X7 Exchange?](https://t.me/xiglutecoinbr/106015)\n• [Como depositar moedas fiduciárias na X7 Exchange?](https://t.me/xiglutecoinbr/106017)\n• [Como comprar XGC na X7 Exchange?](https://t.me/xiglutecoinbr/106022)\n• [Como comprar X7C na X7 Exchange?](https://t.me/xiglutecoinbr/114788)\n• [Como negociar XGC com outra criptomoeda na X7 Exchange?](https://t.me/xiglutecoinbr/106071)\n• [Como negociar XGC por X7C na X7 Exchange?](https://t.me/xiglutecoinbr/114367)\n• [Como validar a conta na X7 Exchange - KYC?](https://t.me/xiglutecoinbr/106024)\n• [Como criar senha de fundos na X7 Exchange?](https://t.me/xiglutecoinbr/106055)\n• [Como redefinir minha senha de acesso na X7 Exchange?](https://t.me/xiglutecoinbr/106026)\n• [Como habilitar o Google Authenticator – 2FA na X7 Exchange?](https://t.me/xiglutecoinbr/106027)\n• [Como transferir criptoativos XGC da Trust Wallet - MetaMask para sua carteira X7 Exchange?](https://t.me/xiglutecoinbr/106663)\n• [Como transferir criptoativos X7C da TronLink para sua carteira na X7 Exchange?](https://t.me/xiglutecoinbr/114339)\n• [Como sacar moedas fiduciárias na X7 Exchange?](https://t.me/xiglutecoinbr/106028)\n• [Como sacar criptomoedas na X7 Exchange?](https://t.me/xiglutecoinbr/106051)\n• [Como receber criptomoedas gratuitamente na X7 Exchange?](https://t.me/xiglutecoinbr/106056)\n• [Como depositar criptomoedas para sua carteira na X7 Exchange?](https://t.me/xiglutecoinbr/106057)\n• [Como abrir ordem de venda na X7 Exchange?](https://t.me/xiglutecoinbr/106077)\n• [Como alterar o gráfico na X7 Exchange – TradingView?](https://t.me/xiglutecoinbr/114796)\n• [Como colocar meus saldos em staking na X7 Exchange?](https://t.me/xiglutecoinbr/106078)\n• [Como calcular os ganhos mensais das opções de staking na X7 Exchange?](https://t.me/xiglutecoinbr/106336)\n• [Como encontrar o link de indicação na X7 Exchange e ganhar bonificações?](https://t.me/xiglutecoinbr/106029)\n• [Como funciona o Programa de Indicações na X7 Exchange e quais são as bonificações?](https://t.me/xiglutecoinbr/106082)\n• [Como votar nas enquetes realizadas na X7 Exchange?](https://t.me/xiglutecoinbr/120551)\n• [Como adicionar um novo contrato XGC - BEP20 – App Trust Wallet?](https://t.me/xiglutecoinbr/120905)\n• [Como funciona os Airdrops na X7 Exchange?](https://t.me/xiglutecoinbr/120987)\n• [Como funcionam as funções Limit, Market e Stop-limit?](https://t.me/xiglutecoinbr/126247)\n• [Como comprar ICO na X7 Exchange?](https://t.me/x7exchange/1500)\n• [Como funciona ICO na X7 Exchange?](https://t.me/x7exchange/1501)\n• [Como comprar XGC NFT na plataforma X7 Exchange?](https://t.me/xiglutecoinbr/122383)\n• [Descubra quais redes você precisa usar para transferir cada criptomoeda no X7 Exchange](https://t.me/xiglutecoinbr/124521)\n• [Mais dúvidas? Clique aqui!](https://t.me/xiglutecoinbr/106089)",
+      "DESCRIPTION": "Welcome to the X7 Universe, start your journey here!",
       "TITLE": "Tutorial"
     }
   },
