@@ -340,7 +340,17 @@
   },
   "LOGOUT": {
     "DESCRIPTION": "Logout from your account",
-    "NAME": "logout"
+    "NAME": "logout",
+    "OPTIONS": {
+      "X7": {
+        "DESCRIPTION": "Logout from your X7 Exchange account",
+        "NAME": "x7"
+      },
+      "XIGLUTE": {
+        "DESCRIPTION": "Logout from your Xiglute account",
+        "NAME": "xiglute"
+      }
+    }
   },
   "PERM": {
     "ADD_REACTIONS": "Add Reactions",
