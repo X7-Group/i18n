@@ -44,8 +44,10 @@
     },
     "GUILD_NOT_FOUND": "Servidor não encontrado",
     "INVALID_CRYPTOCURRENCY": "Criptomoeda inválida",
-    "LOGIN_REQUIRED": "You need to be logged in to use this command. Use {command} to do so",
-    "NOT_LOGGED_IN": "You are not logged in. Use {command} to do so",
+    "LOGIN_REQUIRED": {
+      "X7": "You need to be logged in with your X7 Exchange account to use this command.\nUse {command} to do so",
+      "XIGLUTE": "You need to be logged in with your Xiglute account to use this command.\nUse {command} to do so"
+    },
     "PRICE_NOT_FOUND": "Preço para {cryptocurrency} não encontrado",
     "RELOADING_APPLICATION_COMMAND": "Ocorreu um erro ao recarregar um comando da aplicação",
     "TIMED_OUT": "Tempo esgotado",
@@ -324,6 +326,14 @@
       "PASSWORD": {
         "DESCRIPTION": "Your password",
         "NAME": "password"
+      },
+      "X7": {
+        "DESCRIPTION": "Login to your X7 Exchange account",
+        "NAME": "x7"
+      },
+      "XIGLUTE": {
+        "DESCRIPTION": "Login to your Xiglute account",
+        "NAME": "xiglute"
       }
     },
     "TITLE": "Login"
