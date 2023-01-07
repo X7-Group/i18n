@@ -1,6 +1,6 @@
 {
   "BALANCE": {
-    "DESCRIPTION": "Shows all your coins' balances",
+    "DESCRIPTION": "Shows all your coins' balances on X7 Exchange",
     "NAME": "balance"
   },
   "BOT": {
@@ -40,7 +40,8 @@
     "FETCHING": {
       "BALANCE": "Unexpected error while fetching your balance",
       "LOGIN": "Unexpected error while logging in",
-      "TOP_TRADES": "Unexpected error while fetching top trades"
+      "TOP_TRADES": "Unexpected error while fetching top trades",
+      "XP_BALANCE": "Unexpected error while fetching your XP balance"
     },
     "GUILD_NOT_FOUND": "Servidor não encontrado",
     "INVALID_CRYPTOCURRENCY": "Criptomoeda inválida",
@@ -48,6 +49,7 @@
       "X7": "You need to be logged in with your X7 Exchange account to use this command.\nUse {command} to do so",
       "XIGLUTE": "You need to be logged in with your Xiglute account to use this command.\nUse {command} to do so"
     },
+    "NO_XP_BALANCE": "You don't have a XP balance",
     "PRICE_NOT_FOUND": "Preço para {cryptocurrency} não encontrado",
     "RELOADING_APPLICATION_COMMAND": "Ocorreu um erro ao recarregar um comando da aplicação",
     "TIMED_OUT": "Tempo esgotado",
@@ -79,6 +81,7 @@
     "ID": "ID",
     "INTERACTED_BY": "Interagido por {userName}",
     "LOADING": "Loading",
+    "LOGGING_IN": "Logging in",
     "MEMBERS": "Membros",
     "MENTION": "Menção",
     "MESSAGE": "Mensagem",
@@ -450,5 +453,9 @@
       }
     },
     "TITLE": "Carteira"
+  },
+  "XP": {
+    "DESCRIPTION": "Shows your XP balance on Xiglute",
+    "NAME": "xp"
   }
 }
