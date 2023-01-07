@@ -1,29 +1,55 @@
 {
+  "BALANCE": {
+    "DESCRIPTION": "Shows all your coins' balances on X7 Exchange",
+    "NAME": "balance"
+  },
   "BOT": {
     "DESCRIPTION": "Bot related commands",
     "NAME": "bot",
     "OPTIONS": {
       "INFO": {
-        "COMPONENT": {
-          "INVITE_BOT": "Invite Bot",
-          "SUPPORT_SERVER": "Support Server"
-        },
         "DESCRIPTION": "Shows information about the bot",
         "DISCORDJS_VERSION": "Discord.JS Version",
         "MEMORY_USAGE": "Memory Usage",
         "NAME": "info",
         "NODEJS_VERSION": "Node.JS Version",
-        "TITLE": "{botName}'s Info"
+        "TITLE": "Bot Information"
+      },
+      "PERMISSIONS": {
+        "DESCRIPTION": "Shows bot's required permissions status",
+        "LEGEND": {
+          "CHECK": "I have the required permission as part of my integrated role",
+          "MAYBE": "I have the required permission as part of another role or a channel overwrite",
+          "NO": "I don't have the required permission"
+        },
+        "NAME": "permissions",
+        "TITLE": "Bot Permissions"
       }
     }
   },
   "DELETE_RESPONSE": "Delete Response",
   "ERROR": {
+    "2FA_CODE": {
+      "INVALID": "Invalid 2FA code",
+      "REQUIRED": "You need to enter the 2FA code"
+    },
+    "ALREADY_LOGGED_IN": "You are already logged in. Use {command} before using this command",
     "DEVELOPERS_ONLY": "This command can only be used by the bot developers",
     "DM": "This command cannot be used in DMs",
     "EXECUTING_INTERACTION": "An error occurred while executing this interaction",
+    "FETCHING": {
+      "BALANCE": "Unexpected error while fetching your balance",
+      "LOGIN": "Unexpected error while logging in",
+      "TOP_TRADES": "Unexpected error while fetching top trades",
+      "XP_BALANCE": "Unexpected error while fetching your XP balance"
+    },
     "GUILD_NOT_FOUND": "Guild not found",
     "INVALID_CRYPTOCURRENCY": "Invalid cryptocurrency",
+    "LOGIN_REQUIRED": {
+      "X7": "You need to be logged in with your X7 Exchange account to use this command.\nUse {command} to do so",
+      "XIGLUTE": "You need to be logged in with your Xiglute account to use this command.\nUse {command} to do so"
+    },
+    "NO_XP_BALANCE": "You don't have a XP balance",
     "PRICE_NOT_FOUND": "Price for {cryptocurrency} not found",
     "RELOADING_APPLICATION_COMMAND": "An error occurred while reloading an application command",
     "TIMED_OUT": "Timed out",
@@ -35,6 +61,7 @@
     "WALLET_NOT_FOUND": "Wallet for **{cryptocurrency}** on **{network}** network not found"
   },
   "GENERIC": {
+    "2FA_CODE": "2FA Code",
     "CHANNEL": "Channel",
     "CHAT": "Chat",
     "COMMANDS": "Commands",
@@ -45,12 +72,16 @@
       "REPEAT": "Repeat"
     },
     "CONTENT": "Content",
-    "CREATION_DATE": "Creation Date",
+    "COUNT": "{count, number}",
+    "CREATED": "Created",
     "CURRENT": "Current",
-    "EMAIL": "Enter your email",
+    "EMAIL": "Email",
+    "ENTER_CODE": "Enter Code",
     "ERROR": "Error",
     "ID": "ID",
     "INTERACTED_BY": "Interacted by {userName}",
+    "LOADING": "Loading",
+    "LOGGING_IN": "Logging in",
     "MEMBERS": "Members",
     "MENTION": "Mention",
     "MESSAGE": "Message",
@@ -63,9 +94,11 @@
       }
     },
     "OUTPUT": "Output",
+    "PASSWORD": "Password",
     "REQUESTED_BY": "Requested by {userName}",
     "ROLES": "Roles",
     "SERVERS": "Servers",
+    "SHARD": "Shard",
     "SUCCESS": "Success",
     "TIME": {
       "DAYS": "{count, plural, =0 {now} one {**#** day} other {**#** days}}",
@@ -76,6 +109,7 @@
     "TIMESTAMP": "Timestamp",
     "TO": "To",
     "TOTAL": "Total",
+    "TRY_AGAIN": "Try Again",
     "TYPE": "Type",
     "UPTIME": "Uptime",
     "USER": "User",
@@ -187,22 +221,12 @@
       "TITLE": "Roadmap"
     },
     "TUTORIAL": {
-      "DESCRIPTION": "{journeyEmj} Welcome to the X7 Universe, start your journey here!\n\n• [How to change language at X7 Exchange?](https://t.me/xiglutecoin/19005)\n• [How to register at X7 Exchange?](https://t.me/xiglutecoin/19006)\n• [How to deposit fiat currencies at X7 Exchange?](https://t.me/xiglutecoin/19007)\n• [How to buy XGC at X7 Exchange?](https://t.me/xiglutecoin/19008)\n• [How to trade XGC with another cryptocurrency at X7 Exchange?](https://t.me/xiglutecoin/19009)\n• [How to buy X7C at X7 Exchange?](https://t.me/xiglutecoin/19010)\n• [How to trade XGC for X7C at X7 Exchange?](https://t.me/xiglutecoin/19011)\n• [How to validate data at X7 Exchange - KYC?](https://t.me/xiglutecoin/19012)\n• [How to create funds password at X7 Exchange?](https://t.me/xiglutecoin/19013)\n• [How to recover access password at X7 Exchange?](https://t.me/xiglutecoin/19014)\n• [How to inhabit Google Authenticator – 2FA verification at X7 Exchange?](https://t.me/xiglutecoin/19015)\n• [How to transfer XGC assets from Trust Wallet – MetaMask to X7 Exchange Wallet?](https://t.me/xiglutecoin/19017)\n• [How to transfer X7C assets from TronLink to X7 Exchange Wallet?](https://t.me/xiglutecoin/19018)\n• [How to withdraw fiat currencies at X7 Exchange?](https://t.me/xiglutecoin/19019)\n• [How to withdraw cryptocurrencies at X7 Exchange?](https://t.me/xiglutecoin/19020)\n• [How to receive cryptocurrencies for free at X7 Exchange?](https://t.me/xiglutecoin/19022)\n• [How to deposit cryptocurrencies at X7 Exchange?](https://t.me/xiglutecoin/19023)\n• [How to open a sell order at X7 Exchange?](https://t.me/xiglutecoin/19025)\n• [How to change the chart at X7 Exchange - TradingView?](https://t.me/xiglutecoin/19026)\n• [How to staking cryptocurrencies at X7 Exchange?](https://t.me/xiglutecoin/19027)\n• [How to calculate monthly earnings from staking options at X7 Exchange?](https://t.me/xiglutecoin/19029)\n• [How to find referral link at X7 Exchange?](https://t.me/xiglutecoin/19034)\n• [How does the X7 Exchange Referral Program work?](https://t.me/xiglutecoin/19035)\n• [How to vote in the poll at X7 Exchange?](https://t.me/xiglutecoin/19189)\n• [How to add XGC contract - BEP20 – App Trust Wallet?](https://t.me/xiglutecoin/19227)\n• [How Airdrop works at X7 Exchange](https://t.me/xiglutecoin/19229)\n• [More questions? Click here!](https://t.me/xiglutecoin/19036)",
+      "DESCRIPTION": "Welcome to the X7 Universe, start your journey here!",
       "TITLE": "Tutorial"
     }
   },
   "OWNER": {
     "DESCRIPTION": "Bot owner only commands",
-    "INTERACTION": {
-      "COMMANDS": {
-        "DELETED": "Deleted Commands",
-        "GLOBAL": "Global Commands",
-        "GUILD": "Guild Commands",
-        "SPECIFIED_GUILD": "{guildName}'s Guild Commands",
-        "UPDATED": "Updated Commands"
-      },
-      "NO_UPDATE": "No commands have been updated"
-    },
     "NAME": "owner",
     "OPTIONS": {
       "EVAL": {
@@ -223,16 +247,24 @@
           }
         }
       },
-      "INTERACTION": {
+      "COMMAND": {
+        "COMMANDS": {
+          "DELETED": "Deleted Commands",
+          "GLOBAL": "Global Commands",
+          "GUILD": "Guild Commands",
+          "SPECIFIED_GUILD": "{guildName}'s Guild Commands",
+          "UPDATED": "Updated Commands"
+        },
         "DESCRIPTION": "Configures commands (Bot owner only)",
         "NAME": "command",
+        "NO_UPDATE": "No commands have been updated",
         "OPTIONS": {
           "UPDATE": {
             "DESCRIPTION": "Updates bot commands (Bot owner only)",
             "NAME": "update",
             "OPTIONS": {
               "GUILD": {
-                "DESCRIPTION": "The guild the command is at (Default: Current guild)",
+                "DESCRIPTION": "The guild the command is at (Default: Invoked guild)",
                 "NAME": "guild"
               },
               "ID": {
@@ -242,6 +274,18 @@
             }
           }
         }
+      },
+      "LOCALIZATION": {
+        "NAME": "localization",
+        "DESCRIPTION": "Configures localizations (Bot owner only)",
+        "OPTIONS": {
+          "UPDATE": {
+            "NAME": "update",
+            "DESCRIPTION": "Updates localizations (Bot owner only)"
+          }
+        },
+        "UPDATED": "Updated localizations",
+        "UPDATING": "Updating localizations"
       },
       "SHARD": {
         "DESCRIPTION": "Configures shards (Bot owner only)",
@@ -265,11 +309,50 @@
               }
             }
           }
-        }
+        },
+        "RESPAWNING": "Respawning all shards"
+      }
+    }
+  },
+  "LOGIN": {
+    "DESCRIPTION": "Login to your account",
+    "NAME": "login",
+    "OPTIONS": {
+      "2FA_CODE": {
+        "DESCRIPTION": "The 2FA code if needed",
+        "NAME": "2fa-code"
+      },
+      "EMAIL": {
+        "DESCRIPTION": "Your email",
+        "NAME": "email"
+      },
+      "PASSWORD": {
+        "DESCRIPTION": "Your password",
+        "NAME": "password"
+      },
+      "X7": {
+        "DESCRIPTION": "Login to your X7 Exchange account",
+        "NAME": "x7"
+      },
+      "XIGLUTE": {
+        "DESCRIPTION": "Login to your Xiglute account",
+        "NAME": "xiglute"
       }
     },
-    "SHARD": {
-      "RESPAWNING": "Respawning all shards"
+    "TITLE": "Login"
+  },
+  "LOGOUT": {
+    "DESCRIPTION": "Logout from your account",
+    "NAME": "logout",
+    "OPTIONS": {
+      "X7": {
+        "DESCRIPTION": "Logout from your X7 Exchange account",
+        "NAME": "x7"
+      },
+      "XIGLUTE": {
+        "DESCRIPTION": "Logout from your Xiglute account",
+        "NAME": "xiglute"
+      }
     }
   },
   "PERM": {
@@ -330,7 +413,7 @@
   "PRICE": {
     "DESCRIPTION": "Shows the current price of a cryptocurrency",
     "EMBED": {
-      "DESCRIPTION": "The current price of **{cryptocurrency}** is: `{price, number, ::currency/USD .00000000}`"
+      "DESCRIPTION": "The current price of **{cryptocurrency}** is: `{price, number, ::currency/USD.00000000}`"
     },
     "NAME": "price",
     "OPTIONS": {
@@ -341,10 +424,16 @@
     },
     "TITLE": "Price"
   },
-  "PROFILE": {
-    "LOGIN": {
-      "PASSWORD": "Enter your password",
-      "TITLE": "Login"
+  "TOP": {
+    "DESCRIPTION": "Ranking related commands",
+    "NAME": "top",
+    "OPTIONS": {
+      "TRADES": {
+        "DESCRIPTION": "Shows the top trades at X7",
+        "NAME": "trades",
+        "TITLE": "Top Trades",
+        "PRICE": "`BRL {price, number, .00}`"
+      }
     }
   },
   "WALLET": {
@@ -364,5 +453,9 @@
       }
     },
     "TITLE": "Wallet"
+  },
+  "XP": {
+    "DESCRIPTION": "Shows your XP balance on Xiglute",
+    "NAME": "xp"
   }
 }
