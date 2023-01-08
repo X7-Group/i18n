@@ -39,15 +39,15 @@
     "EXECUTING_INTERACTION": "Ocorreu um erro ao executar esta interação",
     "FETCHING": {
       "BALANCE": "Unexpected error while fetching your balance",
-      "LOGIN": "Unexpected error while logging in",
+      "LOGIN": "Erro inesperado ao logar",
       "TOP_TRADES": "Unexpected error while fetching top trades",
       "XP_BALANCE": "Unexpected error while fetching your XP balance"
     },
     "GUILD_NOT_FOUND": "Servidor não encontrado",
     "INVALID_CRYPTOCURRENCY": "Criptomoeda inválida",
     "LOGIN_REQUIRED": {
-      "X7": "You need to be logged in with your X7 Exchange account to use this command.\nUse {command} to do so",
-      "XIGLUTE": "You need to be logged in with your Xiglute account to use this command.\nUse {command} to do so"
+      "X7": "Você precisa estar logado com sua conta da X7 Exchange para usar este comando.\nUse {command} para fazer isso",
+      "XIGLUTE": "Você precisa estar logado com sua conta do Xiglute para usar este comando.\nUse {command} para fazer isso"
     },
     "NO_XP_BALANCE": "You don't have a XP balance",
     "PRICE_NOT_FOUND": "Preço para {cryptocurrency} não encontrado",
@@ -316,11 +316,11 @@
   },
   "LOGIN": {
     "DESCRIPTION": "Login to your account",
-    "NAME": "login",
+    "NAME": "logar",
     "OPTIONS": {
       "2FA_CODE": {
-        "DESCRIPTION": "The 2FA code if needed",
-        "NAME": "2fa-code"
+        "DESCRIPTION": "O código 2FA, caso necessário",
+        "NAME": "código-2fa"
       },
       "EMAIL": {
         "DESCRIPTION": "Your email",
@@ -328,14 +328,14 @@
       },
       "PASSWORD": {
         "DESCRIPTION": "Your password",
-        "NAME": "password"
+        "NAME": "senha"
       },
       "X7": {
-        "DESCRIPTION": "Login to your X7 Exchange account",
+        "DESCRIPTION": "Loga na sua conta da X7 Exchange",
         "NAME": "x7"
       },
       "XIGLUTE": {
-        "DESCRIPTION": "Login to your Xiglute account",
+        "DESCRIPTION": "Loga na sua conta do Xiglute",
         "NAME": "xiglute"
       }
     },
