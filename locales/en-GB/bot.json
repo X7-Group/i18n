@@ -413,7 +413,7 @@
   "PRICE": {
     "DESCRIPTION": "Shows the current price of a cryptocurrency",
     "EMBED": {
-      "DESCRIPTION": "The current price of **{cryptocurrency}** is: `{price, number, ::currency/USD.00000000}`"
+      "DESCRIPTION": "The current price of **{cryptocurrency}** is: `{price, number, ::currency/USD .00000000}`"
     },
     "NAME": "price",
     "OPTIONS": {
@@ -455,7 +455,7 @@
     "TITLE": "Wallet"
   },
   "XP": {
-    "DESCRIPTION": "Shows your XP balance on Xiglute",
+    "DESCRIPTION": "Shows your Xiglute Points balance",
     "NAME": "xp"
   }
 }
