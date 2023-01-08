@@ -342,15 +342,15 @@
     "TITLE": "Login"
   },
   "LOGOUT": {
-    "DESCRIPTION": "Sai de sua conta",
-    "NAME": "sair",
+    "DESCRIPTION": "Desloga de sua conta",
+    "NAME": "deslogar",
     "OPTIONS": {
       "X7": {
-        "DESCRIPTION": "Sai de sua conta da X7 Exchange",
+        "DESCRIPTION": "Desloga de sua conta da X7 Exchange",
         "NAME": "x7"
       },
       "XIGLUTE": {
-        "DESCRIPTION": "Sai de sua conta do Xiglute",
+        "DESCRIPTION": "Desloga de sua conta do Xiglute",
         "NAME": "xiglute"
       }
     }
