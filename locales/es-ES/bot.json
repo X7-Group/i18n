@@ -413,7 +413,7 @@
   "PRICE": {
     "DESCRIPTION": "Muestra el precio actual de una criptomoneda",
     "EMBED": {
-      "DESCRIPTION": "The current price of **{cryptocurrency}** is: `{price, number, ::currency/USD.00000000}`"
+      "DESCRIPTION": "The current price of **{cryptocurrency}** is: `{price, number, ::currency/USD .00000000}`"
     },
     "NAME": "precio",
     "OPTIONS": {
@@ -455,7 +455,7 @@
     "TITLE": "Cartera"
   },
   "XP": {
-    "DESCRIPTION": "Shows your XP balance on Xiglute",
+    "DESCRIPTION": "Shows your Xiglute Points balance",
     "NAME": "xp"
   }
 }
