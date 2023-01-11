@@ -62,22 +62,22 @@
   },
   "GENERIC": {
     "2FA_CODE": "2FA Code",
+    "BACK": "Back",
     "CHANNEL": "Canal",
     "CHAT": "Chat",
     "COMMANDS": "Comandos",
-    "COMPONENT": {
-      "BACK": "Voltar",
-      "FIX_PERMISSIONS": "Corrigir Permissões",
-      "MESSAGE_DELETE": "Excluir Mensagem",
-      "REPEAT": "Repetir"
-    },
     "CONTENT": "Conteúdo",
     "COUNT": "{count, number}",
     "CREATED": "Created",
+    "PRICES": {
+      "BRL": "{price, number, ::currency/BRL}",
+      "USD": "{price, number, ::currency/USD}"
+    },
     "CURRENT": "Atual",
     "EMAIL": "Email",
     "ENTER_CODE": "Enter Code",
     "ERROR": "Erro",
+    "FIX_PERMISSIONS": "Fix Permissions",
     "ID": "ID",
     "INTERACTED_BY": "Interagido por {userName}",
     "LOADING": "Loading",
@@ -85,6 +85,7 @@
     "MEMBERS": "Membros",
     "MENTION": "Menção",
     "MESSAGE": "Mensagem",
+    "MESSAGE_DELETE": "Delete Message",
     "NAME": "Nome",
     "NO": "Não",
     "OPTIONS": {
@@ -95,6 +96,7 @@
     },
     "OUTPUT": "Saída",
     "PASSWORD": "Password",
+    "REPEAT": "Repeat",
     "REQUESTED_BY": "Solicitado por {userName}",
     "ROLES": "Cargos",
     "SERVERS": "Servidores",
