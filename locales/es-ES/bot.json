@@ -40,6 +40,8 @@
     "FETCHING": {
       "BALANCE": "Unexpected error while fetching your balance",
       "LOGIN": "Error inesperado al entrar",
+      "ORDER": "Unexpected error while fetching order",
+      "ORDER_LIST": "Unexpected error while fetching order list",
       "TOP_TRADES": "Unexpected error while fetching top trades",
       "XP_BALANCE": "Error inesperado al obtener su saldo de XP"
     },
@@ -50,6 +52,7 @@
       "XIGLUTE": "Debe iniciar sesión con su cuenta de Xiglute para usar este comando.\nUsa {command} para hacer esto"
     },
     "NO_XP_BALANCE": "You don't have a XP balance",
+    "NOT_ORDER_OWNER": "You are not the owner of this order",
     "PRICE_NOT_FOUND": "Precio para {cryptocurrency} no encontrado",
     "RELOADING_APPLICATION_COMMAND": "Ocurrió un error al recargar cargar un comando de la aplicación",
     "TIMED_OUT": "Tiempo agotado",
@@ -62,13 +65,17 @@
   },
   "GENERIC": {
     "2FA_CODE": "2FA Code",
+    "ADDRESS": "Address",
     "BACK": "Back",
+    "CITY": "City",
     "CHANNEL": "Canal",
     "CHAT": "Chat",
     "COMMANDS": "Comandos",
     "CONTENT": "Contenido",
     "COUNT": "{count, number}",
+    "COUNTRY": "Country",
     "CREATED": "Created",
+    "CREATION_DATE": "Creation Date",
     "PRICES": {
       "BRL": "{price, number, ::currency/BRL}",
       "USD": "{price, number, ::currency/USD}"
@@ -78,8 +85,11 @@
     "ENTER_CODE": "Enter Code",
     "ERROR": "Error",
     "FIX_PERMISSIONS": "Fix Permissions",
+    "FULL_NAME": "Full Name",
     "ID": "ID",
     "INTERACTED_BY": "Interactuado por {userName}",
+    "ITEM_ID": "Item ID",
+    "ITEM_PRICE": "Item Price",
     "LOADING": "Loading",
     "LOGGING_IN": "Logging in",
     "MEMBERS": "Miembros",
@@ -94,14 +104,30 @@
         "NAME": "efímero"
       }
     },
+    "ORDER_ID": "Order ID",
+    "ORDER_INFO": "Order Information",
+    "ORDER_LIST": "Order List",
     "OUTPUT": "Salida",
     "PASSWORD": "Password",
+    "PAYMENT_DATE": "Payment Date",
+    "PAYPAL_BIRTHDATE": "Paypal / Birthdate",
+    "PHONE": "Phone",
+    "PRICE": "Price",
     "REPEAT": "Repeat",
     "REQUESTED_BY": "Solicitado por {userName}",
     "ROLES": "Roles",
     "SERVERS": "Servidores",
     "SHARD": "Shard",
+    "SHIPPING": {
+      "DETAILS": "Shipping Details",
+      "DOCUMENT": "Document Passport",
+      "ID": "Shipping ID",
+      "PRICE": "Shipping Price"
+    },
+    "STATE": "State",
+    "STATUS": "Status",
     "SUCCESS": "Éxito",
+    "TAX_PRICE": "Tax Price",
     "TIME": {
       "DAYS": "{count, plural, =0 {ahora} one {**#** día} other {**#** días}}",
       "HOURS": "{count, plural, =0 {ahora} one {**#** hora} other {**#** horas}}",
@@ -111,15 +137,19 @@
     "TIMESTAMP": "Timestamp",
     "TO": "Para",
     "TOTAL": "Total",
+    "TOTAL_PRICE": "Total Price",
     "TRY_AGAIN": "Try Again",
     "TYPE": "Tipo",
     "UPTIME": "Tiempo de Actividad",
     "USER": "Usuario",
+    "USER_ID": "User ID",
     "WARNING": "Advertencia",
     "WIP": "Trabajo en Progreso",
     "WIP_COMMAND": "Este comando está actualmente en desarrollo",
     "WIP_FUNCTION": "Esta función está actualmente en desarrollo",
-    "YES": "Sí"
+    "PIX_XIGLUTE_CARD_POINTS": "Pix / Xiglute Card Points",
+    "YES": "Sí",
+    "ZIP_CODE": "Zip Code"
   },
   "HELP": {
     "COMPONENT": {
