@@ -73,6 +73,14 @@
     "DEVELOPERS_ONLY": "This command can only be used by the bot developers",
     "DM": "This command cannot be used in DMs",
     "EXECUTING_INTERACTION": "An error occurred while executing this interaction",
+    "EMPTY_ORDER_LIST": {
+      "ALL": "There are no orders",
+      "ALL_STATUS": "There are no orders with the status `{status}`",
+      "TARGET": "This user doesn't have any orders",
+      "TARGET_STATUS": "This user doesn't have any orders with the status `{status}`",
+      "TRIGGER": "You don't have any orders",
+      "TRIGGER_STATUS": "You don't have any orders `{status}`"
+    },
     "FETCHING": {
       "BALANCE": "Unexpected error while fetching your balance",
       "LOGIN": "Unexpected error while logging in",
@@ -89,6 +97,7 @@
     },
     "NO_XP_BALANCE": "You don't have a XP balance",
     "NOT_ORDER_OWNER": "You are not the owner of this order",
+    "ORDER_NOT_FOUND": "Order not found",
     "PRICE_NOT_FOUND": "Price for {cryptocurrency} not found",
     "RELOADING_APPLICATION_COMMAND": "An error occurred while reloading an application command",
     "TIMED_OUT": "Timed out",
@@ -425,7 +434,7 @@
   },
   "ORDER": {
     "COMPONENT": {
-      "LIST:": "List Orders"
+      "LIST": "List Orders"
     },
     "DESCRIPTION": "Xiglute orders related commands",
     "NAME": "order",
