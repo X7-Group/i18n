@@ -1,4 +1,40 @@
 {
+  "ADMIN": {
+    "DESCRIPTION": "Admin only commands",
+    "NAME": "admin",
+    "OPTIONS": {
+      "ORDER": {
+        "DESCRIPTION": "Xiglute orders related admin commands",
+        "NAME": "order",
+        "OPTIONS": {
+          "INFO": {
+            "DESCRIPTION": "Shows information about an order on Xiglute",
+            "NAME": "info",
+            "OPTIONS": {
+              "ORDER_ID": {
+                "DESCRIPTION": "The order's ID",
+                "NAME": "order-id"
+              }
+            }
+          },
+          "LIST": {
+            "DESCRIPTION": "Lists all orders on Xiglute",
+            "NAME": "list",
+            "OPTIONS": {
+              "STATUS": {
+                "DESCRIPTION": "Filter orders with an specific status",
+                "NAME": "status"
+              },
+              "USER_ID": {
+                "DESCRIPTION": "Filter orders from an specific user",
+                "NAME": "user-id"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "BALANCE": {
     "DESCRIPTION": "Mostra todos os saldos de suas moedas na X7 Exchange",
     "NAME": "saldos"
@@ -300,7 +336,7 @@
                 "NAME": "guild"
               },
               "ID": {
-                "DESCRIPTION": "ID of a specific command (Default: All commands)",
+                "DESCRIPTION": "ID of an specific command (Default: All commands)",
                 "NAME": "id"
               }
             }
@@ -387,6 +423,32 @@
       }
     }
   },
+  "ORDER": {
+    "DESCRIPTION": "Xiglute orders related commands",
+    "NAME": "order",
+    "OPTIONS": {
+      "INFO": {
+        "DESCRIPTION": "Shows information about an order on Xiglute",
+        "NAME": "info",
+        "OPTIONS": {
+          "ORDER_ID": {
+            "DESCRIPTION": "The order's ID",
+            "NAME": "order-id"
+          }
+        }
+      },
+      "LIST": {
+        "DESCRIPTION": "Lists all of your orders on Xiglute",
+        "NAME": "list",
+        "OPTIONS": {
+          "STATUS": {
+            "DESCRIPTION": "Filter orders with an specific status",
+            "NAME": "status"
+          }
+        }
+      }
+    }
+  },
   "PERM": {
     "ADD_REACTIONS": "Adicionar Reações",
     "ADMINISTRATOR": "Administrador",
@@ -455,6 +517,13 @@
       }
     },
     "TITLE": "Preço"
+  },
+  "STATUS": {
+    "CANCELLED": "Cancelled",
+    "COMPLETED": "Completed",
+    "DELIVERED": "Delivered",
+    "INITIAL": "Initial",
+    "SHIPPING": "Shipping"
   },
   "TOP": {
     "DESCRIPTION": "Ranking related commands",
