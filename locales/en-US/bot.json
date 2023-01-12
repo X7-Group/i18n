@@ -4,7 +4,6 @@
     "NAME": "admin",
     "OPTIONS": {
       "ORDER": {
-        "COMPONENT": { "LIST:": "List Orders" },
         "DESCRIPTION": "Xiglute orders related admin commands",
         "NAME": "order",
         "OPTIONS": {
@@ -425,6 +424,7 @@
     }
   },
   "ORDER": {
+    "COMPONENT": { "LIST:": "List Orders" },
     "DESCRIPTION": "Xiglute orders related commands",
     "NAME": "order",
     "OPTIONS": {
