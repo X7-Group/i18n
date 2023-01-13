@@ -121,10 +121,6 @@
     "COUNTRY": "Country",
     "CREATED": "Created",
     "CREATION_DATE": "Creation Date",
-    "PRICES": {
-      "BRL": "{price, number, ::currency/BRL}",
-      "USD": "{price, number, ::currency/USD}"
-    },
     "CURRENT": "Atual",
     "EMAIL": "Email",
     "ENTER_CODE": "Enter Code",
@@ -158,6 +154,11 @@
     "PAYPAL_BIRTHDATE": "Paypal / Birthdate",
     "PHONE": "Phone",
     "PRICE": "Price",
+    "PRICE_FORMAT": {
+      "BRL": "{price, number, ::currency/BRL}",
+      "USD": "{price, number, ::currency/USD}",
+      "USD_CRYPTO": "{price, number, ::currency/USD .00000000#####}"
+    },
     "REPEAT": "Repeat",
     "REQUESTED_BY": "Solicitado por {userName}",
     "ROLES": "Cargos",
@@ -519,7 +520,7 @@
   "PRICE": {
     "DESCRIPTION": "Mostra o preço atual de uma criptomoeda",
     "EMBED": {
-      "DESCRIPTION": "O preço atual de **{cryptocurrency}** é: `{price, number, ::currency/USD .00000000}`"
+      "DESCRIPTION": "The current price of **{cryptocurrency}** is: `{price}`"
     },
     "NAME": "preço",
     "OPTIONS": {
