@@ -73,6 +73,7 @@
     "DEVELOPERS_ONLY": "This command can only be used by the bot developers",
     "DM": "This command cannot be used in DMs",
     "EXECUTING_INTERACTION": "An error occurred while executing this interaction",
+    "EMPTY_BALANCE": "You don't have any coins",
     "EMPTY_ORDER_LIST": {
       "ALL": "There are no orders",
       "ALL_STATUS": "There are no orders with the status `{status}`",
@@ -95,6 +96,7 @@
       "X7": "You need to be logged in with your X7 Exchange account to use this command.\nUse {command} to do so",
       "XIGLUTE": "You need to be logged in with your Xiglute account to use this command.\nUse {command} to do so"
     },
+    "NO_ASSOCIATED_SCRIPT": "This interaction doesn't have an associated script",
     "NO_XP_BALANCE": "You don't have a XP balance",
     "NOT_ORDER_OWNER": "You are not the owner of this order",
     "ORDER_NOT_FOUND": "Order not found",
@@ -436,7 +438,9 @@
     }
   },
   "ORDER": {
-    "COMPONENT": { "LIST": "List Orders" },
+    "COMPONENT": {
+      "LIST": "List Orders"
+    },
     "DESCRIPTION": "Xiglute orders related commands",
     "NAME": "order",
     "OPTIONS": {
