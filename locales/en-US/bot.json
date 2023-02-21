@@ -436,9 +436,7 @@
     }
   },
   "ORDER": {
-    "COMPONENT": {
-      "LIST": "List Orders"
-    },
+    "COMPONENT": { "LIST": "List Orders" },
     "DESCRIPTION": "Xiglute orders related commands",
     "NAME": "order",
     "OPTIONS": {
