@@ -118,6 +118,7 @@
     "COMMANDS": "Commands",
     "CONTENT": "Content",
     "COUNT": "{count, number}",
+    "COUNT_CRYPTO": "{count, number, .00000000#####}",
     "COUNTRY": "Country",
     "CREATED": "Created",
     "CREATION_DATE": "Creation Date",
