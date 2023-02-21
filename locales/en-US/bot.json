@@ -156,6 +156,7 @@
     "PRICE": "Price",
     "PRICE_FORMAT": {
       "BRL": "{price, number, ::currency/BRL}",
+      "BRL_CRYPTO": "{price, number, ::currency/BRL .00000000#####}",
       "USD": "{price, number, ::currency/USD}",
       "USD_CRYPTO": "{price, number, ::currency/USD .00000000#####}"
     },
