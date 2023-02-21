@@ -156,6 +156,7 @@
     "PRICE": "Price",
     "PRICE_FORMAT": {
       "BRL": "{price, number, ::currency/BRL}",
+      "BRL_CRYPTO": "{price, number, ::currency/BRL .00000000#####}",
       "USD": "{price, number, ::currency/USD}",
       "USD_CRYPTO": "{price, number, ::currency/USD .00000000#####}"
     },
@@ -434,7 +435,9 @@
     }
   },
   "ORDER": {
-    "COMPONENT": { "LIST": "List Orders" },
+    "COMPONENT": {
+      "LIST": "List Orders"
+    },
     "DESCRIPTION": "Xiglute orders related commands",
     "NAME": "order",
     "OPTIONS": {
@@ -518,7 +521,7 @@
   "PRICE": {
     "DESCRIPTION": "Shows the current price of a cryptocurrency",
     "EMBED": {
-      "DESCRIPTION": "The current price of **{cryptocurrency}** is: `{price}`"
+      "DESCRIPTION": "The current price of **{cryptocurrency}** is: `{price, number, ::currency/USD .00000000#####}`"
     },
     "NAME": "price",
     "OPTIONS": {
