@@ -73,6 +73,7 @@
     "DEVELOPERS_ONLY": "Este comando sólo puede ser usado por los desarrolladores del bot",
     "DM": "Este comando no se puede utilizar en DM",
     "EXECUTING_INTERACTION": "Se produjo un error al ejecutar esta interacción",
+    "EMPTY_BALANCE": "You don't have any coins",
     "EMPTY_ORDER_LIST": {
       "ALL": "There are no orders",
       "ALL_STATUS": "There are no orders with the status `{status}`",
@@ -95,6 +96,7 @@
       "X7": "Debe iniciar sesión con su cuenta de X7 Exchange para usar este comando.\nUsa {command} para hacer esto",
       "XIGLUTE": "Debe iniciar sesión con su cuenta de Xiglute para usar este comando.\nUsa {command} para hacer esto"
     },
+    "NO_ASSOCIATED_SCRIPT": "This interaction doesn't have an associated script",
     "NO_XP_BALANCE": "You don't have a XP balance",
     "NOT_ORDER_OWNER": "You are not the owner of this order",
     "ORDER_NOT_FOUND": "Order not found",
