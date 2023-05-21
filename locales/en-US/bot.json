@@ -35,6 +35,18 @@
       }
     }
   },
+  "ANNUAL_REPORT": {
+    "DESCRIPTION": "Generates a PDF with the annual report",
+    "NAME": "annual-report",
+    "OPTIONS": {
+      "YEAR": {
+        "DESCRIPTION": "The year of the report",
+        "NAME": "year"
+      }
+    },
+    "REPORT_DESCRIPTION": "In this report you have access to the amount of each crypto asset held on {startDate} and {endDate}, average price and total cost of acquisition of these assets. In addition, if the amounts in reais (BRL) held in your account on {startDate} and {endDate} are not reset, you will also have access to them.",
+    "TITLE": "Annual Report"
+  },
   "BALANCE": {
     "DESCRIPTION": "Shows all your coins' balances on X7 Exchange",
     "NAME": "balance"
@@ -438,7 +450,9 @@
     }
   },
   "ORDER": {
-    "COMPONENT": { "LIST": "List Orders" },
+    "COMPONENT": {
+      "LIST": "List Orders"
+    },
     "DESCRIPTION": "Xiglute orders related commands",
     "NAME": "order",
     "OPTIONS": {
