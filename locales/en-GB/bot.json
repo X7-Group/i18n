@@ -1,4 +1,52 @@
 {
+  "ADMIN": {
+    "DESCRIPTION": "Admin only commands",
+    "NAME": "admin",
+    "OPTIONS": {
+      "ORDER": {
+        "DESCRIPTION": "Xiglute orders related admin commands",
+        "NAME": "order",
+        "OPTIONS": {
+          "INFO": {
+            "DESCRIPTION": "Shows information about an order on Xiglute",
+            "NAME": "info",
+            "OPTIONS": {
+              "ORDER_ID": {
+                "DESCRIPTION": "The order's ID",
+                "NAME": "order-id"
+              }
+            }
+          },
+          "LIST": {
+            "DESCRIPTION": "Lists all orders on Xiglute",
+            "NAME": "list",
+            "OPTIONS": {
+              "STATUS": {
+                "DESCRIPTION": "Filter orders with an specific status",
+                "NAME": "status"
+              },
+              "USER_ID": {
+                "DESCRIPTION": "Filter orders from an specific user",
+                "NAME": "user-id"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "ANNUAL_REPORT": {
+    "DESCRIPTION": "Generates a PDF with the annual report",
+    "NAME": "annual-report",
+    "OPTIONS": {
+      "YEAR": {
+        "DESCRIPTION": "The year of the report",
+        "NAME": "year"
+      }
+    },
+    "REPORT_DESCRIPTION": "In this report you have access to the amount of each crypto asset held on {startDate} and {endDate}, average price and total cost of acquisition of these assets. In addition, if the amounts in reais (BRL) held in your account on {startDate} and {endDate} are not reset, you will also have access to them.",
+    "TITLE": "Annual Report"
+  },
   "BALANCE": {
     "DESCRIPTION": "Shows all your coins' balances on X7 Exchange",
     "NAME": "balance"
@@ -37,9 +85,20 @@
     "DEVELOPERS_ONLY": "This command can only be used by the bot developers",
     "DM": "This command cannot be used in DMs",
     "EXECUTING_INTERACTION": "An error occurred while executing this interaction",
+    "EMPTY_BALANCE": "You don't have any coins",
+    "EMPTY_ORDER_LIST": {
+      "ALL": "There are no orders",
+      "ALL_STATUS": "There are no orders with the status `{status}`",
+      "TARGET": "This user doesn't have any orders",
+      "TARGET_STATUS": "This user doesn't have any orders with the status `{status}`",
+      "TRIGGER": "You don't have any orders",
+      "TRIGGER_STATUS": "You don't have any orders `{status}`"
+    },
     "FETCHING": {
       "BALANCE": "Unexpected error while fetching your balance",
       "LOGIN": "Unexpected error while logging in",
+      "ORDER": "Unexpected error while fetching order",
+      "ORDER_LIST": "Unexpected error while fetching order list",
       "TOP_TRADES": "Unexpected error while fetching top trades",
       "XP_BALANCE": "Unexpected error while fetching your XP balance"
     },
@@ -49,7 +108,10 @@
       "X7": "You need to be logged in with your X7 Exchange account to use this command.\nUse {command} to do so",
       "XIGLUTE": "You need to be logged in with your Xiglute account to use this command.\nUse {command} to do so"
     },
+    "NO_ASSOCIATED_SCRIPT": "This interaction doesn't have an associated script",
     "NO_XP_BALANCE": "You don't have a XP balance",
+    "NOT_ORDER_OWNER": "You are not the owner of this order",
+    "ORDER_NOT_FOUND": "Order not found",
     "PRICE_NOT_FOUND": "Price for {cryptocurrency} not found",
     "RELOADING_APPLICATION_COMMAND": "An error occurred while reloading an application command",
     "TIMED_OUT": "Timed out",
@@ -62,29 +124,34 @@
   },
   "GENERIC": {
     "2FA_CODE": "2FA Code",
+    "ADDRESS": "Address",
+    "BACK": "Back",
+    "CITY": "City",
     "CHANNEL": "Channel",
     "CHAT": "Chat",
     "COMMANDS": "Commands",
-    "COMPONENT": {
-      "BACK": "Back",
-      "FIX_PERMISSIONS": "Fix Permissions",
-      "MESSAGE_DELETE": "Delete Message",
-      "REPEAT": "Repeat"
-    },
     "CONTENT": "Content",
     "COUNT": "{count, number}",
+    "COUNT_CRYPTO": "{count, number, .00000000#####}",
+    "COUNTRY": "Country",
     "CREATED": "Created",
+    "CREATION_DATE": "Creation Date",
     "CURRENT": "Current",
     "EMAIL": "Email",
     "ENTER_CODE": "Enter Code",
     "ERROR": "Error",
+    "FIX_PERMISSIONS": "Fix Permissions",
+    "FULL_NAME": "Full Name",
     "ID": "ID",
     "INTERACTED_BY": "Interacted by {userName}",
+    "ITEM_ID": "Item ID",
+    "ITEM_PRICE": "Item Price",
     "LOADING": "Loading",
     "LOGGING_IN": "Logging in",
     "MEMBERS": "Members",
     "MENTION": "Mention",
     "MESSAGE": "Message",
+    "MESSAGE_DELETE": "Delete Message",
     "NAME": "Name",
     "NO": "No",
     "OPTIONS": {
@@ -93,13 +160,36 @@
         "NAME": "ephemeral"
       }
     },
+    "ORDER_ID": "Order ID",
+    "ORDER_INFO": "Order Information",
+    "ORDER_LIST": "Order List",
     "OUTPUT": "Output",
     "PASSWORD": "Password",
+    "PAYMENT_DATE": "Payment Date",
+    "PAYPAL_BIRTHDATE": "Paypal / Birthdate",
+    "PHONE": "Phone",
+    "PRICE": "Price",
+    "PRICE_FORMAT": {
+      "BRL": "{price, number, ::currency/BRL}",
+      "BRL_CRYPTO": "{price, number, ::currency/BRL .00000000#####}",
+      "USD": "{price, number, ::currency/USD}",
+      "USD_CRYPTO": "{price, number, ::currency/USD .00000000#####}"
+    },
+    "REPEAT": "Repeat",
     "REQUESTED_BY": "Requested by {userName}",
     "ROLES": "Roles",
     "SERVERS": "Servers",
     "SHARD": "Shard",
+    "SHIPPING": {
+      "DETAILS": "Shipping Details",
+      "DOCUMENT": "Document Passport",
+      "ID": "Shipping ID",
+      "PRICE": "Shipping Price"
+    },
+    "STATE": "State",
+    "STATUS": "Status",
     "SUCCESS": "Success",
+    "TAX_PRICE": "Tax Price",
     "TIME": {
       "DAYS": "{count, plural, =0 {now} one {**#** day} other {**#** days}}",
       "HOURS": "{count, plural, =0 {now} one {**#** hour} other {**#** hours}}",
@@ -109,15 +199,19 @@
     "TIMESTAMP": "Timestamp",
     "TO": "To",
     "TOTAL": "Total",
+    "TOTAL_PRICE": "Total Price",
     "TRY_AGAIN": "Try Again",
     "TYPE": "Type",
     "UPTIME": "Uptime",
     "USER": "User",
+    "USER_ID": "User ID",
     "WARNING": "Warning",
     "WIP": "Work in Progress",
     "WIP_COMMAND": "This command is currently under development",
     "WIP_FUNCTION": "This function is currently under development",
-    "YES": "Yes"
+    "PIX_XIGLUTE_CARD_POINTS": "Pix / Xiglute Card Points",
+    "YES": "Yes",
+    "ZIP_CODE": "Zip Code"
   },
   "HELP": {
     "COMPONENT": {
@@ -268,7 +362,7 @@
                 "NAME": "guild"
               },
               "ID": {
-                "DESCRIPTION": "ID of a specific command (Default: All commands)",
+                "DESCRIPTION": "ID of an specific command (Default: All commands)",
                 "NAME": "id"
               }
             }
@@ -355,6 +449,35 @@
       }
     }
   },
+  "ORDER": {
+    "COMPONENT": {
+      "LIST": "List Orders"
+    },
+    "DESCRIPTION": "Xiglute orders related commands",
+    "NAME": "order",
+    "OPTIONS": {
+      "INFO": {
+        "DESCRIPTION": "Shows information about an order on Xiglute",
+        "NAME": "info",
+        "OPTIONS": {
+          "ORDER_ID": {
+            "DESCRIPTION": "The order's ID",
+            "NAME": "order-id"
+          }
+        }
+      },
+      "LIST": {
+        "DESCRIPTION": "Lists all of your orders on Xiglute",
+        "NAME": "list",
+        "OPTIONS": {
+          "STATUS": {
+            "DESCRIPTION": "Filter orders with an specific status",
+            "NAME": "status"
+          }
+        }
+      }
+    }
+  },
   "PERM": {
     "ADD_REACTIONS": "Add Reactions",
     "ADMINISTRATOR": "Administrator",
@@ -413,7 +536,7 @@
   "PRICE": {
     "DESCRIPTION": "Shows the current price of a cryptocurrency",
     "EMBED": {
-      "DESCRIPTION": "The current price of **{cryptocurrency}** is: `{price, number, ::currency/USD .00000000}`"
+      "DESCRIPTION": "The current price of **{cryptocurrency}** is: `{price, number, ::currency/USD .00000000#####}`"
     },
     "NAME": "price",
     "OPTIONS": {
@@ -423,6 +546,13 @@
       }
     },
     "TITLE": "Price"
+  },
+  "STATUS": {
+    "CANCELLED": "Cancelled",
+    "COMPLETED": "Completed",
+    "DELIVERED": "Delivered",
+    "INITIAL": "Initial",
+    "SHIPPING": "Shipping"
   },
   "TOP": {
     "DESCRIPTION": "Ranking related commands",

@@ -1,4 +1,52 @@
 {
+  "ADMIN": {
+    "DESCRIPTION": "Comandos somente para administradores",
+    "NAME": "admin",
+    "OPTIONS": {
+      "ORDER": {
+        "DESCRIPTION": "Comandos admin relacionados com pedidos no Xiglute",
+        "NAME": "pedido",
+        "OPTIONS": {
+          "INFO": {
+            "DESCRIPTION": "Mostra informações sobre um pedido no Xiglute",
+            "NAME": "informações",
+            "OPTIONS": {
+              "ORDER_ID": {
+                "DESCRIPTION": "O ID do pedido",
+                "NAME": "id-do-pedido"
+              }
+            }
+          },
+          "LIST": {
+            "DESCRIPTION": "Lista todos os pedidos no Xiglute",
+            "NAME": "listar",
+            "OPTIONS": {
+              "STATUS": {
+                "DESCRIPTION": "Filtra pedidos com um status específico",
+                "NAME": "status"
+              },
+              "USER_ID": {
+                "DESCRIPTION": "Filtra pedidos de um usuário específico",
+                "NAME": "id-do-usuário"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "ANNUAL_REPORT": {
+    "DESCRIPTION": "Gera um PDF com o relatório anual",
+    "NAME": "relatório-anual",
+    "OPTIONS": {
+      "YEAR": {
+        "DESCRIPTION": "O ano do relatório",
+        "NAME": "ano"
+      }
+    },
+    "REPORT_DESCRIPTION": "Neste relatório você tem acesso à quantidade de cada criptoativo detido em {startDate} e {endDate}, preço médio e custo total de aquisição desses ativos. Além disso, caso os valores em reais (BRL) mantidos em sua conta em {startDate} e {endDate} não estejam zerados, você também terá acesso à eles.",
+    "TITLE": "Relatório Anual"
+  },
   "BALANCE": {
     "DESCRIPTION": "Mostra todos os saldos de suas moedas na X7 Exchange",
     "NAME": "saldos"
@@ -37,9 +85,20 @@
     "DEVELOPERS_ONLY": "Este comando só pode ser usado pelos desenvolvedores do bot",
     "DM": "Esse comando não pode ser usado em DMs",
     "EXECUTING_INTERACTION": "Ocorreu um erro ao executar esta interação",
+    "EMPTY_BALANCE": "You don't have any coins",
+    "EMPTY_ORDER_LIST": {
+      "ALL": "There are no orders",
+      "ALL_STATUS": "There are no orders with the status `{status}`",
+      "TARGET": "This user doesn't have any orders",
+      "TARGET_STATUS": "This user doesn't have any orders with the status `{status}`",
+      "TRIGGER": "You don't have any orders",
+      "TRIGGER_STATUS": "You don't have any orders `{status}`"
+    },
     "FETCHING": {
       "BALANCE": "Unexpected error while fetching your balance",
       "LOGIN": "Erro inesperado ao logar",
+      "ORDER": "Unexpected error while fetching order",
+      "ORDER_LIST": "Unexpected error while fetching order list",
       "TOP_TRADES": "Unexpected error while fetching top trades",
       "XP_BALANCE": "Erro inesperado ao buscar seu saldo de XP"
     },
@@ -49,7 +108,10 @@
       "X7": "Você precisa estar logado com sua conta da X7 Exchange para usar este comando.\nUse {command} para fazer isso",
       "XIGLUTE": "Você precisa estar logado com sua conta do Xiglute para usar este comando.\nUse {command} para fazer isso"
     },
+    "NO_ASSOCIATED_SCRIPT": "This interaction doesn't have an associated script",
     "NO_XP_BALANCE": "You don't have a XP balance",
+    "NOT_ORDER_OWNER": "You are not the owner of this order",
+    "ORDER_NOT_FOUND": "Order not found",
     "PRICE_NOT_FOUND": "Preço para {cryptocurrency} não encontrado",
     "RELOADING_APPLICATION_COMMAND": "Ocorreu um erro ao recarregar um comando da aplicação",
     "TIMED_OUT": "Tempo esgotado",
@@ -62,29 +124,34 @@
   },
   "GENERIC": {
     "2FA_CODE": "2FA Code",
+    "ADDRESS": "Address",
+    "BACK": "Back",
+    "CITY": "City",
     "CHANNEL": "Canal",
     "CHAT": "Chat",
     "COMMANDS": "Comandos",
-    "COMPONENT": {
-      "BACK": "Voltar",
-      "FIX_PERMISSIONS": "Corrigir Permissões",
-      "MESSAGE_DELETE": "Excluir Mensagem",
-      "REPEAT": "Repetir"
-    },
     "CONTENT": "Conteúdo",
     "COUNT": "{count, number}",
+    "COUNT_CRYPTO": "{count, number, .00000000#####}",
+    "COUNTRY": "Country",
     "CREATED": "Created",
+    "CREATION_DATE": "Creation Date",
     "CURRENT": "Atual",
     "EMAIL": "Email",
     "ENTER_CODE": "Enter Code",
     "ERROR": "Erro",
+    "FIX_PERMISSIONS": "Fix Permissions",
+    "FULL_NAME": "Full Name",
     "ID": "ID",
     "INTERACTED_BY": "Interagido por {userName}",
+    "ITEM_ID": "Item ID",
+    "ITEM_PRICE": "Item Price",
     "LOADING": "Loading",
     "LOGGING_IN": "Logging in",
     "MEMBERS": "Membros",
     "MENTION": "Menção",
     "MESSAGE": "Mensagem",
+    "MESSAGE_DELETE": "Delete Message",
     "NAME": "Nome",
     "NO": "Não",
     "OPTIONS": {
@@ -93,13 +160,36 @@
         "NAME": "efêmero"
       }
     },
+    "ORDER_ID": "Order ID",
+    "ORDER_INFO": "Order Information",
+    "ORDER_LIST": "Order List",
     "OUTPUT": "Saída",
     "PASSWORD": "Password",
+    "PAYMENT_DATE": "Payment Date",
+    "PAYPAL_BIRTHDATE": "Paypal / Birthdate",
+    "PHONE": "Phone",
+    "PRICE": "Price",
+    "PRICE_FORMAT": {
+      "BRL": "{price, number, ::currency/BRL}",
+      "BRL_CRYPTO": "{price, number, ::currency/BRL .00000000#####}",
+      "USD": "{price, number, ::currency/USD}",
+      "USD_CRYPTO": "{price, number, ::currency/USD .00000000#####}"
+    },
+    "REPEAT": "Repeat",
     "REQUESTED_BY": "Solicitado por {userName}",
     "ROLES": "Cargos",
     "SERVERS": "Servidores",
     "SHARD": "Shard",
+    "SHIPPING": {
+      "DETAILS": "Shipping Details",
+      "DOCUMENT": "Document Passport",
+      "ID": "Shipping ID",
+      "PRICE": "Shipping Price"
+    },
+    "STATE": "State",
+    "STATUS": "Status",
     "SUCCESS": "Sucesso",
+    "TAX_PRICE": "Tax Price",
     "TIME": {
       "DAYS": "{count, plural, =0 {agora} one {**#** dia} other {**#** dias}}",
       "HOURS": "{count, plural, =0 {agora} one {**#** hora} other {**#** horas}}",
@@ -109,15 +199,19 @@
     "TIMESTAMP": "Horário",
     "TO": "Para",
     "TOTAL": "Total",
+    "TOTAL_PRICE": "Total Price",
     "TRY_AGAIN": "Try Again",
     "TYPE": "Tipo",
     "UPTIME": "Tempo Ativo",
     "USER": "Usuário",
+    "USER_ID": "User ID",
     "WARNING": "Aviso",
     "WIP": "Trabalho em Progresso",
     "WIP_COMMAND": "Este comando está atualmente em desenvolvimento",
     "WIP_FUNCTION": "Esta função está atualmente em desenvolvimento",
-    "YES": "Sim"
+    "PIX_XIGLUTE_CARD_POINTS": "Pix / Xiglute Card Points",
+    "YES": "Sim",
+    "ZIP_CODE": "Zip Code"
   },
   "HELP": {
     "COMPONENT": {
@@ -268,7 +362,7 @@
                 "NAME": "guild"
               },
               "ID": {
-                "DESCRIPTION": "ID of a specific command (Default: All commands)",
+                "DESCRIPTION": "ID of an specific command (Default: All commands)",
                 "NAME": "id"
               }
             }
@@ -342,16 +436,45 @@
     "TITLE": "Login"
   },
   "LOGOUT": {
-    "DESCRIPTION": "Sai de sua conta",
-    "NAME": "sair",
+    "DESCRIPTION": "Desloga de sua conta",
+    "NAME": "deslogar",
     "OPTIONS": {
       "X7": {
-        "DESCRIPTION": "Sai de sua conta da X7 Exchange",
+        "DESCRIPTION": "Desloga de sua conta da X7 Exchange",
         "NAME": "x7"
       },
       "XIGLUTE": {
-        "DESCRIPTION": "Sai de sua conta do Xiglute",
+        "DESCRIPTION": "Desloga de sua conta do Xiglute",
         "NAME": "xiglute"
+      }
+    }
+  },
+  "ORDER": {
+    "COMPONENT": {
+      "LIST": "List Orders"
+    },
+    "DESCRIPTION": "Xiglute orders related commands",
+    "NAME": "order",
+    "OPTIONS": {
+      "INFO": {
+        "DESCRIPTION": "Shows information about an order on Xiglute",
+        "NAME": "info",
+        "OPTIONS": {
+          "ORDER_ID": {
+            "DESCRIPTION": "The order's ID",
+            "NAME": "order-id"
+          }
+        }
+      },
+      "LIST": {
+        "DESCRIPTION": "Lists all of your orders on Xiglute",
+        "NAME": "list",
+        "OPTIONS": {
+          "STATUS": {
+            "DESCRIPTION": "Filter orders with an specific status",
+            "NAME": "status"
+          }
+        }
       }
     }
   },
@@ -413,7 +536,7 @@
   "PRICE": {
     "DESCRIPTION": "Mostra o preço atual de uma criptomoeda",
     "EMBED": {
-      "DESCRIPTION": "O preço atual de **{cryptocurrency}** é: `{price, number, ::currency/USD .00000000}`"
+      "DESCRIPTION": "The current price of **{cryptocurrency}** is: `{price, number, ::currency/USD .00000000#####}`"
     },
     "NAME": "preço",
     "OPTIONS": {
@@ -423,6 +546,13 @@
       }
     },
     "TITLE": "Preço"
+  },
+  "STATUS": {
+    "CANCELLED": "Cancelled",
+    "COMPLETED": "Completed",
+    "DELIVERED": "Delivered",
+    "INITIAL": "Initial",
+    "SHIPPING": "Shipping"
   },
   "TOP": {
     "DESCRIPTION": "Ranking related commands",
