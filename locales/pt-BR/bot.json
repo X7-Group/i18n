@@ -1,33 +1,33 @@
 {
   "ADMIN": {
-    "DESCRIPTION": "Admin only commands",
+    "DESCRIPTION": "Comandos somente para administradores",
     "NAME": "admin",
     "OPTIONS": {
       "ORDER": {
-        "DESCRIPTION": "Xiglute orders related admin commands",
-        "NAME": "order",
+        "DESCRIPTION": "Comandos admin relacionados com pedidos no Xiglute",
+        "NAME": "pedido",
         "OPTIONS": {
           "INFO": {
-            "DESCRIPTION": "Shows information about an order on Xiglute",
-            "NAME": "info",
+            "DESCRIPTION": "Mostra informações sobre um pedido no Xiglute",
+            "NAME": "informações",
             "OPTIONS": {
               "ORDER_ID": {
-                "DESCRIPTION": "The order's ID",
-                "NAME": "order-id"
+                "DESCRIPTION": "O ID do pedido",
+                "NAME": "id-do-pedido"
               }
             }
           },
           "LIST": {
-            "DESCRIPTION": "Lists all orders on Xiglute",
-            "NAME": "list",
+            "DESCRIPTION": "Lista todos os pedidos no Xiglute",
+            "NAME": "listar",
             "OPTIONS": {
               "STATUS": {
-                "DESCRIPTION": "Filter orders with an specific status",
+                "DESCRIPTION": "Filtra pedidos com um status específico",
                 "NAME": "status"
               },
               "USER_ID": {
-                "DESCRIPTION": "Filter orders from an specific user",
-                "NAME": "user-id"
+                "DESCRIPTION": "Filtra pedidos de um usuário específico",
+                "NAME": "id-do-usuário"
               }
             }
           }
@@ -36,16 +36,16 @@
     }
   },
   "ANNUAL_REPORT": {
-    "DESCRIPTION": "Generates a PDF with the annual report",
-    "NAME": "annual-report",
+    "DESCRIPTION": "Gera um PDF com o relatório anual",
+    "NAME": "relatório-anual",
     "OPTIONS": {
       "YEAR": {
-        "DESCRIPTION": "The year of the report",
-        "NAME": "year"
+        "DESCRIPTION": "O ano do relatório",
+        "NAME": "ano"
       }
     },
-    "REPORT_DESCRIPTION": "In this report you have access to the amount of each crypto asset held on {startDate} and {endDate}, average price and total cost of acquisition of these assets. In addition, if the amounts in reais (BRL) held in your account on {startDate} and {endDate} are not reset, you will also have access to them.",
-    "TITLE": "Annual Report"
+    "REPORT_DESCRIPTION": "Neste relatório você tem acesso à quantidade de cada criptoativo detido em {startDate} e {endDate}, preço médio e custo total de aquisição desses ativos. Além disso, caso os valores em reais (BRL) mantidos em sua conta em {startDate} e {endDate} não estejam zerados, você também terá acesso à eles.",
+    "TITLE": "Relatório Anual"
   },
   "BALANCE": {
     "DESCRIPTION": "Mostra todos os saldos de suas moedas na X7 Exchange",
