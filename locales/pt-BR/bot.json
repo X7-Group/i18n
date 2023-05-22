@@ -133,6 +133,7 @@
     "CONTENT": "Conteúdo",
     "COUNT": "{count, number}",
     "COUNT_CRYPTO": "{count, number, .00000000#####}",
+    "COUNT_CRYPTO_2_DECIMALS": "{count, number, .00}",
     "COUNTRY": "Country",
     "CREATED": "Created",
     "CREATION_DATE": "Creation Date",
