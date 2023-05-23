@@ -35,18 +35,6 @@
       }
     }
   },
-  "ANNUAL_REPORT": {
-    "DESCRIPTION": "Generates a PDF with the annual report",
-    "NAME": "annual-report",
-    "OPTIONS": {
-      "YEAR": {
-        "DESCRIPTION": "The year of the report",
-        "NAME": "year"
-      }
-    },
-    "REPORT_DESCRIPTION": "In this report you have access to the amount of each crypto asset held on {startDate} and {endDate}, average price and total cost of acquisition of these assets. In addition, if the amounts in reais (BRL) held in your account on {startDate} and {endDate} are not reset, you will also have access to them.",
-    "TITLE": "Annual Report"
-  },
   "BALANCE": {
     "DESCRIPTION": "Muestra todos los saldos de sus monedas en X7 Exchange",
     "NAME": "saldos"
@@ -61,10 +49,10 @@
         "MEMORY_USAGE": "Uso de Memoria",
         "NAME": "info",
         "NODEJS_VERSION": "Versión de Node.JS",
-        "TITLE": "Bot Information"
+        "TITLE": "Información del Bot"
       },
       "PERMISSIONS": {
-        "DESCRIPTION": "Shows bot's required permissions status",
+        "DESCRIPTION": "Muestra el estado de permisos necesarios del bot",
         "LEGEND": {
           "CHECK": "I have the required permission as part of my integrated role",
           "MAYBE": "I have the required permission as part of another role or a channel overwrite",
@@ -85,6 +73,7 @@
     "DEVELOPERS_ONLY": "Este comando sólo puede ser usado por los desarrolladores del bot",
     "DM": "Este comando no se puede utilizar en DM",
     "EXECUTING_INTERACTION": "Se produjo un error al ejecutar esta interacción",
+    "EMPTY_ANNUAL_REPORT": "No tienes un informe anual para `{year}`",
     "EMPTY_BALANCE": "You don't have any coins",
     "EMPTY_ORDER_LIST": {
       "ALL": "There are no orders",
@@ -95,6 +84,7 @@
       "TRIGGER_STATUS": "You don't have any orders `{status}`"
     },
     "FETCHING": {
+      "ANNUAL_REPORT": "Error inesperado al obtener su informe anual",
       "BALANCE": "Unexpected error while fetching your balance",
       "LOGIN": "Error inesperado al entrar",
       "ORDER": "Unexpected error while fetching order",
@@ -133,6 +123,7 @@
     "CONTENT": "Contenido",
     "COUNT": "{count, number}",
     "COUNT_CRYPTO": "{count, number, .00000000#####}",
+    "COUNT_CRYPTO_2_DECIMALS": "{count, number, .00}",
     "COUNTRY": "Country",
     "CREATED": "Created",
     "CREATION_DATE": "Creation Date",
@@ -546,6 +537,24 @@
       }
     },
     "TITLE": "Precio"
+  },
+  "REPORT": {
+    "DESCRIPTION": "Genera un PDF para un informe",
+    "NAME": "informe",
+    "OPTIONS": {
+      "ANNUAL": {
+        "DESCRIPTION": "Genera un PDF para su informe anual en X7",
+        "NAME": "anual",
+        "OPTIONS": {
+          "YEAR": {
+            "DESCRIPTION": "El año del informe",
+            "NAME": "año"
+          }
+        },
+        "REPORT_DESCRIPTION": "En este informe, tiene acceso a la cantidad de cada criptoactivo mantenido desde el {startDate} hasta el {endDate}, el precio promedio y el costo total de adquisición de estos activos. Además, si los montos en reais (BRL) retenidos en su cuenta desde {startDate} hasta {endDate} no se restablecen, también tendrá acceso a ellos.",
+        "TITLE": "Informe Anual"
+      }
+    }
   },
   "STATUS": {
     "CANCELLED": "Cancelled",

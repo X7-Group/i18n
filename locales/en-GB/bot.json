@@ -35,18 +35,6 @@
       }
     }
   },
-  "ANNUAL_REPORT": {
-    "DESCRIPTION": "Generates a PDF with the annual report",
-    "NAME": "annual-report",
-    "OPTIONS": {
-      "YEAR": {
-        "DESCRIPTION": "The year of the report",
-        "NAME": "year"
-      }
-    },
-    "REPORT_DESCRIPTION": "In this report you have access to the amount of each crypto asset held on {startDate} and {endDate}, average price and total cost of acquisition of these assets. In addition, if the amounts in reais (BRL) held in your account on {startDate} and {endDate} are not reset, you will also have access to them.",
-    "TITLE": "Annual Report"
-  },
   "BALANCE": {
     "DESCRIPTION": "Shows all your coins' balances on X7 Exchange",
     "NAME": "balance"
@@ -85,6 +73,7 @@
     "DEVELOPERS_ONLY": "This command can only be used by the bot developers",
     "DM": "This command cannot be used in DMs",
     "EXECUTING_INTERACTION": "An error occurred while executing this interaction",
+    "EMPTY_ANNUAL_REPORT": "You don't have an annual report for `{year}`",
     "EMPTY_BALANCE": "You don't have any coins",
     "EMPTY_ORDER_LIST": {
       "ALL": "There are no orders",
@@ -95,6 +84,7 @@
       "TRIGGER_STATUS": "You don't have any orders `{status}`"
     },
     "FETCHING": {
+      "ANNUAL_REPORT": "Unexpected error while fetching your annual report",
       "BALANCE": "Unexpected error while fetching your balance",
       "LOGIN": "Unexpected error while logging in",
       "ORDER": "Unexpected error while fetching order",
@@ -133,6 +123,7 @@
     "CONTENT": "Content",
     "COUNT": "{count, number}",
     "COUNT_CRYPTO": "{count, number, .00000000#####}",
+    "COUNT_CRYPTO_2_DECIMALS": "{count, number, .00}",
     "COUNTRY": "Country",
     "CREATED": "Created",
     "CREATION_DATE": "Creation Date",
@@ -546,6 +537,24 @@
       }
     },
     "TITLE": "Price"
+  },
+  "REPORT": {
+    "DESCRIPTION": "Generates a PDF for a report",
+    "NAME": "report",
+    "OPTIONS": {
+      "ANNUAL": {
+        "DESCRIPTION": "Generates a PDF for your annual report on X7",
+        "NAME": "annual",
+        "OPTIONS": {
+          "YEAR": {
+            "DESCRIPTION": "The year of the report",
+            "NAME": "year"
+          }
+        },
+        "REPORT_DESCRIPTION": "In this report you have access to the amount of each crypto asset held from {startDate} to {endDate}, average price and total cost of acquisition of these assets. In addition, if the amounts in reais (BRL) held in your account from {startDate} to {endDate} are not reset, you will also have access to them.",
+        "TITLE": "Annual Report"
+      }
+    }
   },
   "STATUS": {
     "CANCELLED": "Cancelled",
