@@ -541,17 +541,19 @@
   "REPORT": {
     "DESCRIPTION": "Generates a PDF for a report",
     "NAME": "report",
-    "ANNUAL": {
-      "DESCRIPTION": "Generates a PDF for your annual report on X7",
-      "NAME": "annual",
-      "OPTIONS": {
-        "YEAR": {
-          "DESCRIPTION": "The year of the report",
-          "NAME": "year"
-        }
-      },
-      "REPORT_DESCRIPTION": "In this report you have access to the amount of each crypto asset held on {startDate} and {endDate}, average price and total cost of acquisition of these assets. In addition, if the amounts in reais (BRL) held in your account on {startDate} and {endDate} are not reset, you will also have access to them.",
-      "TITLE": "Annual Report"
+    "OPTIONS": {
+      "ANNUAL": {
+        "DESCRIPTION": "Generates a PDF for your annual report on X7",
+        "NAME": "annual",
+        "OPTIONS": {
+          "YEAR": {
+            "DESCRIPTION": "The year of the report",
+            "NAME": "year"
+          }
+        },
+        "REPORT_DESCRIPTION": "In this report you have access to the amount of each crypto asset held on {startDate} and {endDate}, average price and total cost of acquisition of these assets. In addition, if the amounts in reais (BRL) held in your account on {startDate} and {endDate} are not reset, you will also have access to them.",
+        "TITLE": "Annual Report"
+      }
     }
   },
   "STATUS": {
