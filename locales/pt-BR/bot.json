@@ -551,9 +551,22 @@
             "NAME": "ano"
           }
         },
-        "REPORT_DESCRIPTION": "Neste relatório você tem acesso à quantidade de cada criptoativo detido de {startDate} até {endDate}, preço médio e custo total de aquisição desses ativos. Além disso, caso os valores em reais (BRL) mantidos em sua conta de {startDate} para {endDate} não estejam zerados, você também terá acesso a eles.",
         "TITLE": "Relatório Anual"
+      },
+      "MONTHLY": {
+        "DESCRIPTION": "Gera um PDF para o seu relatório mensal na X7",
+        "NAME": "mensal",
+        "OPTIONS": {
+          "MONTH": {
+            "DESCRIPTION": "O mês do relatório",
+            "NAME": "mês"
+          }
+        },
+        "TITLE": "Relatório Mensal"
       }
+    },
+    "PDF": {
+      "DESCRIPTION": "Neste relatório você tem acesso à quantidade de cada criptoativo detido de {startDate} até {endDate}, preço médio e custo total de aquisição desses ativos. Além disso, caso os valores em reais (BRL) mantidos em sua conta de {startDate} para {endDate} não estejam zerados, você também terá acesso a eles."
     }
   },
   "STATUS": {

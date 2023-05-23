@@ -551,9 +551,22 @@
             "NAME": "año"
           }
         },
-        "REPORT_DESCRIPTION": "En este informe, tiene acceso a la cantidad de cada criptoactivo mantenido desde el {startDate} hasta el {endDate}, el precio promedio y el costo total de adquisición de estos activos. Además, si los montos en reais (BRL) retenidos en su cuenta desde {startDate} hasta {endDate} no se restablecen, también tendrá acceso a ellos.",
         "TITLE": "Informe Anual"
+      },
+      "MONTHLY": {
+        "DESCRIPTION": "Genera un PDF para su informe mensual en X7",
+        "NAME": "mensual",
+        "OPTIONS": {
+          "MONTH": {
+            "DESCRIPTION": "El mes del informe",
+            "NAME": "mes"
+          }
+        },
+        "TITLE": "Informe Mensual"
       }
+    },
+    "PDF": {
+      "DESCRIPTION": "En este informe, tiene acceso a la cantidad de cada criptoactivo mantenido desde el {startDate} hasta el {endDate}, el precio promedio y el costo total de adquisición de estos activos. Además, si los montos en reais (BRL) retenidos en su cuenta desde {startDate} hasta {endDate} no se restablecen, también tendrá acceso a ellos."
     }
   },
   "STATUS": {
