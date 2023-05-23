@@ -143,6 +143,20 @@
     "MENTION": "Mention",
     "MESSAGE": "Message",
     "MESSAGE_DELETE": "Delete Message",
+    "MONTH": {
+      "1": "January",
+      "2": "February",
+      "3": "March",
+      "4": "April",
+      "5": "May",
+      "6": "June",
+      "7": "July",
+      "8": "August",
+      "9": "September",
+      "10": "October",
+      "11": "November",
+      "12": "December"
+    },
     "NAME": "Name",
     "NO": "No",
     "OPTIONS": {
@@ -560,9 +574,18 @@
           "MONTH": {
             "DESCRIPTION": "The month of the report",
             "NAME": "month"
+          },
+          "YEAR": {
+            "DESCRIPTION": "The year of the report",
+            "NAME": "year"
           }
         },
         "TITLE": "Monthly Report"
+      },
+      "THE_X_INVEST": {
+        "DESCRIPTION": "Generates a PDF for your all-time report on The X Invest",
+        "NAME": "the-x-invest",
+        "TITLE": "The X Invest Report"
       }
     },
     "PDF": {
