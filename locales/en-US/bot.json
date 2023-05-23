@@ -85,6 +85,7 @@
     "DEVELOPERS_ONLY": "This command can only be used by the bot developers",
     "DM": "This command cannot be used in DMs",
     "EXECUTING_INTERACTION": "An error occurred while executing this interaction",
+    "EMPTY_ANNUAL_REPORT": "You don't have an annual report for `{year}`",
     "EMPTY_BALANCE": "You don't have any coins",
     "EMPTY_ORDER_LIST": {
       "ALL": "There are no orders",
@@ -95,6 +96,7 @@
       "TRIGGER_STATUS": "You don't have any orders `{status}`"
     },
     "FETCHING": {
+      "ANNUAL_REPORT": "Unexpected error while fetching your annual report",
       "BALANCE": "Unexpected error while fetching your balance",
       "LOGIN": "Unexpected error while logging in",
       "ORDER": "Unexpected error while fetching order",
