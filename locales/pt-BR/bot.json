@@ -566,7 +566,7 @@
       }
     },
     "PDF": {
-      "DESCRIPTION": "Neste relatório você tem acesso à quantidade de cada criptoativo detido de {startDate} até {endDate}, preço médio e custo total de aquisição desses ativos. Além disso, caso os valores em reais (BRL) mantidos em sua conta de {startDate} para {endDate} não estejam zerados, você também terá acesso a eles."
+      "DESCRIPTION": "Neste relatório você tem acesso à quantidade de cada criptoativo detido de {startDate} até {endDate}, preço médio e custo total de aquisição desses ativos. Além disso, caso os valores em reais (BRL) mantidos em sua conta de {startDate} até {endDate} não estejam zerados, você também terá acesso a eles."
     }
   },
   "STATUS": {
