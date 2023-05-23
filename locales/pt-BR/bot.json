@@ -551,9 +551,22 @@
             "NAME": "ano"
           }
         },
-        "REPORT_DESCRIPTION": "Neste relatório você tem acesso à quantidade de cada criptoativo detido de {startDate} até {endDate}, preço médio e custo total de aquisição desses ativos. Além disso, caso os valores em reais (BRL) mantidos em sua conta de {startDate} para {endDate} não estejam zerados, você também terá acesso a eles.",
         "TITLE": "Relatório Anual"
+      },
+      "MONTHLY": {
+        "DESCRIPTION": "Generates a PDF for your monthly report on X7",
+        "NAME": "monthly",
+        "OPTIONS": {
+          "MONTH": {
+            "DESCRIPTION": "The month of the report",
+            "NAME": "month"
+          }
+        },
+        "TITLE": "Monthly Report"
       }
+    },
+    "PDF": {
+      "DESCRIPTION": "In this report you have access to the amount of each crypto asset held from {startDate} to {endDate}, average price and total cost of acquisition of these assets. In addition, if the amounts in reais (BRL) held in your account from {startDate} to {endDate} are not reset, you will also have access to them."
     }
   },
   "STATUS": {
