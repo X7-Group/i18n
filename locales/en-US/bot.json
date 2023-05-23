@@ -581,6 +581,11 @@
           }
         },
         "TITLE": "Monthly Report"
+      },
+      "THE_X_INVEST": {
+        "DESCRIPTION": "Generates a PDF for your all-time report on The X Invest",
+        "NAME": "the-x-invest",
+        "TITLE": "The X Invest Report"
       }
     },
     "PDF": {
