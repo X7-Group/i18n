@@ -49,10 +49,10 @@
         "MEMORY_USAGE": "Uso de Memoria",
         "NAME": "info",
         "NODEJS_VERSION": "Versión de Node.JS",
-        "TITLE": "Bot Information"
+        "TITLE": "Información del Bot"
       },
       "PERMISSIONS": {
-        "DESCRIPTION": "Shows bot's required permissions status",
+        "DESCRIPTION": "Muestra el estado de permisos necesarios del bot",
         "LEGEND": {
           "CHECK": "I have the required permission as part of my integrated role",
           "MAYBE": "I have the required permission as part of another role or a channel overwrite",
@@ -73,7 +73,7 @@
     "DEVELOPERS_ONLY": "Este comando sólo puede ser usado por los desarrolladores del bot",
     "DM": "Este comando no se puede utilizar en DM",
     "EXECUTING_INTERACTION": "Se produjo un error al ejecutar esta interacción",
-    "EMPTY_ANNUAL_REPORT": "You don't have an annual report for `{year}`",
+    "EMPTY_ANNUAL_REPORT": "No tienes un informe anual para `{year}`",
     "EMPTY_BALANCE": "You don't have any coins",
     "EMPTY_ORDER_LIST": {
       "ALL": "There are no orders",
@@ -84,7 +84,7 @@
       "TRIGGER_STATUS": "You don't have any orders `{status}`"
     },
     "FETCHING": {
-      "ANNUAL_REPORT": "Unexpected error while fetching your annual report",
+      "ANNUAL_REPORT": "Error inesperado al obtener su informe anual",
       "BALANCE": "Unexpected error while fetching your balance",
       "LOGIN": "Error inesperado al entrar",
       "ORDER": "Unexpected error while fetching order",
@@ -539,7 +539,7 @@
     "TITLE": "Precio"
   },
   "REPORT": {
-    "DESCRIPTION": "Generates a PDF for a report",
+    "DESCRIPTION": "Genera un PDF para un informe",
     "NAME": "report",
     "OPTIONS": {
       "ANNUAL": {
@@ -551,7 +551,7 @@
             "NAME": "year"
           }
         },
-        "REPORT_DESCRIPTION": "In this report you have access to the amount of each crypto asset held on {startDate} and {endDate}, average price and total cost of acquisition of these assets. In addition, if the amounts in reais (BRL) held in your account on {startDate} and {endDate} are not reset, you will also have access to them.",
+        "REPORT_DESCRIPTION": "In this report you have access to the amount of each crypto asset held from {startDate} to {endDate}, average price and total cost of acquisition of these assets. In addition, if the amounts in reais (BRL) held in your account from {startDate} to {endDate} are not reset, you will also have access to them.",
         "TITLE": "Annual Report"
       }
     }
