@@ -74,6 +74,7 @@
     "DM": "Este comando no se puede utilizar en DM",
     "EXECUTING_INTERACTION": "Se produjo un error al ejecutar esta interacción",
     "EMPTY_ANNUAL_REPORT": "No tienes un informe anual para `{year}`",
+    "EMPTY_MONTHLY_REPORT": "You don't have a monthly report for `{month}/{year}`",
     "EMPTY_BALANCE": "You don't have any coins",
     "EMPTY_ORDER_LIST": {
       "ALL": "There are no orders",
