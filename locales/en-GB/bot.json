@@ -116,6 +116,7 @@
   "GENERIC": {
     "2FA_CODE": "2FA Code",
     "ADDRESS": "Address",
+    "AVERAGE_PRICE": "Average Price",
     "BACK": "Back",
     "CITY": "City",
     "CHANNEL": "Channel",
@@ -128,7 +129,9 @@
     "COUNTRY": "Country",
     "CREATED": "Created",
     "CREATION_DATE": "Creation Date",
+    "CRYPTOACTIVE": "Cryptoactive",
     "CURRENT": "Current",
+    "DATE": "Date",
     "EMAIL": "Email",
     "ENTER_CODE": "Enter Code",
     "ERROR": "Error",
@@ -145,6 +148,7 @@
     "MESSAGE": "Message",
     "MESSAGE_DELETE": "Delete Message",
     "MONTH": {
+      "NOUN": "Month",
       "1": "January",
       "2": "February",
       "3": "March",
@@ -216,6 +220,7 @@
     "WIP_COMMAND": "This command is currently under development",
     "WIP_FUNCTION": "This function is currently under development",
     "PIX_XIGLUTE_CARD_POINTS": "Pix / Xiglute Card Points",
+    "PURCHASE_COST": "Purchase Cost",
     "YES": "Yes",
     "ZIP_CODE": "Zip Code"
   },
@@ -604,7 +609,11 @@
       }
     },
     "PDF": {
-      "DESCRIPTION": "In this report you have access to the amount of each crypto asset held from {startDate} to {endDate}, average price and total cost of acquisition of these assets. In addition, if the amounts in reais (BRL) held in your account from {startDate} to {endDate} are not reset, you will also have access to them."
+      "BUY": "Buy",
+      "SELL": "Sell",
+      "BALANCE": "Balance",
+      "DESCRIPTION": "In this report you have access to the amount of each crypto asset held from {startDate} to {endDate}, average price and total cost of acquisition of these assets. In addition, if the amounts in reais (BRL) held in your account from {startDate} to {endDate} are not reset, you will also have access to them.",
+      "TITLE": "Assistance Report for Income Tax Return"
     }
   },
   "STATUS": {
