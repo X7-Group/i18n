@@ -561,6 +561,10 @@
         "DESCRIPTION": "Genera un PDF para su informe anual en X7",
         "NAME": "anual",
         "OPTIONS": {
+          "TYPE": {
+            "DESCRIPTION": "The file type of the report",
+            "NAME": "type"
+          },
           "YEAR": {
             "DESCRIPTION": "El año del informe",
             "NAME": "año"
@@ -576,6 +580,10 @@
             "DESCRIPTION": "El mes del informe",
             "NAME": "mes"
           },
+          "TYPE": {
+            "DESCRIPTION": "The file type of the report",
+            "NAME": "type"
+          },
           "YEAR": {
             "DESCRIPTION": "The year of the report",
             "NAME": "year"
@@ -586,6 +594,12 @@
       "THE_X_INVEST": {
         "DESCRIPTION": "Generates a PDF for your all-time report on The X Invest",
         "NAME": "the-x-invest",
+        "OPTIONS": {
+          "TYPE": {
+            "DESCRIPTION": "The file type of the report",
+            "NAME": "type"
+          }
+        },
         "TITLE": "The X Invest Report"
       }
     },
