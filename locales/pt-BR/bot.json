@@ -611,7 +611,7 @@
     "PDF": {
       "BUY": "Compra",
       "SELL": "Venda",
-      "BALANCE": "Balance",
+      "BALANCE": "Saldo",
       "DESCRIPTION": "Neste relatório você tem acesso à quantidade de cada criptoativo detido de {startDate} até {endDate}, preço médio e custo total de aquisição desses ativos. Além disso, caso os valores em reais (BRL) mantidos em sua conta de {startDate} até {endDate} não estejam zerados, você também terá acesso a eles.",
       "TITLE": "Relatório de Assistência para Declaração de Imposto de Renda"
     }
