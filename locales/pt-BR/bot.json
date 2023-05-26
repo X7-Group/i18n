@@ -116,6 +116,7 @@
   "GENERIC": {
     "2FA_CODE": "2FA Code",
     "ADDRESS": "Address",
+    "AVERAGE_PRICE": "Average Price",
     "BACK": "Back",
     "CITY": "City",
     "CHANNEL": "Canal",
@@ -128,7 +129,9 @@
     "COUNTRY": "Country",
     "CREATED": "Created",
     "CREATION_DATE": "Creation Date",
+    "CRYPTOACTIVE": "Cryptoactive",
     "CURRENT": "Atual",
+    "DATE": "Date",
     "EMAIL": "Email",
     "ENTER_CODE": "Enter Code",
     "ERROR": "Erro",
@@ -145,6 +148,7 @@
     "MESSAGE": "Mensagem",
     "MESSAGE_DELETE": "Delete Message",
     "MONTH": {
+      "NOUN": "Month",
       "1": "January",
       "2": "February",
       "3": "March",
@@ -216,6 +220,7 @@
     "WIP_COMMAND": "Este comando está atualmente em desenvolvimento",
     "WIP_FUNCTION": "Esta função está atualmente em desenvolvimento",
     "PIX_XIGLUTE_CARD_POINTS": "Pix / Xiglute Card Points",
+    "PURCHASE_COST": "Purchase Cost",
     "YES": "Sim",
     "ZIP_CODE": "Zip Code"
   },
@@ -604,7 +609,11 @@
       }
     },
     "PDF": {
-      "DESCRIPTION": "Neste relatório você tem acesso à quantidade de cada criptoativo detido de {startDate} até {endDate}, preço médio e custo total de aquisição desses ativos. Além disso, caso os valores em reais (BRL) mantidos em sua conta de {startDate} até {endDate} não estejam zerados, você também terá acesso a eles."
+      "BUY": "Buy",
+      "SELL": "Sell",
+      "BALANCE": "Balance",
+      "DESCRIPTION": "Neste relatório você tem acesso à quantidade de cada criptoativo detido de {startDate} até {endDate}, preço médio e custo total de aquisição desses ativos. Além disso, caso os valores em reais (BRL) mantidos em sua conta de {startDate} até {endDate} não estejam zerados, você também terá acesso a eles.",
+      "TITLE": "Assistance Report for Income Tax Return"
     }
   },
   "STATUS": {
