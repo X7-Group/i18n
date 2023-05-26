@@ -116,6 +116,7 @@
   "GENERIC": {
     "2FA_CODE": "2FA Code",
     "ADDRESS": "Address",
+    "AVERAGE_PRICE": "Average Price",
     "BACK": "Back",
     "CITY": "City",
     "CHANNEL": "Canal",
@@ -128,7 +129,9 @@
     "COUNTRY": "Country",
     "CREATED": "Created",
     "CREATION_DATE": "Creation Date",
+    "CRYPTOACTIVE": "Cryptoactive",
     "CURRENT": "Actual",
+    "DATE": "Date",
     "EMAIL": "Email",
     "ENTER_CODE": "Enter Code",
     "ERROR": "Error",
@@ -145,6 +148,7 @@
     "MESSAGE": "Mensaje",
     "MESSAGE_DELETE": "Delete Message",
     "MONTH": {
+      "NOUN": "Month",
       "1": "January",
       "2": "February",
       "3": "March",
@@ -216,6 +220,7 @@
     "WIP_COMMAND": "Este comando está actualmente en desarrollo",
     "WIP_FUNCTION": "Esta función está actualmente en desarrollo",
     "PIX_XIGLUTE_CARD_POINTS": "Pix / Xiglute Card Points",
+    "PURCHASE_COST": "Purchase Cost",
     "YES": "Sí",
     "ZIP_CODE": "Zip Code"
   },
@@ -604,7 +609,11 @@
       }
     },
     "PDF": {
-      "DESCRIPTION": "En este informe, tiene acceso a la cantidad de cada criptoactivo mantenido del {startDate} al {endDate}, el precio promedio y el costo total de adquisición de estos activos. Además, si los montos en reais (BRL) retenidos en su cuenta del {startDate} al {endDate} no se restablecen, también tendrá acceso a ellos."
+      "BUY": "Buy",
+      "SELL": "Sell",
+      "BALANCE": "Balance",
+      "DESCRIPTION": "En este informe, tiene acceso a la cantidad de cada criptoactivo mantenido del {startDate} al {endDate}, el precio promedio y el costo total de adquisición de estos activos. Además, si los montos en reais (BRL) retenidos en su cuenta del {startDate} al {endDate} no se restablecen, también tendrá acceso a ellos.",
+      "TITLE": "Assistance Report for Income Tax Return"
     }
   },
   "STATUS": {
