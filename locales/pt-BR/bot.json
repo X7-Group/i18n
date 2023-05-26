@@ -93,6 +93,7 @@
       "TOP_TRADES": "Unexpected error while fetching top trades",
       "XP_BALANCE": "Erro inesperado ao buscar seu saldo de XP"
     },
+    "FUTURE_DATE": "You can't use a date in the future",
     "GUILD_NOT_FOUND": "Servidor não encontrado",
     "INVALID_CRYPTOCURRENCY": "Criptomoeda inválida",
     "LOGIN_REQUIRED": {
