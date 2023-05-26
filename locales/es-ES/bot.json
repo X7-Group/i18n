@@ -74,6 +74,7 @@
     "DM": "Este comando no se puede utilizar en DM",
     "EXECUTING_INTERACTION": "Se produjo un error al ejecutar esta interacción",
     "EMPTY_ANNUAL_REPORT": "No tienes un informe anual para `{year}`",
+    "EMPTY_MONTHLY_REPORT": "No tienes un informe mensual para `{month}/{year}`",
     "EMPTY_BALANCE": "You don't have any coins",
     "EMPTY_ORDER_LIST": {
       "ALL": "There are no orders",
@@ -115,6 +116,7 @@
   "GENERIC": {
     "2FA_CODE": "2FA Code",
     "ADDRESS": "Address",
+    "AVERAGE_PRICE": "Average Price",
     "BACK": "Back",
     "CITY": "City",
     "CHANNEL": "Canal",
@@ -127,7 +129,9 @@
     "COUNTRY": "Country",
     "CREATED": "Created",
     "CREATION_DATE": "Creation Date",
+    "CRYPTOACTIVE": "Cryptoactive",
     "CURRENT": "Actual",
+    "DATE": "Date",
     "EMAIL": "Email",
     "ENTER_CODE": "Enter Code",
     "ERROR": "Error",
@@ -143,6 +147,21 @@
     "MENTION": "Mención",
     "MESSAGE": "Mensaje",
     "MESSAGE_DELETE": "Delete Message",
+    "MONTH": {
+      "NOUN": "Month",
+      "1": "January",
+      "2": "February",
+      "3": "March",
+      "4": "April",
+      "5": "May",
+      "6": "June",
+      "7": "July",
+      "8": "August",
+      "9": "September",
+      "10": "October",
+      "11": "November",
+      "12": "December"
+    },
     "NAME": "Nombre",
     "NO": "No",
     "OPTIONS": {
@@ -201,6 +220,7 @@
     "WIP_COMMAND": "Este comando está actualmente en desarrollo",
     "WIP_FUNCTION": "Esta función está actualmente en desarrollo",
     "PIX_XIGLUTE_CARD_POINTS": "Pix / Xiglute Card Points",
+    "PURCHASE_COST": "Purchase Cost",
     "YES": "Sí",
     "ZIP_CODE": "Zip Code"
   },
@@ -546,6 +566,10 @@
         "DESCRIPTION": "Genera un PDF para su informe anual en X7",
         "NAME": "anual",
         "OPTIONS": {
+          "TYPE": {
+            "DESCRIPTION": "El tipo de archivo del informe",
+            "NAME": "tipo"
+          },
           "YEAR": {
             "DESCRIPTION": "El año del informe",
             "NAME": "año"
@@ -560,13 +584,36 @@
           "MONTH": {
             "DESCRIPTION": "El mes del informe",
             "NAME": "mes"
+          },
+          "TYPE": {
+            "DESCRIPTION": "El tipo de archivo del informe",
+            "NAME": "tipo"
+          },
+          "YEAR": {
+            "DESCRIPTION": "El año del informe",
+            "NAME": "año"
           }
         },
         "TITLE": "Informe Mensual"
+      },
+      "THE_X_INVEST": {
+        "DESCRIPTION": "Genera un PDF para tu informe de todo el tiempo en The X Invest",
+        "NAME": "the-x-invest",
+        "OPTIONS": {
+          "TYPE": {
+            "DESCRIPTION": "El tipo de archivo del informe",
+            "NAME": "tipo"
+          }
+        },
+        "TITLE": "El informe de la The X Invest"
       }
     },
     "PDF": {
-      "DESCRIPTION": "En este informe, tiene acceso a la cantidad de cada criptoactivo mantenido desde el {startDate} hasta el {endDate}, el precio promedio y el costo total de adquisición de estos activos. Además, si los montos en reais (BRL) retenidos en su cuenta desde {startDate} hasta {endDate} no se restablecen, también tendrá acceso a ellos."
+      "BUY": "Compra",
+      "SELL": "Venta",
+      "BALANCE": "Saldo",
+      "DESCRIPTION": "En este informe, tiene acceso a la cantidad de cada criptoactivo mantenido del {startDate} al {endDate}, el precio promedio y el costo total de adquisición de estos activos. Además, si los montos en reais (BRL) retenidos en su cuenta del {startDate} al {endDate} no se restablecen, también tendrá acceso a ellos.",
+      "TITLE": "Informe de Asistencia para la Declaración de Impuesto a la Renta"
     }
   },
   "STATUS": {
