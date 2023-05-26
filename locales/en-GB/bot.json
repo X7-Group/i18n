@@ -93,6 +93,7 @@
       "TOP_TRADES": "Unexpected error while fetching top trades",
       "XP_BALANCE": "Unexpected error while fetching your XP balance"
     },
+    "FUTURE_DATE": "You can't use a date in the future",
     "GUILD_NOT_FOUND": "Guild not found",
     "INVALID_CRYPTOCURRENCY": "Invalid cryptocurrency",
     "LOGIN_REQUIRED": {
