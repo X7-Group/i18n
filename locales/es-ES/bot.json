@@ -74,7 +74,7 @@
     "DM": "Este comando no se puede utilizar en DM",
     "EXECUTING_INTERACTION": "Se produjo un error al ejecutar esta interacción",
     "EMPTY_ANNUAL_REPORT": "No tienes un informe anual para `{year}`",
-    "EMPTY_MONTHLY_REPORT": "You don't have a monthly report for `{month}/{year}`",
+    "EMPTY_MONTHLY_REPORT": "No tienes un informe mensual para `{month}/{year}`",
     "EMPTY_BALANCE": "You don't have any coins",
     "EMPTY_ORDER_LIST": {
       "ALL": "There are no orders",
@@ -567,8 +567,8 @@
         "NAME": "anual",
         "OPTIONS": {
           "TYPE": {
-            "DESCRIPTION": "The file type of the report",
-            "NAME": "type"
+            "DESCRIPTION": "El tipo de archivo del informe",
+            "NAME": "tipo"
           },
           "YEAR": {
             "DESCRIPTION": "El año del informe",
@@ -586,34 +586,34 @@
             "NAME": "mes"
           },
           "TYPE": {
-            "DESCRIPTION": "The file type of the report",
-            "NAME": "type"
+            "DESCRIPTION": "El tipo de archivo del informe",
+            "NAME": "tipo"
           },
           "YEAR": {
-            "DESCRIPTION": "The year of the report",
-            "NAME": "year"
+            "DESCRIPTION": "El año del informe",
+            "NAME": "año"
           }
         },
         "TITLE": "Informe Mensual"
       },
       "THE_X_INVEST": {
-        "DESCRIPTION": "Generates a PDF for your all-time report on The X Invest",
+        "DESCRIPTION": "Genera un PDF para tu informe de todo el tiempo en The X Invest",
         "NAME": "the-x-invest",
         "OPTIONS": {
           "TYPE": {
-            "DESCRIPTION": "The file type of the report",
-            "NAME": "type"
+            "DESCRIPTION": "El tipo de archivo del informe",
+            "NAME": "tipo"
           }
         },
-        "TITLE": "The X Invest Report"
+        "TITLE": "El informe de la The X Invest"
       }
     },
     "PDF": {
-      "BUY": "Buy",
-      "SELL": "Sell",
+      "BUY": "Compra",
+      "SELL": "Venta",
       "BALANCE": "Balance",
       "DESCRIPTION": "En este informe, tiene acceso a la cantidad de cada criptoactivo mantenido del {startDate} al {endDate}, el precio promedio y el costo total de adquisición de estos activos. Además, si los montos en reais (BRL) retenidos en su cuenta del {startDate} al {endDate} no se restablecen, también tendrá acceso a ellos.",
-      "TITLE": "Assistance Report for Income Tax Return"
+      "TITLE": "Informe de Asistencia para la Declaración de Impuesto a la Renta"
     }
   },
   "STATUS": {
