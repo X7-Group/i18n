@@ -611,7 +611,7 @@
     "PDF": {
       "BUY": "Compra",
       "SELL": "Venta",
-      "BALANCE": "Balance",
+      "BALANCE": "Saldo",
       "DESCRIPTION": "En este informe, tiene acceso a la cantidad de cada criptoactivo mantenido del {startDate} al {endDate}, el precio promedio y el costo total de adquisición de estos activos. Además, si los montos en reais (BRL) retenidos en su cuenta del {startDate} al {endDate} no se restablecen, también tendrá acceso a ellos.",
       "TITLE": "Informe de Asistencia para la Declaración de Impuesto a la Renta"
     }
