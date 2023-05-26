@@ -138,6 +138,7 @@
     "ERROR": "Erro",
     "FIX_PERMISSIONS": "Fix Permissions",
     "FULL_NAME": "Full Name",
+    "GENERATING": "Generating",
     "ID": "ID",
     "INTERACTED_BY": "Interagido por {userName}",
     "ITEM_ID": "Item ID",
