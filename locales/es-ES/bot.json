@@ -1,6 +1,6 @@
 {
   "ADMIN": {
-    "DESCRIPTION": "Admin only commands",
+    "DESCRIPTION": "Comandos solo para administradores",
     "NAME": "admin",
     "OPTIONS": {
       "ORDER": {
