@@ -100,6 +100,10 @@
       "X7": "Você precisa estar logado com sua conta da X7 Exchange para usar este comando.\nUse {command} para fazer isso",
       "XIGLUTE": "Você precisa estar logado com sua conta do Xiglute para usar este comando.\nUse {command} para fazer isso"
     },
+    "NO_ACCOUNTS": {
+      "X7": "You are not logged in with any X7 Exchange account",
+      "XIGLUTE": "You are not logged in with any Xiglute account"
+    },
     "NO_ASSOCIATED_SCRIPT": "This interaction doesn't have an associated script",
     "NO_XP_BALANCE": "You don't have a XP balance",
     "NOT_ORDER_OWNER": "You are not the owner of this order",
@@ -116,6 +120,10 @@
   },
   "GENERIC": {
     "2FA_CODE": "2FA Code",
+    "ACCOUNT": "Account",
+    "ACCOUNT_INFO": "Account Info",
+    "ACCOUNT_MANAGER": "Account Manager",
+    "ADD_ACCOUNT": "Add Account",
     "ADDRESS": "Address",
     "AVERAGE_PRICE": "Preço Médio",
     "BACK": "Back",
@@ -143,8 +151,10 @@
     "INTERACTED_BY": "Interagido por {userName}",
     "ITEM_ID": "Item ID",
     "ITEM_PRICE": "Item Price",
+    "LEAVE": "Leave",
     "LOADING": "Loading",
     "LOGGING_IN": "Logging in",
+    "LOGGING_OUT": "Logging out",
     "MEMBERS": "Membros",
     "MENTION": "Menção",
     "MESSAGE": "Mensagem",
