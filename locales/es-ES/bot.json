@@ -74,6 +74,7 @@
     "DEVELOPERS_ONLY": "Este comando sólo puede ser usado por los desarrolladores del bot",
     "DM": "Este comando no se puede utilizar en DM",
     "EXECUTING_INTERACTION": "Se produjo un error al ejecutar esta interacción",
+    "EMAIL_ALREADY_LOGGED_IN": "This email is already logged in",
     "EMPTY_ANNUAL_REPORT": "No tienes un informe anual para `{year}`",
     "EMPTY_MONTHLY_REPORT": "No tienes un informe mensual para `{month}/{year}`",
     "EMPTY_BALANCE": "You don't have any coins",
@@ -111,6 +112,7 @@
     "ORDER_NOT_FOUND": "Order not found",
     "PRICE_NOT_FOUND": "Precio para {cryptocurrency} no encontrado",
     "RELOADING_APPLICATION_COMMAND": "Ocurrió un error al recargar cargar un comando de la aplicación",
+    "SELECT_AN_ACCOUNT": "Please select an account",
     "TIMED_OUT": "Tiempo agotado",
     "UNALLOWED": {
       "CHAT": "No se le permite utilizar este comando en este chat",
@@ -201,7 +203,7 @@
     "REPEAT": "Repeat",
     "REQUESTED_BY": "Solicitado por {userName}",
     "ROLES": "Roles",
-    "SELECT_ACCOUNT": "Select an Account",
+    "SELECT_ACCOUNT": "Select an account",
     "SERVERS": "Servidores",
     "SHARD": "Shard",
     "SHIPPING": {
