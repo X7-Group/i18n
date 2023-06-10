@@ -69,6 +69,7 @@
       "INVALID": "Invalid 2FA code",
       "REQUIRED": "You need to enter the 2FA code"
     },
+    "ACCOUNT_LIMIT_REACHED": "You have reached the limit of `{accountLimit}` accounts",
     "ALREADY_LOGGED_IN": "You are already logged in. Use {command} before using this command",
     "DEVELOPERS_ONLY": "Este comando só pode ser usado pelos desenvolvedores do bot",
     "DM": "Esse comando não pode ser usado em DMs",
@@ -200,6 +201,7 @@
     "REPEAT": "Repeat",
     "REQUESTED_BY": "Solicitado por {userName}",
     "ROLES": "Cargos",
+    "SELECT_ACCOUNT": "Select an Account",
     "SERVERS": "Servidores",
     "SHARD": "Shard",
     "SHIPPING": {
