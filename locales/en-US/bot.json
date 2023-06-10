@@ -112,6 +112,7 @@
     "ORDER_NOT_FOUND": "Order not found",
     "PRICE_NOT_FOUND": "Price for {cryptocurrency} not found",
     "RELOADING_APPLICATION_COMMAND": "An error occurred while reloading an application command",
+    "SELECT_AN_ACCOUNT": "Please select an account",
     "TIMED_OUT": "Timed out",
     "UNALLOWED": {
       "CHAT": "You are not allowed to use this command in this chat",
