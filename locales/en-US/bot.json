@@ -74,6 +74,7 @@
     "DEVELOPERS_ONLY": "This command can only be used by the bot developers",
     "DM": "This command cannot be used in DMs",
     "EXECUTING_INTERACTION": "An error occurred while executing this interaction",
+    "EMAIL_ALREADY_LOGGED_IN": "This email is already logged in",
     "EMPTY_ANNUAL_REPORT": "You don't have an annual report for `{year}`",
     "EMPTY_MONTHLY_REPORT": "You don't have a monthly report for `{month}/{year}`",
     "EMPTY_BALANCE": "You don't have any coins",
@@ -201,7 +202,7 @@
     "REPEAT": "Repeat",
     "REQUESTED_BY": "Requested by {userName}",
     "ROLES": "Roles",
-    "SELECT_ACCOUNT": "Select an Account",
+    "SELECT_ACCOUNT": "Select an account",
     "SERVERS": "Servers",
     "SHARD": "Shard",
     "SHIPPING": {
