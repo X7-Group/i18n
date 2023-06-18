@@ -70,7 +70,6 @@
       "REQUIRED": "You need to enter the 2FA code"
     },
     "ACCOUNT_LIMIT_REACHED": "You have reached the limit of `{accountLimit}` accounts",
-    "ALREADY_LOGGED_IN": "You are already logged in. Use {command} before using this command",
     "DEVELOPERS_ONLY": "Este comando só pode ser usado pelos desenvolvedores do bot",
     "DM": "Esse comando não pode ser usado em DMs",
     "EXECUTING_INTERACTION": "Ocorreu um erro ao executar esta interação",
@@ -92,6 +91,7 @@
       "LOGIN": "Erro inesperado ao logar",
       "ORDER": "Unexpected error while fetching order",
       "ORDER_LIST": "Unexpected error while fetching order list",
+      "SHIPPING_DETAILS": "Unexpected error while fetching shipping details",
       "TOP_TRADES": "Unexpected error while fetching top trades",
       "XP_BALANCE": "Erro inesperado ao buscar seu saldo de XP"
     },
