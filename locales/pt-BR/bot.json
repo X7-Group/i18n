@@ -102,6 +102,11 @@
       "X7": "Você precisa estar logado com sua conta da X7 Exchange para usar este comando.\nUse {command} para fazer isso",
       "XIGLUTE": "Você precisa estar logado com sua conta do Xiglute para usar este comando.\nUse {command} para fazer isso"
     },
+    "SESSION_EXPIRED": {
+      "X7": "Your X7 Exchange account session has expired.\nUse {command} to login again",
+      "XIGLUTE": "Your Xiglute account session has expired.\nUse {command} to login again",
+      "ACCOUNT_MANAGER": "This account's session has expired.\nPress the button bellow to login again"
+    },
     "NO_ACCOUNTS": {
       "X7": "You are not logged in with any X7 Exchange account",
       "XIGLUTE": "You are not logged in with any Xiglute account"
@@ -156,8 +161,13 @@
     "ITEM_PRICE": "Item Price",
     "LEAVE": "Leave",
     "LOADING": "Loading",
+    "LOGIN": "Login",
     "LOGGING_IN": "Logging in",
     "LOGGING_OUT": "Logging out",
+    "RELOGIN": "Relogin",
+    "RELOGGING_IN": "Relogging in",
+    "REMOVE": "Remove",
+    "REMOVING_ACCOUNT": "Removing account",
     "MEMBERS": "Membros",
     "MENTION": "Menção",
     "MESSAGE": "Mensagem",
