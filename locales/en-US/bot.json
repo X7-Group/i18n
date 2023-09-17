@@ -149,6 +149,7 @@
     "CRYPTOACTIVE": "Cryptoactive",
     "CURRENT": "Current",
     "DATE": "Date",
+    "FORECAST_EXCEED_COUNTDOWN": "{count, plural, =0 {Exceeded Payment Forecast} one {# Day Left} other {# Days Left}}",
     "EMAIL": "Email",
     "ENTER_CODE": "Enter Code",
     "ERROR": "Error",
