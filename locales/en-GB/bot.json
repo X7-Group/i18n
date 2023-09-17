@@ -149,6 +149,8 @@
     "CRYPTOACTIVE": "Cryptoactive",
     "CURRENT": "Current",
     "DATE": "Date",
+    "FORECAST_PENDING": "{total, plural, =0 {There are no pending withdrawals} one {There is currently `#` pending withdrawal} other {There are currently `#` pending withdrawals}}{delayed, plural, =0 {} one {, `#` of which is delayed} other {, `#` of which are delayed}}",
+    "FORECAST_PROCESSING": "{total, plural, =0 {There are no withdrawals processing} one {There is currently `#` withdrawal processing} other {There are currently `#` withdrawals processing}}{delayed, plural, =0 {} one {, `#` of which is delayed} other {, `#` of which are delayed}}",
     "FORECAST_EXCEED_COUNTDOWN": "{count, plural, =0 {Exceeded Payment Forecast} one {# Day Left} other {# Days Left}}",
     "EMAIL": "Email",
     "ENTER_CODE": "Enter Code",
