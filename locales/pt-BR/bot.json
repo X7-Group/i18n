@@ -69,6 +69,7 @@
       "INVALID": "Invalid 2FA code",
       "REQUIRED": "You need to enter the 2FA code"
     },
+    "ACCOUNT_BLOCKED": "Your account is blocked",
     "ACCOUNT_LIMIT_REACHED": "You have reached the limit of `{accountLimit}` accounts",
     "DEVELOPERS_ONLY": "Este comando só pode ser usado pelos desenvolvedores do bot",
     "DM": "Esse comando não pode ser usado em DMs",
