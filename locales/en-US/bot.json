@@ -69,6 +69,7 @@
       "INVALID": "Invalid 2FA code",
       "REQUIRED": "You need to enter the 2FA code"
     },
+    "ACCOUNT_BLOCKED": "Your account is blocked",
     "ACCOUNT_LIMIT_REACHED": "You have reached the limit of `{accountLimit}` accounts",
     "DEVELOPERS_ONLY": "This command can only be used by the bot developers",
     "DM": "This command cannot be used in DMs",
@@ -149,8 +150,8 @@
     "CRYPTOACTIVE": "Cryptoactive",
     "CURRENT": "Current",
     "DATE": "Date",
-    "FORECAST_PENDING":"{total, plural, =0 {There are no pending withdrawals} one {There is currently `#` pending withdrawal} other {There are currently `#` pending withdrawals}}{delayed, plural, =0 {} one {, `#` of which is delayed} other {, `#` of which are delayed}}",
-    "FORECAST_PROCESSING":"{total, plural, =0 {There are no withdrawals processing} one {There is currently `#` withdrawal processing} other {There are currently `#` withdrawals processing}}{delayed, plural, =0 {} one {, `#` of which is delayed} other {, `#` of which are delayed}}",
+    "FORECAST_PENDING": "{total, plural, =0 {There are no pending withdrawals} one {There is currently `#` pending withdrawal} other {There are currently `#` pending withdrawals}}{delayed, plural, =0 {} one {, `#` of which is delayed} other {, `#` of which are delayed}}",
+    "FORECAST_PROCESSING": "{total, plural, =0 {There are no withdrawals processing} one {There is currently `#` withdrawal processing} other {There are currently `#` withdrawals processing}}{delayed, plural, =0 {} one {, `#` of which is delayed} other {, `#` of which are delayed}}",
     "FORECAST_EXCEED_COUNTDOWN": "{count, plural, =0 {Exceeded Payment Forecast} one {# Day Left} other {# Days Left}}",
     "EMAIL": "Email",
     "ENTER_CODE": "Enter Code",
